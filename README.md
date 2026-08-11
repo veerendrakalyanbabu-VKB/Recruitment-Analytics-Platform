@@ -4,6 +4,8 @@ An end-to-end Recruitment Analytics Platform designed to help recruitment teams 
 
 Built using **Python, Pandas, Streamlit, SQLite and Data Analytics**.
 
+**🌐 Live Demo:** [recruitment-analytics-platform-vkb.streamlit.app](https://recruitment-analytics-platform-vkb.streamlit.app/)
+
 ---
 
 ## 🚀 Project Overview
@@ -40,6 +42,8 @@ python -m streamlit run src\dashboard.py
 ```
 
 Open the URL shown in the terminal (usually `http://localhost:8501`). Use the sidebar to open **Candidate Management** from the `pages/` module.
+
+Or view the deployed app: [recruitment-analytics-platform-vkb.streamlit.app](https://recruitment-analytics-platform-vkb.streamlit.app/)
 
 ---
 
