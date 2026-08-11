@@ -123,6 +123,13 @@ def count_values(data, col, values):
 def pct(num, den):
     return (num / den * 100) if den else 0.0
 
+
+def display_value(value):
+    """Coerce mixed types to strings for Streamlit/Arrow dataframes."""
+    if value is None or (isinstance(value, float) and pd.isna(value)):
+        return "—"
+    return str(value)
+
 def kpi_card(title, value, description="", tone="info"):
     st.markdown(
         f"""
@@ -483,7 +490,7 @@ with tabs[5]:
 
             profile_df = pd.DataFrame({
                 "Field": [str(c) for c in profile_cols],
-                "Value": [profile[c] for c in profile_cols]
+                "Value": [display_value(profile[c]) for c in profile_cols],
             })
             st.dataframe(profile_df, width="stretch", hide_index=True)
 
@@ -502,13 +509,19 @@ with tabs[6]:
             "Joining Rate %", "Average Salary LPA", "Average Time to Hire Days"
         ],
         "Value": [
-            total, screening_selected, interviews_completed, interview_selected,
-            offers_accepted, joined, round(screening_rate,2),
-            round(interview_selection_rate,2), round(offer_acceptance_rate,2),
-            round(joining_rate,2),
-            round(avg_salary,2) if pd.notna(avg_salary) else None,
-            round(avg_tth,2) if pd.notna(avg_tth) else None,
-        ]
+            display_value(total),
+            display_value(screening_selected),
+            display_value(interviews_completed),
+            display_value(interview_selected),
+            display_value(offers_accepted),
+            display_value(joined),
+            display_value(round(screening_rate, 2)),
+            display_value(round(interview_selection_rate, 2)),
+            display_value(round(offer_acceptance_rate, 2)),
+            display_value(round(joining_rate, 2)),
+            display_value(round(avg_salary, 2) if pd.notna(avg_salary) else None),
+            display_value(round(avg_tth, 2) if pd.notna(avg_tth) else None),
+        ],
     })
     st.dataframe(management, width="stretch", hide_index=True)
 

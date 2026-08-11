@@ -423,7 +423,8 @@ else:
     ]
 
     detail_df = pd.DataFrame(
-        [{"Field": k, "Value": v or "—"} for k, v in details]
+        [{"Field": k, "Value": v if v else "—"} for k, v in details],
+        dtype=str,
     )
     st.dataframe(detail_df, width="stretch", hide_index=True)
 
