@@ -1,0 +1,1001 @@
+candidate_id,candidate_name,application_date,recruiter,client,role,technology,experience_years,location,source,screening_status,interview_status,interview_date,offer_status,offer_date,joining_status,joining_date,salary_lpa,rejection_reason,time_to_hire_days
+CAND00001,Pooja Sharma,2026-01-07,Recruiter C,HealthTech,Technical Support Engineer,GCP,8,Delhi NCR,LinkedIn,Selected,Selected,2026-01-09,Accepted,2026-01-11,Joined,2026-01-19,11.86,,12.0
+CAND00002,Sanjay Das,2026-04-18,Recruiter B,DigitalWorks,AI Engineer,Python,6,Bangalore,Recruiter Sourcing,Selected,Selected,2026-04-25,Accepted,2026-04-29,Joined,2026-05-28,12.45,,40.0
+CAND00003,Meera Kumar,2026-07-06,Recruiter D,Global Systems,Software Engineer,SQL,5,Mumbai,Indeed,Selected,Rejected,2026-07-08,Not Applicable,,Not Applicable,,,Position closed,
+CAND00004,Sneha Verma,2026-01-21,Recruiter B,Global Systems,Software Engineer,AWS,5,Pune,Recruiter Sourcing,Selected,Selected,2026-02-02,Accepted,2026-02-08,Joined,2026-03-25,12.89,,63.0
+CAND00005,Ananya Patel,2026-02-11,Recruiter D,DataSystems,AI Engineer,Java,0,Delhi NCR,Indeed,Selected,Selected,2026-02-18,Accepted,2026-02-19,Joined,2026-04-03,16.27,,51.0
+CAND00006,Kiran Patel,2026-06-17,Recruiter D,DataSystems,IT Support Engineer,GCP,3,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00007,Arjun Naidu,2026-04-20,Recruiter E,DataSystems,GCP Engineer,Java,7,Bangalore,Company Website,Selected,Selected,2026-04-23,Accepted,2026-04-25,Joined,2026-05-29,12.35,,39.0
+CAND00008,Neha Rao,2026-06-02,Recruiter D,CloudWorks,Python Developer,SQL,4,Delhi NCR,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00009,Amit Verma,2026-04-22,Recruiter B,DigitalWorks,Python Developer,AWS,8,Mumbai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00010,Pooja Verma,2026-08-04,Recruiter E,HealthTech,Cloud Support Engineer,Power BI,8,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00011,Kiran Gupta,2026-01-05,Recruiter A,Enterprise Solutions,AI Engineer,Java,1,Hyderabad,Naukri,Selected,Selected,2026-01-08,Rejected,2026-01-13,Not Applicable,,,Interview failed,
+CAND00012,Priya Reddy,2026-06-18,Recruiter D,FinServe,AI Engineer,Linux,3,Bangalore,Company Website,Selected,Selected,2026-06-30,Accepted,2026-07-04,Candidate Dropped,2026-08-08,5.69,Candidate withdrew,51.0
+CAND00013,Sneha Sharma,2026-03-28,Recruiter A,HealthTech,Technical Support Engineer,Python,0,Hyderabad,Recruiter Sourcing,Selected,No Show,2026-04-04,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00014,Ananya Patel,2026-03-13,Recruiter D,HealthTech,Cloud Support Engineer,C#,6,Bangalore,Employee Referral,Selected,Selected,2026-03-21,Accepted,2026-03-25,Joined,2026-04-04,13.43,,22.0
+CAND00015,Pooja Sharma,2026-01-16,Recruiter D,Enterprise Solutions,Data Analyst,Java,8,Bangalore,Naukri,Selected,Selected,2026-01-22,Accepted,2026-01-29,Candidate Dropped,2026-03-05,15.31,Candidate withdrew,48.0
+CAND00016,Nikhil Das,2026-01-26,Recruiter A,TechCorp,Data Analyst,Java,7,Bangalore,Employee Referral,Selected,Rejected,2026-01-28,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00017,Neha Kumar,2026-04-10,Recruiter C,DigitalWorks,AI Engineer,Linux,8,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-04-15,Accepted,2026-04-16,Joined,2026-05-27,4.85,,47.0
+CAND00018,Kiran Kumar,2026-01-13,Recruiter E,DigitalWorks,Cloud Support Engineer,Python,2,Mumbai,LinkedIn,Selected,Selected,2026-01-18,Accepted,2026-01-23,Joined,2026-03-09,4.56,,55.0
+CAND00019,Amit Rao,2026-06-18,Recruiter E,Enterprise Solutions,AI Engineer,Java,5,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-06-30,Accepted,2026-07-04,Joined,2026-07-15,4.13,,27.0
+CAND00020,Rohit Naidu,2026-01-26,Recruiter A,HealthTech,AI Engineer,GCP,3,Chennai,LinkedIn,Selected,Selected,2026-02-05,Accepted,2026-02-10,Candidate Dropped,2026-03-22,4.11,Candidate withdrew,55.0
+CAND00021,Nikhil Das,2026-03-18,Recruiter A,FinServe,AI Engineer,SQL,8,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-03-23,Accepted,2026-03-25,Joined,2026-04-17,11.08,,30.0
+CAND00022,Arjun Kumar,2026-01-24,Recruiter D,CloudWorks,Python Developer,Python,4,Chennai,Naukri,Selected,Selected,2026-02-01,Accepted,2026-02-02,Joined,2026-02-18,11.64,,25.0
+CAND00023,Nikhil Singh,2026-05-30,Recruiter E,FinServe,Software Engineer,GCP,5,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00024,Nikhil Kumar,2026-04-02,Recruiter B,HealthTech,Data Analyst,Power BI,2,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00025,Nikhil Reddy,2026-07-24,Recruiter B,DataSystems,Python Developer,GCP,6,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00026,Sanjay Patel,2026-03-10,Recruiter B,Global Systems,Software Engineer,Python,3,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00027,Kiran Verma,2026-07-30,Recruiter B,HealthTech,Python Developer,Java,4,Pune,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00028,Arjun Singh,2026-06-14,Recruiter E,DataSystems,GCP Engineer,Python,2,Hyderabad,Indeed,Selected,No Show,2026-06-16,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00029,Rohit Rao,2026-03-30,Recruiter C,DataSystems,Data Analyst,Linux,4,Mumbai,Naukri,Selected,Selected,2026-04-09,Rejected,2026-04-14,Not Applicable,,,Position closed,
+CAND00030,Sanjay Patel,2026-04-04,Recruiter D,Global Systems,GCP Engineer,Power BI,4,Delhi NCR,LinkedIn,Selected,Rejected,2026-04-11,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00031,Sanjay Verma,2026-05-22,Recruiter B,HealthTech,Software Engineer,Linux,2,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-06-01,Rejected,2026-06-04,Not Applicable,,,Client rejected,
+CAND00032,Sneha Rao,2026-07-21,Recruiter E,Enterprise Solutions,IT Support Engineer,C#,3,Pune,Recruiter Sourcing,Selected,Rejected,2026-07-25,Not Applicable,,Not Applicable,,,Position closed,
+CAND00033,Amit Verma,2026-05-12,Recruiter E,Enterprise Solutions,Data Analyst,Java,3,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00034,Rahul Kumar,2026-03-04,Recruiter D,Global Systems,IT Support Engineer,Linux,3,Delhi NCR,Company Website,Selected,Selected,2026-03-12,Accepted,2026-03-18,Joined,2026-03-31,14.9,,27.0
+CAND00035,Sneha Reddy,2026-07-25,Recruiter E,DigitalWorks,Python Developer,Java,2,Hyderabad,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00036,Ananya Das,2026-06-02,Recruiter C,DigitalWorks,Software Engineer,C#,7,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-06-14,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00037,Meera Das,2026-05-05,Recruiter B,CloudWorks,IT Support Engineer,SQL,3,Delhi NCR,Indeed,Selected,Selected,2026-05-15,Accepted,2026-05-17,Joined,2026-06-02,13.89,,28.0
+CAND00038,Amit Rao,2026-04-15,Recruiter C,DigitalWorks,Software Engineer,Python,6,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00039,Sanjay Kumar,2026-08-08,Recruiter E,DataSystems,IT Support Engineer,Python,6,Chennai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00040,Neha Das,2026-07-11,Recruiter E,HealthTech,IT Support Engineer,Java,7,Chennai,Employee Referral,Selected,Selected,2026-07-23,Rejected,2026-07-29,Not Applicable,,,Experience mismatch,
+CAND00041,Nikhil Gupta,2026-02-02,Recruiter E,TechCorp,Software Engineer,Python,6,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-02-04,Accepted,2026-02-07,Joined,2026-03-06,8.73,,32.0
+CAND00042,Swathi Rao,2026-03-13,Recruiter D,CloudWorks,Data Analyst,C#,8,Hyderabad,Recruiter Sourcing,Selected,No Show,2026-03-18,Not Applicable,,Not Applicable,,,Position closed,
+CAND00043,Amit Kumar,2026-07-13,Recruiter A,HealthTech,Technical Support Engineer,Python,3,Mumbai,Naukri,Selected,Rejected,2026-07-24,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00044,Vikram Verma,2026-07-16,Recruiter C,FinServe,Data Analyst,GCP,0,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00045,Pooja Rao,2026-04-12,Recruiter B,Global Systems,Technical Support Engineer,SQL,1,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00046,Meera Kumar,2026-03-30,Recruiter E,DataSystems,GCP Engineer,SQL,5,Mumbai,Recruiter Sourcing,Selected,Selected,2026-04-08,Accepted,2026-04-11,Joined,2026-05-17,13.9,,48.0
+CAND00047,Neha Reddy,2026-07-07,Recruiter E,CloudWorks,IT Support Engineer,C#,4,Pune,Recruiter Sourcing,Selected,Selected,2026-07-10,Accepted,2026-07-14,Joined,2026-08-19,11.98,,43.0
+CAND00048,Pooja Rao,2026-03-28,Recruiter A,DigitalWorks,GCP Engineer,GCP,5,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00049,Arjun Naidu,2026-06-29,Recruiter C,TechCorp,Technical Support Engineer,SQL,6,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-07-08,Not Applicable,,Not Applicable,,,Position closed,
+CAND00050,Sanjay Gupta,2026-04-25,Recruiter A,Global Systems,AI Engineer,Java,3,Pune,Recruiter Sourcing,Selected,Rejected,2026-05-04,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00051,Ananya Singh,2026-04-19,Recruiter E,Enterprise Solutions,GCP Engineer,C#,4,Chennai,Indeed,Selected,Rejected,2026-04-26,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00052,Sanjay Das,2026-07-15,Recruiter B,HealthTech,Technical Support Engineer,C#,8,Chennai,Recruiter Sourcing,Selected,No Show,2026-07-20,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00053,Sneha Singh,2026-02-15,Recruiter C,TechCorp,Cloud Support Engineer,AWS,8,Hyderabad,LinkedIn,Selected,No Show,2026-02-27,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00054,Meera Gupta,2026-01-27,Recruiter A,CloudWorks,IT Support Engineer,C#,2,Pune,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00055,Nikhil Gupta,2026-01-30,Recruiter A,DataSystems,IT Support Engineer,SQL,0,Mumbai,Recruiter Sourcing,Selected,Rejected,2026-02-05,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00056,Sneha Sharma,2026-05-23,Recruiter D,HealthTech,Software Engineer,C#,6,Pune,Indeed,Selected,Rejected,2026-06-03,Not Applicable,,Not Applicable,,,Position closed,
+CAND00057,Amit Patel,2026-06-10,Recruiter B,CloudWorks,Data Analyst,GCP,8,Bangalore,Naukri,Selected,Selected,2026-06-19,Accepted,2026-06-23,Joined,2026-07-14,8.03,,34.0
+CAND00058,Arjun Gupta,2026-01-19,Recruiter B,CloudWorks,Technical Support Engineer,Linux,3,Hyderabad,Company Website,Selected,No Show,2026-01-23,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00059,Rahul Reddy,2026-07-22,Recruiter C,CloudWorks,IT Support Engineer,SQL,4,Pune,Recruiter Sourcing,Selected,No Show,2026-08-01,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00060,Vikram Gupta,2026-01-21,Recruiter E,TechCorp,Software Engineer,Power BI,0,Mumbai,Indeed,Selected,No Show,2026-02-01,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00061,Rahul Verma,2026-05-28,Recruiter A,FinServe,IT Support Engineer,C#,6,Chennai,Naukri,Selected,Selected,2026-05-31,Accepted,2026-06-04,Joined,2026-06-17,16.01,,20.0
+CAND00062,Kiran Rao,2026-06-27,Recruiter D,CloudWorks,Software Engineer,Python,5,Pune,LinkedIn,Selected,Selected,2026-07-05,Rejected,2026-07-12,Not Applicable,,,Skills mismatch,
+CAND00063,Pooja Das,2026-04-29,Recruiter D,TechCorp,Technical Support Engineer,Power BI,7,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00064,Arjun Das,2026-02-03,Recruiter C,DigitalWorks,IT Support Engineer,SQL,3,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-02-05,Accepted,2026-02-06,Joined,2026-02-20,10.46,,17.0
+CAND00065,Amit Reddy,2026-05-08,Recruiter C,CloudWorks,Software Engineer,C#,7,Pune,Naukri,Selected,Selected,2026-05-19,Accepted,2026-05-21,Candidate Dropped,2026-06-14,14.82,Candidate withdrew,37.0
+CAND00066,Nikhil Rao,2026-03-29,Recruiter E,CloudWorks,Python Developer,AWS,7,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00067,Ananya Gupta,2026-03-30,Recruiter C,DataSystems,IT Support Engineer,Power BI,3,Bangalore,Recruiter Sourcing,Selected,Selected,2026-04-07,Accepted,2026-04-13,Joined,2026-05-14,9.41,,45.0
+CAND00068,Pooja Reddy,2026-05-07,Recruiter A,FinServe,GCP Engineer,SQL,8,Pune,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00069,Sanjay Reddy,2026-04-15,Recruiter B,Global Systems,IT Support Engineer,AWS,6,Chennai,Company Website,Selected,Rejected,2026-04-27,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00070,Ananya Rao,2026-03-23,Recruiter D,TechCorp,Data Analyst,Java,4,Delhi NCR,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00071,Amit Rao,2026-01-26,Recruiter A,DigitalWorks,Cloud Support Engineer,AWS,5,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00072,Kiran Singh,2026-04-21,Recruiter B,HealthTech,Software Engineer,GCP,1,Bangalore,Naukri,Selected,Selected,2026-05-03,Accepted,2026-05-08,Joined,2026-06-13,12.93,,53.0
+CAND00073,Vikram Verma,2026-06-20,Recruiter A,DigitalWorks,AI Engineer,GCP,5,Hyderabad,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00074,Pooja Rao,2026-06-26,Recruiter C,DigitalWorks,AI Engineer,Java,1,Pune,Employee Referral,Selected,Selected,2026-07-07,Accepted,2026-07-13,Joined,2026-08-14,7.84,,49.0
+CAND00075,Rohit Kumar,2026-06-05,Recruiter D,CloudWorks,Technical Support Engineer,Power BI,3,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-06-17,Not Applicable,,Not Applicable,,,Position closed,
+CAND00076,Nikhil Reddy,2026-06-10,Recruiter A,TechCorp,AI Engineer,C#,5,Hyderabad,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00077,Swathi Verma,2026-03-25,Recruiter D,FinServe,Technical Support Engineer,GCP,8,Mumbai,Indeed,Selected,Selected,2026-03-29,Accepted,2026-04-05,Candidate Dropped,2026-04-30,14.45,Candidate withdrew,36.0
+CAND00078,Kiran Sharma,2026-04-30,Recruiter A,FinServe,Technical Support Engineer,Linux,1,Mumbai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00079,Arjun Das,2026-02-01,Recruiter D,Enterprise Solutions,AI Engineer,Linux,1,Delhi NCR,Indeed,Selected,Selected,2026-02-12,Rejected,2026-02-17,Not Applicable,,,Client rejected,
+CAND00080,Swathi Naidu,2026-02-26,Recruiter A,DigitalWorks,AI Engineer,Linux,0,Hyderabad,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00081,Vikram Sharma,2026-01-25,Recruiter B,FinServe,Software Engineer,C#,8,Chennai,Recruiter Sourcing,Selected,Rejected,2026-01-29,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00082,Pooja Sharma,2026-08-02,Recruiter D,DataSystems,AI Engineer,Python,3,Delhi NCR,Indeed,Selected,No Show,2026-08-09,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00083,Pooja Singh,2026-05-20,Recruiter C,TechCorp,Software Engineer,AWS,7,Bangalore,LinkedIn,Selected,Selected,2026-06-01,Accepted,2026-06-02,Joined,2026-06-30,7.41,,41.0
+CAND00084,Priya Naidu,2026-02-22,Recruiter A,HealthTech,Technical Support Engineer,Java,0,Chennai,Naukri,Selected,No Show,2026-02-26,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00085,Arjun Reddy,2026-01-29,Recruiter A,FinServe,Python Developer,Power BI,5,Bangalore,Company Website,Selected,Selected,2026-02-02,Accepted,2026-02-07,Joined,2026-02-18,10.67,,20.0
+CAND00086,Meera Singh,2026-05-12,Recruiter E,Global Systems,IT Support Engineer,Java,8,Mumbai,LinkedIn,Selected,Rejected,2026-05-14,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00087,Vikram Rao,2026-04-20,Recruiter A,DigitalWorks,IT Support Engineer,SQL,2,Hyderabad,Indeed,Selected,Selected,2026-05-02,Accepted,2026-05-08,Joined,2026-06-22,11.43,,63.0
+CAND00088,Vikram Das,2026-06-04,Recruiter D,Global Systems,Data Analyst,Java,3,Pune,Employee Referral,Selected,Rejected,2026-06-12,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00089,Sanjay Sharma,2026-03-22,Recruiter D,Enterprise Solutions,AI Engineer,Power BI,7,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-03-25,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00090,Amit Singh,2026-07-27,Recruiter B,TechCorp,GCP Engineer,SQL,6,Pune,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00091,Rahul Verma,2026-06-03,Recruiter C,Enterprise Solutions,Data Analyst,Java,7,Bangalore,Recruiter Sourcing,Selected,Selected,2026-06-13,Accepted,2026-06-20,Joined,2026-07-11,15.3,,38.0
+CAND00092,Nikhil Das,2026-07-16,Recruiter E,TechCorp,AI Engineer,Python,4,Bangalore,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00093,Rahul Reddy,2026-02-06,Recruiter E,DataSystems,Data Analyst,GCP,0,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-02-14,Accepted,2026-02-17,Joined,2026-03-15,14.1,,37.0
+CAND00094,Meera Naidu,2026-06-02,Recruiter A,TechCorp,Cloud Support Engineer,GCP,1,Mumbai,LinkedIn,Selected,Rejected,2026-06-11,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00095,Vikram Rao,2026-03-11,Recruiter B,Global Systems,GCP Engineer,Linux,7,Hyderabad,Indeed,Selected,Selected,2026-03-16,Accepted,2026-03-21,Joined,2026-04-10,8.22,,30.0
+CAND00096,Sneha Reddy,2026-07-15,Recruiter C,CloudWorks,GCP Engineer,SQL,6,Hyderabad,Employee Referral,Selected,Selected,2026-07-20,Accepted,2026-07-27,Joined,2026-08-25,5.01,,41.0
+CAND00097,Nikhil Kumar,2026-04-22,Recruiter A,DigitalWorks,Data Analyst,Power BI,6,Mumbai,Employee Referral,Selected,Selected,2026-04-25,Accepted,2026-04-28,Joined,2026-06-03,15.65,,42.0
+CAND00098,Swathi Singh,2026-01-23,Recruiter D,Global Systems,Technical Support Engineer,Linux,8,Mumbai,Employee Referral,Selected,Rejected,2026-01-30,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00099,Kiran Reddy,2026-01-20,Recruiter E,Global Systems,Technical Support Engineer,Power BI,2,Chennai,Recruiter Sourcing,Selected,Selected,2026-01-25,Accepted,2026-01-27,Joined,2026-02-07,6.48,,18.0
+CAND00100,Meera Gupta,2026-04-29,Recruiter E,DigitalWorks,GCP Engineer,Power BI,1,Bangalore,Employee Referral,Selected,Rejected,2026-05-05,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00101,Rahul Singh,2026-05-10,Recruiter A,CloudWorks,IT Support Engineer,C#,5,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00102,Pooja Sharma,2026-06-07,Recruiter E,DataSystems,IT Support Engineer,Python,3,Pune,Company Website,Selected,Selected,2026-06-11,Rejected,2026-06-15,Not Applicable,,,Skills mismatch,
+CAND00103,Meera Singh,2026-07-02,Recruiter A,FinServe,Python Developer,Java,7,Delhi NCR,Employee Referral,Selected,Rejected,2026-07-09,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00104,Swathi Verma,2026-04-10,Recruiter D,Enterprise Solutions,Python Developer,Power BI,1,Hyderabad,Indeed,Selected,Selected,2026-04-16,Accepted,2026-04-22,Candidate Dropped,2026-06-06,16.23,Candidate withdrew,57.0
+CAND00105,Kiran Sharma,2026-05-30,Recruiter B,Enterprise Solutions,AI Engineer,Linux,1,Bangalore,Company Website,Selected,Selected,2026-06-06,Rejected,2026-06-12,Not Applicable,,,Position closed,
+CAND00106,Nikhil Das,2026-01-24,Recruiter D,Enterprise Solutions,Python Developer,Power BI,3,Chennai,Naukri,Selected,Rejected,2026-01-29,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00107,Priya Reddy,2026-01-20,Recruiter C,Global Systems,Python Developer,Power BI,6,Mumbai,Naukri,Selected,Selected,2026-01-31,Rejected,2026-02-02,Not Applicable,,,Position closed,
+CAND00108,Vikram Kumar,2026-04-16,Recruiter C,HealthTech,IT Support Engineer,AWS,3,Delhi NCR,Employee Referral,Selected,Selected,2026-04-25,Rejected,2026-04-27,Not Applicable,,,Client rejected,
+CAND00109,Pooja Naidu,2026-04-23,Recruiter D,CloudWorks,Software Engineer,Linux,2,Bangalore,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00110,Pooja Gupta,2026-04-06,Recruiter E,Global Systems,Data Analyst,AWS,4,Hyderabad,Naukri,Selected,Selected,2026-04-14,Accepted,2026-04-16,Joined,2026-05-15,17.03,,39.0
+CAND00111,Neha Kumar,2026-04-12,Recruiter E,Enterprise Solutions,Technical Support Engineer,Linux,3,Hyderabad,Indeed,Selected,No Show,2026-04-24,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00112,Meera Reddy,2026-02-05,Recruiter A,CloudWorks,IT Support Engineer,GCP,7,Delhi NCR,Employee Referral,Selected,No Show,2026-02-07,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00113,Sneha Reddy,2026-05-21,Recruiter E,DataSystems,Data Analyst,AWS,1,Bangalore,Indeed,Selected,Selected,2026-06-01,Accepted,2026-06-02,Joined,2026-07-10,12.35,,50.0
+CAND00114,Rahul Das,2026-05-28,Recruiter B,FinServe,AI Engineer,Linux,5,Hyderabad,Company Website,Selected,Selected,2026-06-09,Accepted,2026-06-14,Candidate Dropped,2026-06-25,17.35,Candidate withdrew,28.0
+CAND00115,Ananya Das,2026-07-21,Recruiter E,TechCorp,Software Engineer,C#,6,Hyderabad,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00116,Sanjay Kumar,2026-04-02,Recruiter A,Enterprise Solutions,Technical Support Engineer,SQL,5,Mumbai,Recruiter Sourcing,Selected,Selected,2026-04-09,Rejected,2026-04-11,Not Applicable,,,Interview failed,
+CAND00117,Meera Gupta,2026-06-28,Recruiter D,FinServe,Cloud Support Engineer,SQL,0,Delhi NCR,Employee Referral,Selected,Selected,2026-07-03,Rejected,2026-07-06,Not Applicable,,,Client rejected,
+CAND00118,Ananya Rao,2026-07-28,Recruiter E,DigitalWorks,AI Engineer,Python,4,Delhi NCR,Naukri,Selected,Rejected,2026-08-09,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00119,Arjun Sharma,2026-07-24,Recruiter C,DataSystems,Software Engineer,C#,2,Pune,Indeed,Selected,Selected,2026-08-03,Accepted,2026-08-04,Joined,2026-08-16,10.03,,23.0
+CAND00120,Nikhil Reddy,2026-05-20,Recruiter C,Enterprise Solutions,Data Analyst,SQL,4,Chennai,Recruiter Sourcing,Selected,Rejected,2026-05-28,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00121,Sanjay Gupta,2026-03-31,Recruiter D,TechCorp,GCP Engineer,Linux,0,Chennai,Recruiter Sourcing,Selected,Rejected,2026-04-07,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00122,Meera Reddy,2026-01-08,Recruiter B,DigitalWorks,Python Developer,GCP,5,Hyderabad,Naukri,Selected,No Show,2026-01-10,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00123,Priya Gupta,2026-04-05,Recruiter C,DigitalWorks,Data Analyst,GCP,6,Mumbai,Indeed,Selected,Selected,2026-04-08,Accepted,2026-04-10,Joined,2026-05-11,16.79,,36.0
+CAND00124,Amit Verma,2026-07-18,Recruiter C,DigitalWorks,Technical Support Engineer,AWS,3,Delhi NCR,Employee Referral,Selected,Rejected,2026-07-27,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00125,Swathi Gupta,2026-01-23,Recruiter C,Enterprise Solutions,Data Analyst,AWS,2,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00126,Sneha Sharma,2026-02-21,Recruiter B,HealthTech,IT Support Engineer,Python,5,Chennai,Company Website,Selected,No Show,2026-02-25,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00127,Swathi Sharma,2026-01-17,Recruiter C,DataSystems,IT Support Engineer,Linux,1,Pune,Company Website,Selected,Selected,2026-01-20,Accepted,2026-01-26,Joined,2026-02-10,16.29,,24.0
+CAND00128,Meera Das,2026-06-13,Recruiter E,FinServe,Cloud Support Engineer,Linux,1,Mumbai,LinkedIn,Selected,Selected,2026-06-17,Accepted,2026-06-23,Joined,2026-08-02,16.53,,50.0
+CAND00129,Nikhil Sharma,2026-03-06,Recruiter B,CloudWorks,Cloud Support Engineer,AWS,1,Mumbai,Company Website,Selected,Selected,2026-03-17,Accepted,2026-03-23,Joined,2026-05-07,8.73,,62.0
+CAND00130,Swathi Naidu,2026-01-11,Recruiter A,Global Systems,Python Developer,AWS,6,Delhi NCR,Naukri,Selected,Selected,2026-01-23,Accepted,2026-01-29,Candidate Dropped,2026-03-07,7.43,Candidate withdrew,55.0
+CAND00131,Meera Rao,2026-03-18,Recruiter D,Global Systems,Python Developer,GCP,7,Pune,Employee Referral,Selected,Selected,2026-03-22,Accepted,2026-03-28,Joined,2026-04-26,17.66,,39.0
+CAND00132,Priya Singh,2026-05-12,Recruiter E,Global Systems,GCP Engineer,Java,4,Pune,LinkedIn,Selected,Selected,2026-05-14,Accepted,2026-05-18,Candidate Dropped,2026-06-20,7.48,Candidate withdrew,39.0
+CAND00133,Nikhil Reddy,2026-07-28,Recruiter C,Enterprise Solutions,Technical Support Engineer,GCP,7,Pune,Company Website,Selected,Selected,2026-07-30,Accepted,2026-08-03,Joined,2026-08-25,7.01,,28.0
+CAND00134,Kiran Kumar,2026-01-13,Recruiter C,DigitalWorks,IT Support Engineer,AWS,1,Mumbai,LinkedIn,Selected,Rejected,2026-01-20,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00135,Neha Singh,2026-01-12,Recruiter D,TechCorp,Technical Support Engineer,Power BI,1,Mumbai,Indeed,Selected,Selected,2026-01-22,Accepted,2026-01-27,Joined,2026-02-10,5.8,,29.0
+CAND00136,Amit Rao,2026-04-06,Recruiter C,Enterprise Solutions,Cloud Support Engineer,Java,6,Mumbai,Company Website,Selected,Selected,2026-04-10,Accepted,2026-04-17,Joined,2026-05-23,6.09,,47.0
+CAND00137,Swathi Das,2026-02-05,Recruiter C,Enterprise Solutions,Cloud Support Engineer,Linux,4,Mumbai,Recruiter Sourcing,Selected,Selected,2026-02-15,Accepted,2026-02-21,Joined,2026-03-30,15.42,,53.0
+CAND00138,Kiran Singh,2026-06-22,Recruiter A,DataSystems,AI Engineer,Python,4,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00139,Meera Naidu,2026-05-28,Recruiter B,TechCorp,IT Support Engineer,GCP,6,Mumbai,Recruiter Sourcing,Selected,Rejected,2026-05-30,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00140,Sanjay Sharma,2026-02-18,Recruiter A,DigitalWorks,GCP Engineer,Linux,3,Bangalore,Employee Referral,Selected,Rejected,2026-02-27,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00141,Nikhil Kumar,2026-06-30,Recruiter B,HealthTech,GCP Engineer,C#,5,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00142,Swathi Das,2026-03-29,Recruiter E,Enterprise Solutions,AI Engineer,C#,4,Bangalore,Naukri,Selected,Selected,2026-04-04,Accepted,2026-04-10,Joined,2026-05-18,8.44,,50.0
+CAND00143,Kiran Das,2026-07-23,Recruiter C,CloudWorks,Data Analyst,Linux,2,Pune,Indeed,Selected,Selected,2026-07-26,Accepted,2026-07-30,Joined,2026-09-05,7.0,,44.0
+CAND00144,Nikhil Das,2026-03-11,Recruiter E,CloudWorks,Cloud Support Engineer,SQL,3,Mumbai,Recruiter Sourcing,Selected,Rejected,2026-03-21,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00145,Pooja Patel,2026-01-14,Recruiter A,DataSystems,GCP Engineer,C#,2,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-01-18,Accepted,2026-01-22,Joined,2026-02-10,14.58,,27.0
+CAND00146,Arjun Singh,2026-03-15,Recruiter A,Global Systems,Technical Support Engineer,Python,2,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00147,Nikhil Rao,2026-07-21,Recruiter D,FinServe,AI Engineer,Python,1,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00148,Arjun Gupta,2026-06-14,Recruiter E,DigitalWorks,Cloud Support Engineer,C#,1,Chennai,Naukri,Selected,Rejected,2026-06-26,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00149,Sanjay Reddy,2026-01-04,Recruiter C,CloudWorks,Technical Support Engineer,GCP,6,Mumbai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00150,Kiran Sharma,2026-04-13,Recruiter A,FinServe,Cloud Support Engineer,C#,0,Chennai,Naukri,Selected,Selected,2026-04-19,Rejected,2026-04-22,Not Applicable,,,Salary expectations,
+CAND00151,Sanjay Naidu,2026-01-03,Recruiter C,Enterprise Solutions,Technical Support Engineer,Python,7,Delhi NCR,LinkedIn,Selected,Selected,2026-01-13,Rejected,2026-01-19,Not Applicable,,,Interview failed,
+CAND00152,Arjun Sharma,2026-06-13,Recruiter C,Enterprise Solutions,Technical Support Engineer,Java,2,Bangalore,Employee Referral,Selected,No Show,2026-06-20,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00153,Sanjay Das,2026-05-01,Recruiter E,HealthTech,Technical Support Engineer,SQL,8,Mumbai,Employee Referral,Selected,Selected,2026-05-12,Accepted,2026-05-19,Joined,2026-06-27,6.83,,57.0
+CAND00154,Ananya Reddy,2026-02-12,Recruiter C,DigitalWorks,Data Analyst,Java,7,Delhi NCR,Company Website,Selected,Selected,2026-02-14,Accepted,2026-02-19,Joined,2026-04-03,4.81,,50.0
+CAND00155,Vikram Verma,2026-07-05,Recruiter A,DataSystems,AI Engineer,Python,1,Delhi NCR,Naukri,Selected,Selected,2026-07-08,Accepted,2026-07-09,Candidate Dropped,2026-07-20,17.81,Candidate withdrew,15.0
+CAND00156,Vikram Kumar,2026-03-15,Recruiter D,FinServe,Cloud Support Engineer,Linux,7,Chennai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00157,Neha Sharma,2026-06-24,Recruiter E,FinServe,GCP Engineer,SQL,6,Bangalore,Company Website,Selected,Rejected,2026-06-29,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00158,Rahul Kumar,2026-03-18,Recruiter D,DataSystems,Software Engineer,Java,5,Bangalore,Employee Referral,Selected,Selected,2026-03-21,Accepted,2026-03-27,Joined,2026-04-04,7.37,,17.0
+CAND00159,Amit Sharma,2026-06-02,Recruiter A,DigitalWorks,Python Developer,Java,6,Delhi NCR,LinkedIn,Selected,Selected,2026-06-04,Accepted,2026-06-07,Joined,2026-07-20,8.46,,48.0
+CAND00160,Rohit Singh,2026-03-02,Recruiter C,FinServe,Technical Support Engineer,Linux,0,Chennai,Indeed,Selected,Rejected,2026-03-06,Not Applicable,,Not Applicable,,,Position closed,
+CAND00161,Pooja Rao,2026-05-23,Recruiter D,TechCorp,GCP Engineer,Linux,6,Mumbai,Indeed,Selected,Selected,2026-05-27,Accepted,2026-05-31,Joined,2026-06-21,8.21,,29.0
+CAND00162,Sanjay Reddy,2026-07-26,Recruiter D,TechCorp,Software Engineer,Linux,2,Mumbai,Company Website,Selected,Selected,2026-08-02,Accepted,2026-08-06,Joined,2026-08-18,11.5,,23.0
+CAND00163,Nikhil Patel,2026-01-14,Recruiter C,DataSystems,Python Developer,SQL,8,Bangalore,Company Website,Selected,Selected,2026-01-21,Accepted,2026-01-22,Joined,2026-02-10,17.47,,27.0
+CAND00164,Amit Gupta,2026-03-04,Recruiter E,HealthTech,Software Engineer,Java,4,Mumbai,Indeed,Selected,Selected,2026-03-11,Accepted,2026-03-14,Joined,2026-04-21,10.52,,48.0
+CAND00165,Meera Gupta,2026-07-14,Recruiter C,HealthTech,GCP Engineer,Power BI,3,Pune,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00166,Arjun Das,2026-05-30,Recruiter E,DataSystems,AI Engineer,GCP,3,Bangalore,Indeed,Selected,Rejected,2026-06-08,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00167,Pooja Singh,2026-03-07,Recruiter D,DigitalWorks,IT Support Engineer,GCP,2,Delhi NCR,Indeed,Selected,Selected,2026-03-11,Rejected,2026-03-16,Not Applicable,,,Position closed,
+CAND00168,Rahul Das,2026-01-09,Recruiter A,TechCorp,Python Developer,Linux,3,Bangalore,Recruiter Sourcing,Selected,Selected,2026-01-14,Accepted,2026-01-17,Joined,2026-02-23,13.23,,45.0
+CAND00169,Rahul Kumar,2026-05-17,Recruiter E,DataSystems,Python Developer,Python,4,Mumbai,Recruiter Sourcing,Selected,Selected,2026-05-27,Rejected,2026-06-02,Not Applicable,,,Candidate withdrew,
+CAND00170,Meera Reddy,2026-01-28,Recruiter A,FinServe,Technical Support Engineer,Java,4,Mumbai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00171,Meera Rao,2026-01-21,Recruiter C,DataSystems,IT Support Engineer,Java,4,Delhi NCR,Naukri,Selected,Rejected,2026-02-02,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00172,Pooja Kumar,2026-01-24,Recruiter D,DataSystems,Software Engineer,C#,0,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-02-01,Accepted,2026-02-04,Joined,2026-02-17,16.53,,24.0
+CAND00173,Swathi Kumar,2026-02-28,Recruiter B,DigitalWorks,AI Engineer,Python,4,Hyderabad,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00174,Pooja Kumar,2026-02-15,Recruiter C,TechCorp,Technical Support Engineer,GCP,1,Delhi NCR,Employee Referral,Selected,Selected,2026-02-26,Rejected,2026-03-02,Not Applicable,,,Position closed,
+CAND00175,Swathi Das,2026-03-26,Recruiter D,FinServe,Data Analyst,Power BI,6,Hyderabad,LinkedIn,Selected,Selected,2026-04-06,Accepted,2026-04-11,Joined,2026-05-08,4.41,,43.0
+CAND00176,Arjun Gupta,2026-05-06,Recruiter B,Enterprise Solutions,Software Engineer,Linux,6,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-05-11,Not Applicable,,Not Applicable,,,Position closed,
+CAND00177,Amit Sharma,2026-03-10,Recruiter B,DataSystems,Cloud Support Engineer,Linux,1,Chennai,Indeed,Selected,No Show,2026-03-19,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00178,Meera Verma,2026-01-27,Recruiter B,Global Systems,Cloud Support Engineer,Linux,8,Pune,Company Website,Selected,Selected,2026-01-30,Accepted,2026-01-31,Joined,2026-02-27,16.09,,31.0
+CAND00179,Rahul Verma,2026-04-16,Recruiter D,Global Systems,Technical Support Engineer,GCP,2,Delhi NCR,Employee Referral,Selected,Selected,2026-04-25,Accepted,2026-04-27,Joined,2026-05-30,8.2,,44.0
+CAND00180,Meera Sharma,2026-04-03,Recruiter C,HealthTech,IT Support Engineer,Java,2,Pune,LinkedIn,Selected,No Show,2026-04-10,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00181,Rohit Rao,2026-07-25,Recruiter C,DigitalWorks,GCP Engineer,Linux,2,Delhi NCR,Company Website,Selected,Rejected,2026-07-30,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00182,Kiran Reddy,2026-04-12,Recruiter C,CloudWorks,IT Support Engineer,Java,4,Chennai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00183,Kiran Sharma,2026-05-25,Recruiter B,FinServe,Python Developer,C#,7,Delhi NCR,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00184,Sanjay Sharma,2026-07-29,Recruiter D,DigitalWorks,Cloud Support Engineer,AWS,2,Bangalore,Indeed,Selected,Rejected,2026-08-01,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00185,Rohit Gupta,2026-05-30,Recruiter D,DataSystems,Python Developer,Power BI,1,Delhi NCR,Company Website,Selected,Selected,2026-06-11,Accepted,2026-06-17,Joined,2026-07-30,17.77,,61.0
+CAND00186,Pooja Rao,2026-07-12,Recruiter C,DataSystems,Data Analyst,Python,3,Hyderabad,Indeed,Selected,Selected,2026-07-23,Accepted,2026-07-25,Joined,2026-08-26,10.48,,45.0
+CAND00187,Pooja Naidu,2026-06-26,Recruiter E,FinServe,GCP Engineer,Python,4,Pune,LinkedIn,Selected,No Show,2026-06-29,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00188,Sanjay Reddy,2026-03-31,Recruiter C,Enterprise Solutions,IT Support Engineer,Java,5,Mumbai,Employee Referral,Selected,Selected,2026-04-09,Accepted,2026-04-12,Joined,2026-04-26,4.32,,26.0
+CAND00189,Kiran Sharma,2026-06-23,Recruiter B,HealthTech,Cloud Support Engineer,GCP,6,Chennai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00190,Meera Rao,2026-06-11,Recruiter B,FinServe,Software Engineer,Linux,3,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-06-13,Accepted,2026-06-15,Joined,2026-06-26,12.08,,15.0
+CAND00191,Meera Das,2026-02-17,Recruiter C,Enterprise Solutions,Technical Support Engineer,C#,7,Hyderabad,Indeed,Selected,Rejected,2026-02-28,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00192,Rohit Rao,2026-05-31,Recruiter A,Enterprise Solutions,GCP Engineer,C#,4,Mumbai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00193,Amit Reddy,2026-03-22,Recruiter A,HealthTech,AI Engineer,SQL,2,Bangalore,Indeed,Selected,Selected,2026-03-26,Accepted,2026-03-30,Joined,2026-05-10,13.71,,49.0
+CAND00194,Pooja Reddy,2026-05-23,Recruiter B,DigitalWorks,AI Engineer,GCP,7,Bangalore,Indeed,Selected,Rejected,2026-05-25,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00195,Priya Patel,2026-07-28,Recruiter D,DigitalWorks,Software Engineer,C#,7,Pune,Recruiter Sourcing,Selected,Selected,2026-07-30,Rejected,2026-08-01,Not Applicable,,,Client rejected,
+CAND00196,Rahul Verma,2026-02-27,Recruiter E,CloudWorks,Cloud Support Engineer,C#,7,Mumbai,Recruiter Sourcing,Selected,Selected,2026-03-02,Accepted,2026-03-07,Joined,2026-04-06,11.59,,38.0
+CAND00197,Meera Kumar,2026-07-14,Recruiter D,HealthTech,Software Engineer,SQL,3,Delhi NCR,Recruiter Sourcing,Selected,No Show,2026-07-23,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00198,Kiran Sharma,2026-04-23,Recruiter A,HealthTech,Technical Support Engineer,Power BI,6,Delhi NCR,Company Website,Selected,Selected,2026-04-28,Rejected,2026-05-05,Not Applicable,,,Skills mismatch,
+CAND00199,Rohit Singh,2026-05-17,Recruiter C,FinServe,GCP Engineer,AWS,4,Chennai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00200,Swathi Sharma,2026-02-04,Recruiter D,TechCorp,AI Engineer,GCP,3,Delhi NCR,Naukri,Selected,Selected,2026-02-09,Accepted,2026-02-15,Joined,2026-03-03,12.08,,27.0
+CAND00201,Arjun Rao,2026-04-07,Recruiter D,Global Systems,Data Analyst,Linux,4,Mumbai,Recruiter Sourcing,Selected,Rejected,2026-04-16,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00202,Kiran Naidu,2026-01-01,Recruiter A,DigitalWorks,GCP Engineer,SQL,3,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00203,Sneha Gupta,2026-03-10,Recruiter C,CloudWorks,GCP Engineer,GCP,5,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00204,Rahul Kumar,2026-01-26,Recruiter D,TechCorp,Data Analyst,GCP,0,Pune,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00205,Sneha Reddy,2026-06-16,Recruiter C,FinServe,AI Engineer,SQL,4,Delhi NCR,Indeed,Selected,Rejected,2026-06-28,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00206,Rahul Rao,2026-06-10,Recruiter C,HealthTech,Software Engineer,SQL,0,Delhi NCR,LinkedIn,Selected,Selected,2026-06-21,Accepted,2026-06-27,Joined,2026-07-04,13.74,,24.0
+CAND00207,Nikhil Sharma,2026-08-09,Recruiter D,FinServe,IT Support Engineer,SQL,1,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00208,Amit Singh,2026-04-05,Recruiter C,FinServe,Software Engineer,GCP,2,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-04-16,Accepted,2026-04-20,Joined,2026-05-10,12.79,,35.0
+CAND00209,Priya Rao,2026-06-07,Recruiter D,HealthTech,Data Analyst,SQL,6,Bangalore,LinkedIn,Selected,Selected,2026-06-11,Accepted,2026-06-17,Joined,2026-07-29,12.41,,52.0
+CAND00210,Sanjay Naidu,2026-03-14,Recruiter A,CloudWorks,Technical Support Engineer,Java,4,Delhi NCR,Employee Referral,Selected,Rejected,2026-03-19,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00211,Neha Sharma,2026-03-03,Recruiter D,Global Systems,Python Developer,Power BI,6,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00212,Neha Singh,2026-05-20,Recruiter B,DigitalWorks,Data Analyst,Python,0,Mumbai,LinkedIn,Selected,Selected,2026-05-22,Rejected,2026-05-26,Not Applicable,,,Salary expectations,
+CAND00213,Arjun Das,2026-07-16,Recruiter D,DataSystems,Software Engineer,SQL,8,Delhi NCR,Company Website,Selected,Selected,2026-07-22,Accepted,2026-07-24,Candidate Dropped,2026-08-09,11.51,Candidate withdrew,24.0
+CAND00214,Neha Naidu,2026-06-12,Recruiter A,CloudWorks,Software Engineer,Java,1,Hyderabad,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00215,Vikram Naidu,2026-06-05,Recruiter A,CloudWorks,Cloud Support Engineer,SQL,2,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-06-12,Accepted,2026-06-19,Joined,2026-07-12,6.34,,37.0
+CAND00216,Priya Verma,2026-07-07,Recruiter A,TechCorp,GCP Engineer,Linux,1,Chennai,Company Website,Selected,No Show,2026-07-19,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00217,Vikram Gupta,2026-05-11,Recruiter C,TechCorp,IT Support Engineer,GCP,4,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00218,Pooja Sharma,2026-02-28,Recruiter E,TechCorp,Python Developer,Python,7,Bangalore,LinkedIn,Selected,No Show,2026-03-04,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00219,Rahul Das,2026-07-25,Recruiter D,HealthTech,GCP Engineer,Java,5,Pune,Recruiter Sourcing,Selected,Selected,2026-08-01,Accepted,2026-08-07,Candidate Dropped,2026-08-25,7.12,Candidate withdrew,31.0
+CAND00220,Ananya Kumar,2026-04-13,Recruiter A,DigitalWorks,AI Engineer,AWS,8,Chennai,LinkedIn,Selected,Selected,2026-04-19,Accepted,2026-04-22,Joined,2026-05-14,10.49,,31.0
+CAND00221,Rohit Gupta,2026-07-17,Recruiter B,HealthTech,Cloud Support Engineer,Python,3,Pune,LinkedIn,Selected,Rejected,2026-07-19,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00222,Rahul Rao,2026-08-06,Recruiter C,Global Systems,Technical Support Engineer,Java,0,Pune,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00223,Sanjay Verma,2026-01-24,Recruiter A,HealthTech,Software Engineer,Power BI,1,Pune,Recruiter Sourcing,Selected,Selected,2026-02-05,Rejected,2026-02-06,Not Applicable,,,Salary expectations,
+CAND00224,Rohit Kumar,2026-04-22,Recruiter B,HealthTech,AI Engineer,AWS,5,Chennai,Employee Referral,Selected,Selected,2026-04-25,Rejected,2026-04-27,Not Applicable,,,Interview failed,
+CAND00225,Meera Naidu,2026-01-28,Recruiter B,Global Systems,Cloud Support Engineer,C#,6,Pune,Indeed,Selected,Selected,2026-02-02,Accepted,2026-02-06,Joined,2026-02-20,5.27,,23.0
+CAND00226,Meera Verma,2026-07-31,Recruiter E,TechCorp,Technical Support Engineer,Power BI,3,Bangalore,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00227,Ananya Kumar,2026-06-23,Recruiter C,CloudWorks,Cloud Support Engineer,Python,8,Pune,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00228,Amit Gupta,2026-01-27,Recruiter B,Global Systems,Python Developer,Python,3,Bangalore,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00229,Pooja Sharma,2026-05-30,Recruiter E,CloudWorks,Data Analyst,Python,7,Hyderabad,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00230,Swathi Singh,2026-02-01,Recruiter A,DigitalWorks,Python Developer,GCP,6,Mumbai,Employee Referral,Selected,Selected,2026-02-09,Accepted,2026-02-11,Candidate Dropped,2026-03-07,7.92,Candidate withdrew,34.0
+CAND00231,Swathi Reddy,2026-01-09,Recruiter E,HealthTech,AI Engineer,C#,7,Pune,Company Website,Selected,Selected,2026-01-13,Accepted,2026-01-19,Candidate Dropped,2026-02-28,7.49,Candidate withdrew,50.0
+CAND00232,Meera Das,2026-07-23,Recruiter A,DataSystems,GCP Engineer,C#,5,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00233,Kiran Rao,2026-03-11,Recruiter B,TechCorp,GCP Engineer,Java,0,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00234,Ananya Singh,2026-07-16,Recruiter E,HealthTech,Cloud Support Engineer,SQL,3,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-07-18,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00235,Sneha Naidu,2026-08-05,Recruiter D,Enterprise Solutions,Cloud Support Engineer,GCP,5,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00236,Kiran Naidu,2026-01-08,Recruiter C,FinServe,Technical Support Engineer,C#,2,Mumbai,Indeed,Selected,Selected,2026-01-13,Accepted,2026-01-14,Joined,2026-01-21,8.64,,13.0
+CAND00237,Rohit Patel,2026-07-26,Recruiter B,Enterprise Solutions,Cloud Support Engineer,Power BI,2,Hyderabad,LinkedIn,Selected,No Show,2026-07-29,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00238,Ananya Singh,2026-01-19,Recruiter C,DataSystems,Data Analyst,Power BI,2,Chennai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00239,Neha Gupta,2026-06-16,Recruiter C,FinServe,GCP Engineer,Java,2,Delhi NCR,Company Website,Selected,Rejected,2026-06-22,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00240,Priya Kumar,2026-06-29,Recruiter E,DataSystems,Python Developer,GCP,3,Mumbai,Indeed,Selected,Selected,2026-07-08,Accepted,2026-07-14,Joined,2026-08-12,17.75,,44.0
+CAND00241,Priya Sharma,2026-07-30,Recruiter C,DigitalWorks,Python Developer,AWS,1,Bangalore,Naukri,Selected,Rejected,2026-08-01,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00242,Neha Gupta,2026-07-07,Recruiter D,FinServe,Software Engineer,C#,8,Pune,Indeed,Selected,Rejected,2026-07-18,Not Applicable,,Not Applicable,,,Position closed,
+CAND00243,Meera Patel,2026-02-11,Recruiter D,Global Systems,Python Developer,AWS,4,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00244,Kiran Reddy,2026-04-07,Recruiter B,Global Systems,Data Analyst,Power BI,7,Mumbai,Company Website,Selected,Selected,2026-04-19,Accepted,2026-04-23,Joined,2026-05-06,8.64,,29.0
+CAND00245,Sneha Rao,2026-06-28,Recruiter E,CloudWorks,AI Engineer,AWS,0,Bangalore,LinkedIn,Selected,Selected,2026-07-07,Accepted,2026-07-10,Joined,2026-07-22,8.12,,24.0
+CAND00246,Pooja Naidu,2026-05-03,Recruiter B,Global Systems,Python Developer,Java,4,Bangalore,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00247,Nikhil Sharma,2026-03-20,Recruiter D,DigitalWorks,IT Support Engineer,AWS,8,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-03-28,Accepted,2026-04-01,Joined,2026-05-06,10.51,,47.0
+CAND00248,Sneha Verma,2026-05-25,Recruiter A,FinServe,Data Analyst,SQL,8,Delhi NCR,Indeed,Selected,Rejected,2026-05-30,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00249,Rahul Rao,2026-07-29,Recruiter E,DataSystems,IT Support Engineer,Java,1,Pune,Indeed,Selected,Rejected,2026-07-31,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00250,Rohit Das,2026-07-24,Recruiter E,FinServe,Data Analyst,C#,3,Bangalore,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00251,Rahul Rao,2026-01-21,Recruiter D,HealthTech,Cloud Support Engineer,AWS,1,Chennai,Recruiter Sourcing,Selected,Selected,2026-01-31,Accepted,2026-02-03,Joined,2026-02-10,15.01,,20.0
+CAND00252,Rohit Naidu,2026-05-14,Recruiter D,Global Systems,Software Engineer,GCP,1,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00253,Meera Sharma,2026-07-21,Recruiter C,Enterprise Solutions,Software Engineer,AWS,7,Pune,Recruiter Sourcing,Selected,Selected,2026-07-25,Accepted,2026-07-27,Joined,2026-08-28,4.54,,38.0
+CAND00254,Swathi Singh,2026-06-26,Recruiter B,TechCorp,IT Support Engineer,AWS,5,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00255,Arjun Verma,2026-08-04,Recruiter D,Global Systems,Technical Support Engineer,GCP,7,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00256,Arjun Rao,2026-06-04,Recruiter A,HealthTech,IT Support Engineer,Java,7,Pune,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00257,Kiran Kumar,2026-05-12,Recruiter B,Global Systems,AI Engineer,Linux,0,Bangalore,Company Website,Selected,Rejected,2026-05-17,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00258,Rahul Patel,2026-01-09,Recruiter D,TechCorp,GCP Engineer,Java,7,Chennai,Indeed,Selected,Rejected,2026-01-12,Not Applicable,,Not Applicable,,,Position closed,
+CAND00259,Rahul Patel,2026-04-06,Recruiter D,DigitalWorks,Cloud Support Engineer,C#,5,Mumbai,Company Website,Selected,Rejected,2026-04-12,Not Applicable,,Not Applicable,,,Position closed,
+CAND00260,Nikhil Sharma,2026-03-14,Recruiter A,DataSystems,Python Developer,GCP,3,Mumbai,Naukri,Selected,Rejected,2026-03-20,Not Applicable,,Not Applicable,,,Position closed,
+CAND00261,Neha Das,2026-01-06,Recruiter A,DigitalWorks,Cloud Support Engineer,GCP,3,Mumbai,LinkedIn,Selected,Rejected,2026-01-12,Not Applicable,,Not Applicable,,,Position closed,
+CAND00262,Sanjay Verma,2026-04-19,Recruiter D,Enterprise Solutions,IT Support Engineer,AWS,4,Bangalore,Employee Referral,Selected,Rejected,2026-04-27,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00263,Amit Kumar,2026-05-11,Recruiter C,CloudWorks,AI Engineer,SQL,5,Pune,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00264,Kiran Verma,2026-03-08,Recruiter C,HealthTech,Cloud Support Engineer,Java,6,Hyderabad,Company Website,Selected,Rejected,2026-03-10,Not Applicable,,Not Applicable,,,Position closed,
+CAND00265,Vikram Verma,2026-03-08,Recruiter D,DataSystems,Software Engineer,Python,3,Mumbai,Recruiter Sourcing,Selected,Rejected,2026-03-20,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00266,Pooja Gupta,2026-06-21,Recruiter C,CloudWorks,Cloud Support Engineer,GCP,7,Chennai,LinkedIn,Selected,Selected,2026-07-01,Accepted,2026-07-03,Candidate Dropped,2026-07-31,13.16,Candidate withdrew,40.0
+CAND00267,Sneha Singh,2026-02-27,Recruiter C,DataSystems,GCP Engineer,Power BI,4,Chennai,Company Website,Selected,Selected,2026-03-01,Rejected,2026-03-06,Not Applicable,,,Salary expectations,
+CAND00268,Rohit Sharma,2026-05-01,Recruiter B,Global Systems,Software Engineer,AWS,2,Pune,LinkedIn,Selected,Selected,2026-05-09,Rejected,2026-05-13,Not Applicable,,,Experience mismatch,
+CAND00269,Kiran Reddy,2026-07-19,Recruiter A,DigitalWorks,GCP Engineer,GCP,0,Chennai,Recruiter Sourcing,Selected,Selected,2026-07-23,Accepted,2026-07-25,Joined,2026-08-06,5.81,,18.0
+CAND00270,Neha Rao,2026-04-14,Recruiter D,DigitalWorks,Software Engineer,Python,3,Hyderabad,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00271,Swathi Singh,2026-07-13,Recruiter E,HealthTech,Python Developer,Python,3,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-07-19,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00272,Amit Rao,2026-05-09,Recruiter E,CloudWorks,Cloud Support Engineer,SQL,4,Hyderabad,Indeed,Selected,Selected,2026-05-19,Accepted,2026-05-25,Candidate Dropped,2026-06-22,17.95,Candidate withdrew,44.0
+CAND00273,Vikram Singh,2026-07-12,Recruiter B,FinServe,Software Engineer,Python,2,Bangalore,Naukri,Selected,Selected,2026-07-22,Accepted,2026-07-25,Joined,2026-08-03,9.25,,22.0
+CAND00274,Pooja Verma,2026-07-17,Recruiter E,TechCorp,Python Developer,SQL,0,Delhi NCR,LinkedIn,Selected,Selected,2026-07-25,Accepted,2026-07-28,Joined,2026-08-13,6.88,,27.0
+CAND00275,Pooja Kumar,2026-03-19,Recruiter D,Global Systems,AI Engineer,GCP,8,Pune,LinkedIn,Selected,Selected,2026-03-22,Rejected,2026-03-26,Not Applicable,,,Experience mismatch,
+CAND00276,Rohit Patel,2026-07-19,Recruiter C,HealthTech,GCP Engineer,Linux,0,Chennai,Naukri,Selected,No Show,2026-07-28,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00277,Sneha Kumar,2026-01-04,Recruiter A,Global Systems,IT Support Engineer,GCP,1,Hyderabad,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00278,Swathi Verma,2026-06-14,Recruiter B,DigitalWorks,AI Engineer,AWS,1,Pune,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00279,Rahul Verma,2026-04-03,Recruiter C,DataSystems,Data Analyst,SQL,2,Hyderabad,LinkedIn,Selected,Selected,2026-04-10,Rejected,2026-04-15,Not Applicable,,,Client rejected,
+CAND00280,Swathi Sharma,2026-04-06,Recruiter C,FinServe,Data Analyst,Linux,4,Pune,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00281,Nikhil Gupta,2026-07-24,Recruiter D,FinServe,Data Analyst,GCP,0,Delhi NCR,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00282,Priya Sharma,2026-04-17,Recruiter E,DigitalWorks,IT Support Engineer,GCP,5,Mumbai,Employee Referral,Selected,Rejected,2026-04-21,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00283,Swathi Gupta,2026-01-29,Recruiter D,DigitalWorks,Python Developer,SQL,5,Chennai,Recruiter Sourcing,Selected,Rejected,2026-02-08,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00284,Sanjay Naidu,2026-07-05,Recruiter E,HealthTech,GCP Engineer,SQL,3,Pune,Recruiter Sourcing,Selected,Rejected,2026-07-17,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00285,Priya Das,2026-06-06,Recruiter A,TechCorp,Cloud Support Engineer,C#,1,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00286,Sneha Singh,2026-03-13,Recruiter A,HealthTech,Software Engineer,Linux,7,Bangalore,LinkedIn,Selected,Selected,2026-03-16,Rejected,2026-03-20,Not Applicable,,,Client rejected,
+CAND00287,Amit Gupta,2026-07-10,Recruiter A,Global Systems,Software Engineer,Linux,8,Hyderabad,Company Website,Selected,Selected,2026-07-21,Rejected,2026-07-27,Not Applicable,,,Client rejected,
+CAND00288,Swathi Das,2026-05-24,Recruiter B,DigitalWorks,GCP Engineer,Power BI,7,Hyderabad,Naukri,Selected,Rejected,2026-06-04,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00289,Sanjay Singh,2026-07-03,Recruiter D,Global Systems,Data Analyst,Java,5,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00290,Arjun Das,2026-05-14,Recruiter C,Global Systems,Python Developer,GCP,6,Pune,Naukri,Selected,Rejected,2026-05-19,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00291,Swathi Rao,2026-02-25,Recruiter D,HealthTech,GCP Engineer,SQL,1,Pune,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00292,Vikram Naidu,2026-05-10,Recruiter B,DigitalWorks,Python Developer,Python,7,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00293,Swathi Reddy,2026-06-27,Recruiter E,FinServe,Cloud Support Engineer,SQL,5,Pune,Recruiter Sourcing,Selected,Selected,2026-07-08,Rejected,2026-07-15,Not Applicable,,,Experience mismatch,
+CAND00294,Arjun Rao,2026-03-29,Recruiter C,DigitalWorks,Cloud Support Engineer,GCP,8,Pune,Company Website,Selected,Rejected,2026-04-05,Not Applicable,,Not Applicable,,,Position closed,
+CAND00295,Sanjay Das,2026-06-11,Recruiter B,HealthTech,Technical Support Engineer,AWS,2,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00296,Priya Das,2026-05-19,Recruiter C,Global Systems,GCP Engineer,C#,6,Mumbai,Company Website,Selected,Rejected,2026-05-29,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00297,Swathi Rao,2026-07-26,Recruiter A,Global Systems,Python Developer,Linux,0,Bangalore,LinkedIn,Selected,Rejected,2026-07-30,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00298,Pooja Verma,2026-02-07,Recruiter A,CloudWorks,Technical Support Engineer,Python,1,Chennai,Employee Referral,Selected,Rejected,2026-02-17,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00299,Sneha Das,2026-04-10,Recruiter B,CloudWorks,Python Developer,Linux,5,Pune,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00300,Rahul Verma,2026-02-21,Recruiter E,DigitalWorks,Technical Support Engineer,Power BI,3,Mumbai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00301,Arjun Gupta,2026-02-15,Recruiter A,FinServe,Cloud Support Engineer,SQL,6,Pune,LinkedIn,Selected,Selected,2026-02-19,Accepted,2026-02-22,Joined,2026-03-30,13.94,,43.0
+CAND00302,Priya Kumar,2026-02-09,Recruiter C,TechCorp,AI Engineer,C#,5,Mumbai,Company Website,Selected,Rejected,2026-02-19,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00303,Priya Das,2026-01-18,Recruiter E,FinServe,Software Engineer,Linux,3,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00304,Kiran Singh,2026-04-03,Recruiter C,HealthTech,IT Support Engineer,Python,5,Hyderabad,Recruiter Sourcing,Selected,No Show,2026-04-14,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00305,Sneha Kumar,2026-06-24,Recruiter C,DataSystems,Data Analyst,Linux,4,Chennai,Company Website,Selected,Selected,2026-07-01,Accepted,2026-07-06,Joined,2026-07-15,8.15,,21.0
+CAND00306,Pooja Patel,2026-03-24,Recruiter E,Global Systems,Data Analyst,GCP,0,Mumbai,Company Website,Selected,Selected,2026-04-05,Accepted,2026-04-12,Joined,2026-04-25,6.88,,32.0
+CAND00307,Nikhil Rao,2026-06-15,Recruiter A,FinServe,Python Developer,C#,0,Delhi NCR,Indeed,Selected,Selected,2026-06-21,Accepted,2026-06-26,Joined,2026-07-19,9.71,,34.0
+CAND00308,Vikram Rao,2026-04-21,Recruiter C,TechCorp,Software Engineer,SQL,1,Mumbai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00309,Rahul Sharma,2026-04-02,Recruiter E,Global Systems,AI Engineer,AWS,4,Mumbai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00310,Neha Rao,2026-07-30,Recruiter A,DigitalWorks,Cloud Support Engineer,Java,6,Bangalore,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00311,Ananya Verma,2026-06-12,Recruiter B,CloudWorks,GCP Engineer,Python,2,Mumbai,Company Website,Selected,Selected,2026-06-23,Accepted,2026-06-28,Candidate Dropped,2026-07-24,6.94,Candidate withdrew,42.0
+CAND00312,Sanjay Singh,2026-02-24,Recruiter D,FinServe,Cloud Support Engineer,GCP,4,Bangalore,Company Website,Selected,Selected,2026-03-07,Rejected,2026-03-14,Not Applicable,,,Interview failed,
+CAND00313,Swathi Das,2026-04-29,Recruiter E,Global Systems,AI Engineer,SQL,3,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00314,Kiran Singh,2026-02-02,Recruiter B,Global Systems,AI Engineer,SQL,7,Bangalore,Indeed,Selected,Rejected,2026-02-08,Not Applicable,,Not Applicable,,,Position closed,
+CAND00315,Rohit Reddy,2026-05-25,Recruiter E,Enterprise Solutions,GCP Engineer,Linux,5,Bangalore,LinkedIn,Selected,Selected,2026-06-06,Accepted,2026-06-13,Joined,2026-07-11,16.29,,47.0
+CAND00316,Vikram Gupta,2026-04-02,Recruiter C,DigitalWorks,Data Analyst,GCP,1,Delhi NCR,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00317,Nikhil Reddy,2026-05-18,Recruiter B,CloudWorks,Data Analyst,SQL,0,Hyderabad,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00318,Neha Naidu,2026-02-24,Recruiter A,CloudWorks,IT Support Engineer,GCP,3,Chennai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00319,Sanjay Verma,2026-02-04,Recruiter D,Global Systems,Software Engineer,Power BI,3,Mumbai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00320,Rohit Reddy,2026-07-13,Recruiter E,FinServe,IT Support Engineer,GCP,2,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00321,Kiran Kumar,2026-02-26,Recruiter D,HealthTech,Data Analyst,AWS,0,Chennai,Naukri,Selected,Selected,2026-03-05,Accepted,2026-03-09,Candidate Dropped,2026-03-18,17.73,Candidate withdrew,20.0
+CAND00322,Kiran Sharma,2026-06-30,Recruiter E,CloudWorks,AI Engineer,GCP,6,Pune,Recruiter Sourcing,Selected,Rejected,2026-07-03,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00323,Arjun Rao,2026-02-27,Recruiter E,DataSystems,GCP Engineer,Power BI,0,Pune,Employee Referral,Selected,Selected,2026-03-03,Accepted,2026-03-08,Joined,2026-03-28,6.1,,29.0
+CAND00324,Priya Singh,2026-06-04,Recruiter A,HealthTech,Software Engineer,Power BI,7,Delhi NCR,LinkedIn,Selected,Selected,2026-06-15,Accepted,2026-06-22,Joined,2026-07-14,4.6,,40.0
+CAND00325,Rohit Naidu,2026-02-11,Recruiter B,TechCorp,Cloud Support Engineer,Python,2,Bangalore,Indeed,Selected,Selected,2026-02-22,Accepted,2026-02-28,Joined,2026-03-25,17.26,,42.0
+CAND00326,Sneha Gupta,2026-06-05,Recruiter D,DigitalWorks,Cloud Support Engineer,Java,2,Pune,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00327,Meera Reddy,2026-06-09,Recruiter E,CloudWorks,Cloud Support Engineer,Power BI,1,Pune,Company Website,Selected,Selected,2026-06-12,Accepted,2026-06-17,Candidate Dropped,2026-07-26,13.58,Candidate withdrew,47.0
+CAND00328,Nikhil Reddy,2026-06-05,Recruiter A,FinServe,IT Support Engineer,Python,1,Mumbai,Company Website,Selected,Rejected,2026-06-16,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00329,Nikhil Kumar,2026-07-18,Recruiter D,DataSystems,GCP Engineer,Python,6,Delhi NCR,Company Website,Selected,Rejected,2026-07-26,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00330,Rohit Naidu,2026-01-26,Recruiter D,FinServe,AI Engineer,C#,4,Bangalore,LinkedIn,Selected,Selected,2026-02-01,Accepted,2026-02-07,Joined,2026-02-14,12.09,,19.0
+CAND00331,Amit Das,2026-01-02,Recruiter D,HealthTech,GCP Engineer,Linux,2,Chennai,LinkedIn,Selected,Rejected,2026-01-08,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00332,Ananya Rao,2026-05-25,Recruiter C,CloudWorks,Software Engineer,Java,8,Pune,Company Website,Selected,Selected,2026-06-04,Accepted,2026-06-07,Joined,2026-07-09,14.3,,45.0
+CAND00333,Nikhil Sharma,2026-07-11,Recruiter B,DigitalWorks,Cloud Support Engineer,SQL,6,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00334,Ananya Naidu,2026-06-28,Recruiter A,FinServe,Software Engineer,Python,7,Hyderabad,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00335,Amit Sharma,2026-03-09,Recruiter B,Enterprise Solutions,Data Analyst,Python,6,Delhi NCR,Employee Referral,Selected,Selected,2026-03-20,Accepted,2026-03-27,Joined,2026-05-04,10.15,,56.0
+CAND00336,Sneha Das,2026-03-15,Recruiter B,TechCorp,Technical Support Engineer,GCP,5,Delhi NCR,LinkedIn,Selected,Selected,2026-03-19,Accepted,2026-03-22,Joined,2026-04-20,13.38,,36.0
+CAND00337,Neha Naidu,2026-02-21,Recruiter E,TechCorp,Data Analyst,SQL,8,Mumbai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00338,Kiran Verma,2026-02-27,Recruiter E,HealthTech,IT Support Engineer,Linux,4,Mumbai,LinkedIn,Selected,Selected,2026-03-09,Accepted,2026-03-12,Joined,2026-03-26,15.24,,27.0
+CAND00339,Arjun Das,2026-07-28,Recruiter E,CloudWorks,IT Support Engineer,Linux,3,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00340,Vikram Gupta,2026-05-31,Recruiter A,DigitalWorks,Data Analyst,AWS,3,Hyderabad,Employee Referral,Selected,Selected,2026-06-07,Accepted,2026-06-10,Joined,2026-06-17,13.81,,17.0
+CAND00341,Arjun Patel,2026-03-15,Recruiter A,DataSystems,GCP Engineer,SQL,7,Mumbai,Naukri,Selected,Selected,2026-03-26,Accepted,2026-04-01,Joined,2026-04-20,10.99,,36.0
+CAND00342,Sneha Patel,2026-07-08,Recruiter B,CloudWorks,Technical Support Engineer,Java,5,Bangalore,Naukri,Selected,Selected,2026-07-11,Accepted,2026-07-17,Joined,2026-07-24,14.7,,16.0
+CAND00343,Ananya Kumar,2026-08-06,Recruiter D,Enterprise Solutions,GCP Engineer,C#,7,Mumbai,Indeed,Selected,Rejected,2026-08-16,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00344,Neha Patel,2026-07-12,Recruiter E,FinServe,Python Developer,Linux,0,Pune,Company Website,Selected,Selected,2026-07-24,Accepted,2026-07-28,Candidate Dropped,2026-09-06,10.44,Candidate withdrew,56.0
+CAND00345,Sanjay Kumar,2026-01-04,Recruiter B,DataSystems,Data Analyst,Power BI,4,Chennai,Company Website,Selected,Selected,2026-01-10,Accepted,2026-01-15,Joined,2026-02-02,10.98,,29.0
+CAND00346,Sneha Rao,2026-06-29,Recruiter C,Enterprise Solutions,Software Engineer,AWS,2,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00347,Sneha Sharma,2026-07-04,Recruiter C,HealthTech,Software Engineer,Linux,2,Bangalore,Naukri,Selected,Selected,2026-07-12,Accepted,2026-07-19,Joined,2026-08-29,14.09,,56.0
+CAND00348,Meera Gupta,2026-03-18,Recruiter C,TechCorp,Software Engineer,SQL,0,Delhi NCR,Naukri,Selected,Selected,2026-03-30,Accepted,2026-04-05,Joined,2026-05-05,9.04,,48.0
+CAND00349,Ananya Verma,2026-03-30,Recruiter A,DataSystems,Data Analyst,Power BI,3,Delhi NCR,Company Website,Selected,Rejected,2026-04-09,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00350,Meera Verma,2026-04-01,Recruiter C,DigitalWorks,IT Support Engineer,SQL,4,Pune,Company Website,Selected,No Show,2026-04-05,Not Applicable,,Not Applicable,,,Position closed,
+CAND00351,Meera Singh,2026-04-18,Recruiter E,DataSystems,Data Analyst,SQL,3,Bangalore,Indeed,Selected,Rejected,2026-04-24,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00352,Pooja Rao,2026-03-11,Recruiter D,Enterprise Solutions,IT Support Engineer,Linux,0,Bangalore,Naukri,Selected,Selected,2026-03-17,Rejected,2026-03-23,Not Applicable,,,Position closed,
+CAND00353,Amit Patel,2026-02-12,Recruiter D,Global Systems,Data Analyst,SQL,0,Pune,Company Website,Selected,Selected,2026-02-15,Accepted,2026-02-20,Joined,2026-03-23,8.33,,39.0
+CAND00354,Sneha Verma,2026-04-24,Recruiter B,FinServe,Cloud Support Engineer,Python,5,Hyderabad,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00355,Nikhil Gupta,2026-04-30,Recruiter E,CloudWorks,IT Support Engineer,GCP,2,Delhi NCR,Company Website,Selected,Selected,2026-05-12,Rejected,2026-05-16,Not Applicable,,,Salary expectations,
+CAND00356,Pooja Das,2026-03-21,Recruiter C,DigitalWorks,Technical Support Engineer,SQL,5,Pune,Indeed,Selected,Selected,2026-03-23,Accepted,2026-03-30,Joined,2026-04-14,8.81,,24.0
+CAND00357,Vikram Das,2026-01-03,Recruiter D,DigitalWorks,AI Engineer,Python,3,Pune,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00358,Kiran Patel,2026-04-16,Recruiter E,DataSystems,Software Engineer,Java,6,Bangalore,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00359,Arjun Sharma,2026-04-19,Recruiter B,CloudWorks,AI Engineer,AWS,1,Pune,Naukri,Selected,Selected,2026-05-01,Accepted,2026-05-05,Joined,2026-06-12,6.63,,54.0
+CAND00360,Rahul Reddy,2026-01-13,Recruiter E,TechCorp,Cloud Support Engineer,SQL,2,Chennai,Indeed,Selected,Rejected,2026-01-18,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00361,Priya Kumar,2026-05-07,Recruiter B,Enterprise Solutions,Software Engineer,AWS,7,Pune,Indeed,Selected,Selected,2026-05-10,Rejected,2026-05-12,Not Applicable,,,Skills mismatch,
+CAND00362,Arjun Rao,2026-01-19,Recruiter E,DigitalWorks,Cloud Support Engineer,Java,0,Chennai,Employee Referral,Selected,Rejected,2026-01-24,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00363,Meera Gupta,2026-03-05,Recruiter A,HealthTech,IT Support Engineer,SQL,3,Mumbai,Recruiter Sourcing,Selected,Rejected,2026-03-11,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00364,Priya Kumar,2026-07-10,Recruiter E,Global Systems,AI Engineer,C#,3,Delhi NCR,Indeed,Selected,Selected,2026-07-22,Accepted,2026-07-23,Joined,2026-08-26,8.54,,47.0
+CAND00365,Priya Verma,2026-05-30,Recruiter A,DataSystems,Technical Support Engineer,Python,7,Hyderabad,Company Website,Selected,Selected,2026-06-02,Accepted,2026-06-06,Joined,2026-07-04,17.03,,35.0
+CAND00366,Meera Kumar,2026-01-16,Recruiter C,FinServe,Data Analyst,GCP,5,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00367,Pooja Singh,2026-07-26,Recruiter D,HealthTech,Python Developer,Linux,2,Chennai,Recruiter Sourcing,Selected,Selected,2026-08-04,Accepted,2026-08-09,Joined,2026-08-28,11.93,,33.0
+CAND00368,Ananya Singh,2026-03-24,Recruiter D,CloudWorks,Cloud Support Engineer,SQL,7,Mumbai,Naukri,Selected,Selected,2026-03-31,Accepted,2026-04-07,Joined,2026-05-08,14.27,,45.0
+CAND00369,Swathi Kumar,2026-06-08,Recruiter C,HealthTech,GCP Engineer,SQL,6,Delhi NCR,Company Website,Selected,Rejected,2026-06-18,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00370,Rohit Verma,2026-03-24,Recruiter D,Enterprise Solutions,Data Analyst,SQL,1,Mumbai,Recruiter Sourcing,Selected,No Show,2026-03-28,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00371,Rahul Patel,2026-01-28,Recruiter D,HealthTech,Data Analyst,Python,6,Mumbai,Recruiter Sourcing,Selected,Selected,2026-02-08,Accepted,2026-02-11,Joined,2026-02-22,4.18,,25.0
+CAND00372,Swathi Patel,2026-06-17,Recruiter D,Global Systems,IT Support Engineer,Python,6,Chennai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00373,Sanjay Kumar,2026-07-30,Recruiter E,CloudWorks,Python Developer,SQL,3,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00374,Amit Patel,2026-05-17,Recruiter D,HealthTech,Technical Support Engineer,Java,2,Mumbai,Recruiter Sourcing,Selected,Selected,2026-05-20,Accepted,2026-05-25,Joined,2026-06-30,13.84,,44.0
+CAND00375,Neha Sharma,2026-02-12,Recruiter B,DataSystems,GCP Engineer,GCP,7,Mumbai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00376,Ananya Singh,2026-08-05,Recruiter C,DataSystems,Software Engineer,Power BI,8,Mumbai,Naukri,Selected,Rejected,2026-08-11,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00377,Vikram Gupta,2026-04-12,Recruiter A,TechCorp,AI Engineer,Python,4,Mumbai,Naukri,Selected,No Show,2026-04-17,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00378,Kiran Kumar,2026-07-17,Recruiter C,FinServe,Data Analyst,Python,2,Pune,Indeed,Selected,Selected,2026-07-28,Accepted,2026-07-31,Joined,2026-08-12,11.99,,26.0
+CAND00379,Rohit Patel,2026-07-07,Recruiter A,Enterprise Solutions,IT Support Engineer,GCP,1,Pune,Recruiter Sourcing,Selected,Selected,2026-07-18,Accepted,2026-07-25,Joined,2026-08-22,8.87,,46.0
+CAND00380,Nikhil Rao,2026-04-17,Recruiter A,HealthTech,Python Developer,Linux,8,Hyderabad,Indeed,Selected,Selected,2026-04-21,Accepted,2026-04-27,Joined,2026-05-07,13.43,,20.0
+CAND00381,Neha Gupta,2026-07-12,Recruiter E,Global Systems,Technical Support Engineer,Linux,2,Chennai,Employee Referral,Selected,Selected,2026-07-23,Accepted,2026-07-28,Joined,2026-08-09,9.58,,28.0
+CAND00382,Neha Reddy,2026-07-15,Recruiter B,DigitalWorks,Technical Support Engineer,C#,3,Pune,Recruiter Sourcing,Selected,No Show,2026-07-25,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00383,Sneha Sharma,2026-03-10,Recruiter D,Enterprise Solutions,Data Analyst,SQL,6,Delhi NCR,Employee Referral,Selected,Selected,2026-03-17,Accepted,2026-03-18,Joined,2026-04-04,17.83,,25.0
+CAND00384,Rohit Gupta,2026-06-09,Recruiter B,DigitalWorks,Python Developer,Java,5,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-06-12,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00385,Sanjay Kumar,2026-03-04,Recruiter E,FinServe,AI Engineer,Python,1,Chennai,Recruiter Sourcing,Selected,Selected,2026-03-11,Accepted,2026-03-16,Joined,2026-04-26,11.33,,53.0
+CAND00386,Arjun Das,2026-05-04,Recruiter E,FinServe,Python Developer,Linux,8,Mumbai,Recruiter Sourcing,Selected,Selected,2026-05-10,Accepted,2026-05-16,Joined,2026-05-26,10.51,,22.0
+CAND00387,Rahul Sharma,2026-04-10,Recruiter C,Enterprise Solutions,Data Analyst,Python,6,Chennai,Recruiter Sourcing,Selected,Selected,2026-04-13,Rejected,2026-04-17,Not Applicable,,,Interview failed,
+CAND00388,Rohit Das,2026-01-23,Recruiter B,HealthTech,IT Support Engineer,Python,8,Hyderabad,Naukri,Selected,Selected,2026-01-27,Accepted,2026-02-02,Joined,2026-02-28,7.31,,36.0
+CAND00389,Ananya Verma,2026-07-27,Recruiter A,CloudWorks,Software Engineer,Python,3,Mumbai,Indeed,Selected,Rejected,2026-08-08,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00390,Amit Rao,2026-05-14,Recruiter E,HealthTech,Software Engineer,Java,6,Mumbai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00391,Kiran Gupta,2026-05-19,Recruiter B,HealthTech,Cloud Support Engineer,Java,8,Bangalore,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00392,Swathi Reddy,2026-06-17,Recruiter E,FinServe,GCP Engineer,SQL,1,Mumbai,Company Website,Selected,Rejected,2026-06-21,Not Applicable,,Not Applicable,,,Position closed,
+CAND00393,Rahul Singh,2026-04-16,Recruiter D,CloudWorks,IT Support Engineer,AWS,1,Bangalore,Naukri,Selected,Selected,2026-04-27,Accepted,2026-05-02,Joined,2026-05-23,12.35,,37.0
+CAND00394,Sneha Kumar,2026-04-02,Recruiter A,DigitalWorks,Cloud Support Engineer,C#,5,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-04-11,Accepted,2026-04-13,Joined,2026-05-16,14.7,,44.0
+CAND00395,Rahul Verma,2026-04-16,Recruiter B,HealthTech,Technical Support Engineer,SQL,7,Bangalore,Employee Referral,Selected,Rejected,2026-04-21,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00396,Neha Kumar,2026-06-05,Recruiter D,Enterprise Solutions,Software Engineer,Python,7,Mumbai,LinkedIn,Selected,Rejected,2026-06-10,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00397,Ananya Rao,2026-07-08,Recruiter A,DataSystems,Python Developer,Java,6,Chennai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00398,Nikhil Verma,2026-04-29,Recruiter B,DataSystems,AI Engineer,Python,2,Delhi NCR,Company Website,Selected,Rejected,2026-05-02,Not Applicable,,Not Applicable,,,Position closed,
+CAND00399,Ananya Sharma,2026-02-16,Recruiter E,FinServe,Software Engineer,Linux,0,Chennai,Employee Referral,Selected,Rejected,2026-02-21,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00400,Amit Verma,2026-03-24,Recruiter B,Global Systems,Data Analyst,SQL,5,Delhi NCR,Employee Referral,Selected,Rejected,2026-04-03,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00401,Priya Rao,2026-05-21,Recruiter D,TechCorp,Cloud Support Engineer,Power BI,2,Mumbai,Recruiter Sourcing,Selected,Selected,2026-05-23,Accepted,2026-05-26,Joined,2026-06-30,8.04,,40.0
+CAND00402,Priya Sharma,2026-02-03,Recruiter B,TechCorp,AI Engineer,Python,7,Pune,Employee Referral,Selected,Selected,2026-02-12,Accepted,2026-02-17,Joined,2026-03-25,9.74,,50.0
+CAND00403,Amit Naidu,2026-06-03,Recruiter A,HealthTech,AI Engineer,Java,2,Hyderabad,Naukri,Selected,Selected,2026-06-07,Rejected,2026-06-13,Not Applicable,,,Salary expectations,
+CAND00404,Nikhil Naidu,2026-03-18,Recruiter C,Global Systems,Python Developer,SQL,2,Pune,Naukri,Selected,Rejected,2026-03-29,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00405,Meera Das,2026-02-15,Recruiter D,Enterprise Solutions,Python Developer,SQL,5,Chennai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00406,Amit Rao,2026-08-04,Recruiter E,Global Systems,AI Engineer,C#,4,Bangalore,LinkedIn,Selected,Selected,2026-08-09,Accepted,2026-08-14,Joined,2026-09-26,14.22,,53.0
+CAND00407,Pooja Das,2026-01-23,Recruiter D,CloudWorks,Software Engineer,Power BI,5,Chennai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00408,Rohit Gupta,2026-05-14,Recruiter D,DigitalWorks,Cloud Support Engineer,Java,3,Delhi NCR,Indeed,Selected,Selected,2026-05-26,Rejected,2026-06-01,Not Applicable,,,Interview failed,
+CAND00409,Sneha Naidu,2026-04-17,Recruiter D,TechCorp,GCP Engineer,Power BI,3,Mumbai,Recruiter Sourcing,Selected,Selected,2026-04-23,Accepted,2026-04-24,Joined,2026-06-02,11.7,,46.0
+CAND00410,Meera Kumar,2026-01-30,Recruiter C,Enterprise Solutions,Software Engineer,Python,5,Bangalore,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00411,Vikram Gupta,2026-07-24,Recruiter A,FinServe,IT Support Engineer,GCP,8,Delhi NCR,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00412,Meera Rao,2026-07-10,Recruiter A,CloudWorks,GCP Engineer,Python,5,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00413,Kiran Sharma,2026-02-08,Recruiter C,TechCorp,GCP Engineer,Linux,2,Delhi NCR,Company Website,Selected,Selected,2026-02-19,Accepted,2026-02-26,Joined,2026-03-25,13.94,,45.0
+CAND00414,Arjun Rao,2026-01-23,Recruiter D,HealthTech,GCP Engineer,C#,8,Chennai,Naukri,Selected,Selected,2026-01-25,Accepted,2026-01-26,Joined,2026-02-03,15.19,,11.0
+CAND00415,Swathi Das,2026-02-09,Recruiter B,Enterprise Solutions,IT Support Engineer,AWS,1,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00416,Pooja Reddy,2026-02-22,Recruiter A,DigitalWorks,Software Engineer,SQL,0,Hyderabad,Indeed,Selected,Rejected,2026-02-25,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00417,Vikram Kumar,2026-01-27,Recruiter E,CloudWorks,Python Developer,AWS,5,Delhi NCR,Naukri,Selected,Selected,2026-02-06,Accepted,2026-02-10,Joined,2026-03-06,6.09,,38.0
+CAND00418,Arjun Sharma,2026-01-04,Recruiter E,Global Systems,Technical Support Engineer,Power BI,4,Mumbai,Indeed,Selected,Rejected,2026-01-10,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00419,Sneha Reddy,2026-01-19,Recruiter C,Enterprise Solutions,IT Support Engineer,Python,7,Bangalore,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00420,Amit Rao,2026-01-14,Recruiter A,DataSystems,Software Engineer,GCP,7,Delhi NCR,Company Website,Selected,Selected,2026-01-19,Accepted,2026-01-25,Joined,2026-02-06,17.63,,23.0
+CAND00421,Meera Gupta,2026-05-26,Recruiter B,Global Systems,IT Support Engineer,SQL,7,Pune,Indeed,Selected,No Show,2026-05-30,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00422,Swathi Naidu,2026-03-08,Recruiter C,DataSystems,Cloud Support Engineer,Power BI,7,Chennai,Employee Referral,Selected,Selected,2026-03-15,Accepted,2026-03-22,Joined,2026-04-20,12.46,,43.0
+CAND00423,Priya Das,2026-01-27,Recruiter D,Global Systems,GCP Engineer,SQL,7,Chennai,Company Website,Selected,Selected,2026-02-07,Accepted,2026-02-09,Candidate Dropped,2026-03-12,4.92,Candidate withdrew,44.0
+CAND00424,Sneha Naidu,2026-04-21,Recruiter D,Enterprise Solutions,Technical Support Engineer,GCP,1,Delhi NCR,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00425,Rohit Gupta,2026-01-30,Recruiter E,DigitalWorks,GCP Engineer,SQL,4,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00426,Rohit Sharma,2026-06-25,Recruiter E,DataSystems,GCP Engineer,C#,0,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-07-06,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00427,Pooja Kumar,2026-07-13,Recruiter B,FinServe,IT Support Engineer,AWS,7,Pune,Company Website,Selected,Rejected,2026-07-20,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00428,Rohit Verma,2026-04-22,Recruiter C,Global Systems,Python Developer,Linux,0,Bangalore,Indeed,Selected,Selected,2026-04-24,Accepted,2026-04-29,Joined,2026-05-28,5.54,,36.0
+CAND00429,Arjun Kumar,2026-03-02,Recruiter D,DataSystems,GCP Engineer,Linux,6,Pune,Employee Referral,Selected,Rejected,2026-03-11,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00430,Sneha Das,2026-04-09,Recruiter C,DataSystems,Cloud Support Engineer,AWS,2,Delhi NCR,Naukri,Selected,Rejected,2026-04-13,Not Applicable,,Not Applicable,,,Position closed,
+CAND00431,Swathi Gupta,2026-06-18,Recruiter D,FinServe,Data Analyst,GCP,7,Delhi NCR,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00432,Rohit Rao,2026-06-09,Recruiter B,DigitalWorks,Software Engineer,C#,3,Pune,Indeed,Selected,Rejected,2026-06-20,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00433,Nikhil Patel,2026-07-02,Recruiter E,CloudWorks,Software Engineer,Power BI,7,Hyderabad,LinkedIn,Selected,Selected,2026-07-11,Rejected,2026-07-12,Not Applicable,,,Experience mismatch,
+CAND00434,Sanjay Das,2026-08-08,Recruiter C,DigitalWorks,Data Analyst,SQL,1,Bangalore,Employee Referral,Selected,Selected,2026-08-19,Accepted,2026-08-20,Candidate Dropped,2026-09-30,14.9,Candidate withdrew,53.0
+CAND00435,Vikram Gupta,2026-05-12,Recruiter D,Enterprise Solutions,Software Engineer,Power BI,2,Chennai,Indeed,Selected,No Show,2026-05-18,Not Applicable,,Not Applicable,,,Position closed,
+CAND00436,Meera Naidu,2026-03-08,Recruiter A,DigitalWorks,Cloud Support Engineer,Python,0,Delhi NCR,Indeed,Selected,Selected,2026-03-18,Accepted,2026-03-25,Joined,2026-04-09,12.62,,32.0
+CAND00437,Arjun Verma,2026-01-04,Recruiter A,FinServe,Cloud Support Engineer,C#,4,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00438,Vikram Reddy,2026-07-24,Recruiter E,TechCorp,GCP Engineer,SQL,2,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00439,Neha Rao,2026-03-02,Recruiter D,FinServe,Technical Support Engineer,Power BI,4,Hyderabad,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00440,Rahul Reddy,2026-04-29,Recruiter D,DigitalWorks,AI Engineer,C#,3,Delhi NCR,Company Website,Selected,Rejected,2026-05-08,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00441,Priya Das,2026-04-22,Recruiter A,CloudWorks,IT Support Engineer,Linux,8,Delhi NCR,Indeed,Selected,Selected,2026-05-02,Accepted,2026-05-09,Joined,2026-06-02,8.69,,41.0
+CAND00442,Arjun Sharma,2026-03-07,Recruiter E,DataSystems,IT Support Engineer,Java,3,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-03-11,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00443,Ananya Kumar,2026-06-22,Recruiter A,Global Systems,Python Developer,Linux,1,Hyderabad,Company Website,Selected,Selected,2026-06-28,Accepted,2026-06-29,Joined,2026-07-11,4.8,,19.0
+CAND00444,Rohit Patel,2026-06-03,Recruiter A,Global Systems,Data Analyst,GCP,2,Pune,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00445,Priya Verma,2026-03-17,Recruiter D,Global Systems,IT Support Engineer,AWS,5,Pune,Recruiter Sourcing,Selected,Rejected,2026-03-23,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00446,Rahul Rao,2026-04-10,Recruiter C,TechCorp,AI Engineer,AWS,1,Bangalore,Employee Referral,Selected,No Show,2026-04-21,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00447,Priya Gupta,2026-01-28,Recruiter B,DataSystems,Technical Support Engineer,SQL,4,Pune,Recruiter Sourcing,Selected,Selected,2026-02-08,Accepted,2026-02-15,Joined,2026-03-25,6.08,,56.0
+CAND00448,Pooja Kumar,2026-01-10,Recruiter D,CloudWorks,Cloud Support Engineer,Power BI,0,Pune,Company Website,Selected,No Show,2026-01-19,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00449,Neha Rao,2026-08-05,Recruiter A,HealthTech,Python Developer,Linux,1,Delhi NCR,Employee Referral,Selected,No Show,2026-08-12,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00450,Pooja Verma,2026-04-13,Recruiter A,Global Systems,GCP Engineer,Power BI,4,Hyderabad,Employee Referral,Selected,Selected,2026-04-15,Rejected,2026-04-21,Not Applicable,,,Experience mismatch,
+CAND00451,Arjun Rao,2026-01-28,Recruiter C,DigitalWorks,Data Analyst,C#,2,Delhi NCR,Naukri,Selected,Selected,2026-02-08,Accepted,2026-02-12,Joined,2026-03-25,13.01,,56.0
+CAND00452,Vikram Das,2026-08-02,Recruiter D,TechCorp,Python Developer,Power BI,0,Hyderabad,Indeed,Selected,Selected,2026-08-14,Accepted,2026-08-18,Candidate Dropped,2026-09-28,6.09,Candidate withdrew,57.0
+CAND00453,Rohit Patel,2026-01-19,Recruiter A,FinServe,IT Support Engineer,Python,0,Pune,Company Website,Selected,Rejected,2026-01-21,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00454,Pooja Kumar,2026-03-20,Recruiter A,DigitalWorks,Cloud Support Engineer,SQL,7,Hyderabad,LinkedIn,Selected,Rejected,2026-03-23,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00455,Sneha Rao,2026-03-28,Recruiter D,Enterprise Solutions,Data Analyst,GCP,0,Chennai,Naukri,Selected,Selected,2026-03-31,Accepted,2026-04-07,Joined,2026-05-07,11.75,,40.0
+CAND00456,Vikram Patel,2026-05-29,Recruiter A,FinServe,Data Analyst,Linux,7,Bangalore,LinkedIn,Selected,Selected,2026-06-01,Accepted,2026-06-06,Candidate Dropped,2026-07-09,13.71,Candidate withdrew,41.0
+CAND00457,Meera Gupta,2026-06-27,Recruiter B,HealthTech,Cloud Support Engineer,AWS,6,Mumbai,Employee Referral,Selected,Selected,2026-06-29,Accepted,2026-07-05,Joined,2026-07-17,12.78,,20.0
+CAND00458,Meera Verma,2026-03-31,Recruiter D,TechCorp,Technical Support Engineer,Java,1,Hyderabad,Company Website,Selected,Rejected,2026-04-10,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00459,Sneha Gupta,2026-07-17,Recruiter B,CloudWorks,Python Developer,Java,7,Hyderabad,Naukri,Selected,Selected,2026-07-19,Accepted,2026-07-22,Joined,2026-08-25,7.52,,39.0
+CAND00460,Rohit Gupta,2026-01-12,Recruiter A,TechCorp,Cloud Support Engineer,GCP,8,Hyderabad,Employee Referral,Selected,Rejected,2026-01-21,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00461,Rohit Singh,2026-04-18,Recruiter B,Enterprise Solutions,Technical Support Engineer,SQL,1,Chennai,Naukri,Selected,Selected,2026-04-23,Accepted,2026-04-25,Joined,2026-06-08,10.78,,51.0
+CAND00462,Swathi Rao,2026-02-07,Recruiter B,DigitalWorks,Cloud Support Engineer,Linux,7,Chennai,Naukri,Selected,Rejected,2026-02-13,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00463,Kiran Reddy,2026-01-09,Recruiter E,TechCorp,AI Engineer,GCP,7,Hyderabad,Employee Referral,Selected,Rejected,2026-01-14,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00464,Rohit Reddy,2026-07-22,Recruiter E,FinServe,Technical Support Engineer,SQL,7,Pune,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00465,Rohit Gupta,2026-08-03,Recruiter D,CloudWorks,Python Developer,Linux,3,Delhi NCR,Naukri,Selected,Selected,2026-08-14,Rejected,2026-08-19,Not Applicable,,,Skills mismatch,
+CAND00466,Neha Kumar,2026-01-11,Recruiter D,TechCorp,Software Engineer,Linux,1,Pune,Recruiter Sourcing,Selected,Selected,2026-01-21,Accepted,2026-01-27,Joined,2026-02-16,5.86,,36.0
+CAND00467,Arjun Patel,2026-06-15,Recruiter A,TechCorp,IT Support Engineer,AWS,7,Bangalore,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00468,Rohit Kumar,2026-04-27,Recruiter D,FinServe,Software Engineer,GCP,7,Chennai,Recruiter Sourcing,Selected,Selected,2026-05-09,Accepted,2026-05-15,Joined,2026-05-24,8.15,,27.0
+CAND00469,Meera Verma,2026-06-28,Recruiter E,HealthTech,Data Analyst,Power BI,8,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00470,Kiran Kumar,2026-01-29,Recruiter D,Enterprise Solutions,IT Support Engineer,Python,2,Chennai,Indeed,Selected,Rejected,2026-02-08,Not Applicable,,Not Applicable,,,Position closed,
+CAND00471,Meera Patel,2026-02-05,Recruiter C,HealthTech,Data Analyst,C#,3,Delhi NCR,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00472,Sneha Singh,2026-04-01,Recruiter C,DataSystems,AI Engineer,Python,5,Hyderabad,Indeed,Selected,Selected,2026-04-04,Accepted,2026-04-09,Joined,2026-05-20,16.59,,49.0
+CAND00473,Vikram Naidu,2026-04-05,Recruiter A,HealthTech,IT Support Engineer,SQL,2,Hyderabad,Employee Referral,Selected,No Show,2026-04-08,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00474,Arjun Sharma,2026-06-28,Recruiter B,DigitalWorks,Cloud Support Engineer,Java,0,Mumbai,Recruiter Sourcing,Selected,No Show,2026-07-08,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00475,Vikram Singh,2026-04-18,Recruiter D,TechCorp,AI Engineer,Java,3,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00476,Pooja Singh,2026-04-16,Recruiter E,Enterprise Solutions,GCP Engineer,C#,8,Mumbai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00477,Vikram Verma,2026-05-26,Recruiter B,CloudWorks,Cloud Support Engineer,AWS,5,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00478,Nikhil Kumar,2026-02-07,Recruiter C,CloudWorks,IT Support Engineer,GCP,8,Mumbai,Naukri,Selected,No Show,2026-02-19,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00479,Priya Reddy,2026-03-02,Recruiter A,TechCorp,GCP Engineer,GCP,5,Pune,Indeed,Selected,Selected,2026-03-04,Accepted,2026-03-07,Joined,2026-04-11,11.56,,40.0
+CAND00480,Priya Das,2026-03-19,Recruiter A,TechCorp,Software Engineer,C#,5,Bangalore,Employee Referral,Selected,No Show,2026-03-29,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00481,Kiran Verma,2026-05-02,Recruiter C,FinServe,IT Support Engineer,Power BI,7,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00482,Pooja Das,2026-01-30,Recruiter C,TechCorp,Software Engineer,Java,1,Pune,Indeed,Selected,Rejected,2026-02-04,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00483,Ananya Patel,2026-07-20,Recruiter C,HealthTech,Python Developer,SQL,1,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00484,Sneha Gupta,2026-03-23,Recruiter E,TechCorp,GCP Engineer,Linux,6,Bangalore,Recruiter Sourcing,Selected,Selected,2026-03-29,Accepted,2026-04-01,Candidate Dropped,2026-05-13,5.23,Candidate withdrew,51.0
+CAND00485,Sanjay Gupta,2026-07-09,Recruiter D,DigitalWorks,AI Engineer,GCP,6,Delhi NCR,Employee Referral,Selected,Rejected,2026-07-12,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00486,Sneha Verma,2026-05-02,Recruiter E,Enterprise Solutions,Data Analyst,Linux,6,Hyderabad,LinkedIn,Selected,Selected,2026-05-06,Accepted,2026-05-12,Joined,2026-05-27,6.79,,25.0
+CAND00487,Nikhil Rao,2026-03-16,Recruiter E,DigitalWorks,Python Developer,AWS,7,Mumbai,Indeed,Selected,Selected,2026-03-18,Rejected,2026-03-20,Not Applicable,,,Client rejected,
+CAND00488,Arjun Gupta,2026-02-01,Recruiter C,DataSystems,Cloud Support Engineer,C#,3,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-02-10,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00489,Rohit Singh,2026-05-29,Recruiter D,DataSystems,AI Engineer,C#,5,Delhi NCR,LinkedIn,Selected,Selected,2026-06-04,Accepted,2026-06-05,Joined,2026-07-11,16.3,,43.0
+CAND00490,Priya Singh,2026-02-11,Recruiter A,CloudWorks,GCP Engineer,Linux,0,Delhi NCR,Indeed,Selected,Selected,2026-02-14,Accepted,2026-02-21,Joined,2026-03-06,12.38,,23.0
+CAND00491,Priya Das,2026-03-24,Recruiter C,CloudWorks,AI Engineer,Power BI,5,Hyderabad,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00492,Priya Das,2026-03-14,Recruiter C,DigitalWorks,Software Engineer,Power BI,3,Bangalore,LinkedIn,Selected,Selected,2026-03-19,Rejected,2026-03-24,Not Applicable,,,Salary expectations,
+CAND00493,Sanjay Das,2026-08-05,Recruiter E,Global Systems,Software Engineer,C#,2,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00494,Kiran Verma,2026-06-26,Recruiter C,FinServe,IT Support Engineer,Power BI,4,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-07-01,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00495,Nikhil Reddy,2026-06-26,Recruiter B,CloudWorks,Cloud Support Engineer,Java,6,Bangalore,LinkedIn,Selected,Rejected,2026-06-29,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00496,Meera Gupta,2026-07-13,Recruiter D,TechCorp,Technical Support Engineer,SQL,8,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-07-19,Accepted,2026-07-22,Joined,2026-08-04,14.95,,22.0
+CAND00497,Swathi Naidu,2026-02-22,Recruiter E,HealthTech,Cloud Support Engineer,Power BI,2,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00498,Rohit Singh,2026-04-01,Recruiter B,HealthTech,Data Analyst,SQL,8,Mumbai,LinkedIn,Selected,Selected,2026-04-07,Accepted,2026-04-14,Joined,2026-04-27,16.94,,26.0
+CAND00499,Swathi Das,2026-08-06,Recruiter D,Enterprise Solutions,Cloud Support Engineer,C#,2,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00500,Neha Patel,2026-05-12,Recruiter B,DataSystems,Data Analyst,Power BI,1,Hyderabad,Employee Referral,Selected,Selected,2026-05-19,Accepted,2026-05-24,Joined,2026-06-05,8.59,,24.0
+CAND00501,Amit Rao,2026-03-14,Recruiter D,CloudWorks,IT Support Engineer,Java,4,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00502,Sneha Sharma,2026-08-04,Recruiter D,Enterprise Solutions,Cloud Support Engineer,Python,1,Delhi NCR,Employee Referral,Selected,Selected,2026-08-16,Accepted,2026-08-18,Joined,2026-10-01,17.69,,58.0
+CAND00503,Sanjay Reddy,2026-01-17,Recruiter C,HealthTech,GCP Engineer,Java,1,Mumbai,Employee Referral,Selected,Selected,2026-01-26,Accepted,2026-02-01,Joined,2026-03-17,7.82,,59.0
+CAND00504,Meera Rao,2026-04-02,Recruiter D,DataSystems,IT Support Engineer,AWS,1,Bangalore,Employee Referral,Selected,Selected,2026-04-07,Accepted,2026-04-09,Joined,2026-04-19,15.62,,17.0
+CAND00505,Vikram Kumar,2026-02-15,Recruiter D,Enterprise Solutions,Cloud Support Engineer,AWS,1,Mumbai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00506,Meera Das,2026-07-16,Recruiter D,DigitalWorks,Technical Support Engineer,AWS,7,Delhi NCR,Employee Referral,Selected,Selected,2026-07-26,Accepted,2026-08-02,Joined,2026-09-05,16.32,,51.0
+CAND00507,Amit Rao,2026-04-26,Recruiter C,DataSystems,IT Support Engineer,C#,2,Hyderabad,LinkedIn,Selected,Rejected,2026-05-02,Not Applicable,,Not Applicable,,,Position closed,
+CAND00508,Priya Gupta,2026-04-21,Recruiter B,CloudWorks,Software Engineer,C#,7,Hyderabad,Company Website,Selected,Rejected,2026-05-02,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00509,Vikram Das,2026-08-07,Recruiter B,TechCorp,Software Engineer,AWS,6,Pune,Company Website,Selected,Selected,2026-08-13,Accepted,2026-08-14,Joined,2026-08-29,15.72,,22.0
+CAND00510,Kiran Naidu,2026-01-07,Recruiter C,DataSystems,Data Analyst,Linux,6,Chennai,Indeed,Selected,Rejected,2026-01-12,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00511,Pooja Verma,2026-06-01,Recruiter A,Global Systems,AI Engineer,SQL,0,Chennai,Naukri,Selected,Selected,2026-06-13,Rejected,2026-06-18,Not Applicable,,,Salary expectations,
+CAND00512,Swathi Rao,2026-03-10,Recruiter A,DigitalWorks,Python Developer,Power BI,6,Pune,Company Website,Selected,Selected,2026-03-19,Accepted,2026-03-25,Joined,2026-05-02,11.04,,53.0
+CAND00513,Meera Singh,2026-02-12,Recruiter E,CloudWorks,GCP Engineer,Linux,1,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00514,Sneha Verma,2026-03-09,Recruiter A,CloudWorks,Software Engineer,Java,1,Mumbai,Recruiter Sourcing,Selected,Selected,2026-03-20,Accepted,2026-03-21,Joined,2026-04-30,10.65,,52.0
+CAND00515,Sneha Singh,2026-07-23,Recruiter A,CloudWorks,AI Engineer,Linux,5,Delhi NCR,Company Website,Selected,Selected,2026-08-03,Accepted,2026-08-09,Joined,2026-08-27,16.33,,35.0
+CAND00516,Pooja Das,2026-08-09,Recruiter B,DigitalWorks,Technical Support Engineer,C#,8,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00517,Meera Rao,2026-05-25,Recruiter A,HealthTech,GCP Engineer,C#,2,Bangalore,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00518,Arjun Rao,2026-04-16,Recruiter C,Global Systems,Technical Support Engineer,Linux,2,Chennai,Indeed,Selected,Rejected,2026-04-24,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00519,Amit Reddy,2026-02-19,Recruiter A,HealthTech,AI Engineer,C#,6,Pune,Company Website,Selected,No Show,2026-02-24,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00520,Arjun Reddy,2026-01-08,Recruiter C,CloudWorks,Cloud Support Engineer,Python,0,Delhi NCR,Employee Referral,Selected,Rejected,2026-01-15,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00521,Arjun Sharma,2026-04-15,Recruiter C,Global Systems,Software Engineer,GCP,8,Bangalore,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00522,Pooja Naidu,2026-07-18,Recruiter E,CloudWorks,IT Support Engineer,SQL,1,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00523,Kiran Naidu,2026-07-08,Recruiter D,HealthTech,Software Engineer,Java,2,Bangalore,LinkedIn,Selected,Selected,2026-07-16,Accepted,2026-07-21,Joined,2026-08-31,9.25,,54.0
+CAND00524,Amit Singh,2026-05-20,Recruiter D,DigitalWorks,Technical Support Engineer,AWS,7,Bangalore,Indeed,Selected,Rejected,2026-05-22,Not Applicable,,Not Applicable,,,Position closed,
+CAND00525,Swathi Naidu,2026-01-09,Recruiter A,HealthTech,AI Engineer,Linux,5,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00526,Amit Das,2026-03-02,Recruiter D,DataSystems,Python Developer,Linux,1,Chennai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00527,Sneha Verma,2026-02-23,Recruiter B,DigitalWorks,GCP Engineer,Linux,1,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00528,Vikram Rao,2026-08-04,Recruiter C,DataSystems,Data Analyst,GCP,8,Delhi NCR,Indeed,Selected,Selected,2026-08-14,Accepted,2026-08-18,Joined,2026-08-28,12.98,,24.0
+CAND00529,Priya Gupta,2026-07-22,Recruiter B,TechCorp,Software Engineer,Java,5,Delhi NCR,Indeed,Selected,Selected,2026-07-27,Accepted,2026-08-03,Joined,2026-08-18,15.86,,27.0
+CAND00530,Pooja Rao,2026-07-22,Recruiter C,DigitalWorks,IT Support Engineer,GCP,5,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00531,Amit Rao,2026-04-05,Recruiter B,DataSystems,Software Engineer,Java,8,Hyderabad,LinkedIn,Selected,Rejected,2026-04-08,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00532,Sneha Verma,2026-06-29,Recruiter B,TechCorp,Software Engineer,Linux,2,Mumbai,Indeed,Selected,Selected,2026-07-10,Accepted,2026-07-16,Joined,2026-08-21,15.58,,53.0
+CAND00533,Vikram Sharma,2026-02-27,Recruiter B,HealthTech,AI Engineer,AWS,6,Delhi NCR,Employee Referral,Selected,Rejected,2026-03-10,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00534,Nikhil Verma,2026-07-06,Recruiter B,DataSystems,Cloud Support Engineer,Linux,4,Bangalore,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00535,Rohit Gupta,2026-03-05,Recruiter C,DigitalWorks,Data Analyst,Python,5,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00536,Pooja Patel,2026-07-02,Recruiter D,DataSystems,AI Engineer,SQL,0,Hyderabad,Company Website,Selected,No Show,2026-07-11,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00537,Rohit Naidu,2026-07-01,Recruiter A,TechCorp,AI Engineer,Linux,5,Chennai,Employee Referral,Selected,Rejected,2026-07-03,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00538,Priya Verma,2026-02-13,Recruiter E,DigitalWorks,GCP Engineer,C#,5,Bangalore,LinkedIn,Selected,Selected,2026-02-19,Accepted,2026-02-20,Candidate Dropped,2026-03-30,16.2,Candidate withdrew,45.0
+CAND00539,Nikhil Verma,2026-07-11,Recruiter C,DataSystems,AI Engineer,AWS,8,Mumbai,Indeed,Selected,Rejected,2026-07-18,Not Applicable,,Not Applicable,,,Position closed,
+CAND00540,Vikram Reddy,2026-05-23,Recruiter D,TechCorp,Technical Support Engineer,GCP,2,Hyderabad,Naukri,Selected,Selected,2026-06-01,Accepted,2026-06-05,Joined,2026-07-04,17.84,,42.0
+CAND00541,Ananya Gupta,2026-04-28,Recruiter D,Global Systems,Cloud Support Engineer,SQL,3,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00542,Nikhil Reddy,2026-07-11,Recruiter E,CloudWorks,Technical Support Engineer,Python,2,Mumbai,Company Website,Selected,Selected,2026-07-20,Accepted,2026-07-23,Joined,2026-08-06,9.52,,26.0
+CAND00543,Rohit Sharma,2026-08-03,Recruiter C,FinServe,Python Developer,SQL,7,Pune,Recruiter Sourcing,Selected,No Show,2026-08-14,Not Applicable,,Not Applicable,,,Position closed,
+CAND00544,Rahul Singh,2026-01-12,Recruiter E,DigitalWorks,GCP Engineer,GCP,4,Bangalore,LinkedIn,Selected,Selected,2026-01-15,Accepted,2026-01-20,Joined,2026-02-21,7.57,,40.0
+CAND00545,Sneha Rao,2026-01-23,Recruiter A,HealthTech,Cloud Support Engineer,Linux,2,Pune,Indeed,Selected,Selected,2026-01-31,Accepted,2026-02-03,Candidate Dropped,2026-03-20,5.84,Candidate withdrew,56.0
+CAND00546,Pooja Sharma,2026-08-02,Recruiter C,HealthTech,IT Support Engineer,C#,4,Pune,Employee Referral,Selected,Selected,2026-08-10,Rejected,2026-08-15,Not Applicable,,,Experience mismatch,
+CAND00547,Neha Rao,2026-01-24,Recruiter A,Enterprise Solutions,IT Support Engineer,Java,2,Delhi NCR,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00548,Pooja Das,2026-01-22,Recruiter C,DigitalWorks,Software Engineer,SQL,2,Pune,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00549,Swathi Verma,2026-08-04,Recruiter B,DataSystems,AI Engineer,Python,0,Mumbai,LinkedIn,Selected,Selected,2026-08-12,Accepted,2026-08-18,Joined,2026-09-10,8.98,,37.0
+CAND00550,Rohit Sharma,2026-07-16,Recruiter E,TechCorp,Data Analyst,C#,6,Bangalore,Naukri,Selected,Selected,2026-07-22,Accepted,2026-07-28,Joined,2026-09-01,12.73,,47.0
+CAND00551,Arjun Singh,2026-07-27,Recruiter B,HealthTech,Cloud Support Engineer,SQL,4,Delhi NCR,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00552,Neha Das,2026-01-05,Recruiter A,DataSystems,Data Analyst,Python,7,Bangalore,Recruiter Sourcing,Selected,Selected,2026-01-17,Rejected,2026-01-22,Not Applicable,,,Position closed,
+CAND00553,Vikram Verma,2026-06-08,Recruiter E,Enterprise Solutions,Software Engineer,AWS,2,Hyderabad,Naukri,Selected,Selected,2026-06-10,Accepted,2026-06-12,Candidate Dropped,2026-07-02,10.74,Candidate withdrew,24.0
+CAND00554,Priya Patel,2026-04-22,Recruiter E,HealthTech,Data Analyst,AWS,7,Pune,Naukri,Selected,Selected,2026-04-26,Accepted,2026-04-30,Candidate Dropped,2026-06-06,4.27,Candidate withdrew,45.0
+CAND00555,Vikram Naidu,2026-03-04,Recruiter B,CloudWorks,Software Engineer,Python,1,Chennai,LinkedIn,Selected,Rejected,2026-03-12,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00556,Vikram Naidu,2026-06-02,Recruiter E,CloudWorks,Python Developer,C#,8,Pune,Employee Referral,Selected,Rejected,2026-06-14,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00557,Nikhil Gupta,2026-03-01,Recruiter A,TechCorp,Software Engineer,Power BI,4,Mumbai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00558,Swathi Gupta,2026-01-30,Recruiter D,Enterprise Solutions,IT Support Engineer,Linux,4,Hyderabad,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00559,Kiran Gupta,2026-03-01,Recruiter E,HealthTech,GCP Engineer,C#,6,Bangalore,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00560,Pooja Singh,2026-07-23,Recruiter D,FinServe,Technical Support Engineer,AWS,1,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-07-28,Accepted,2026-08-01,Joined,2026-09-03,17.2,,42.0
+CAND00561,Vikram Verma,2026-03-02,Recruiter B,TechCorp,Python Developer,Power BI,2,Chennai,Indeed,Selected,Rejected,2026-03-12,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00562,Meera Sharma,2026-03-28,Recruiter D,Global Systems,Technical Support Engineer,SQL,7,Mumbai,Naukri,Selected,Selected,2026-04-04,Accepted,2026-04-11,Candidate Dropped,2026-05-05,16.55,Candidate withdrew,38.0
+CAND00563,Nikhil Das,2026-06-04,Recruiter A,TechCorp,IT Support Engineer,C#,1,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00564,Ananya Sharma,2026-02-12,Recruiter A,HealthTech,GCP Engineer,GCP,7,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00565,Sanjay Sharma,2026-02-09,Recruiter C,Enterprise Solutions,Cloud Support Engineer,SQL,6,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00566,Sneha Gupta,2026-03-29,Recruiter C,FinServe,Data Analyst,AWS,6,Chennai,Recruiter Sourcing,Selected,Rejected,2026-04-02,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00567,Meera Das,2026-04-18,Recruiter B,FinServe,Software Engineer,Linux,8,Pune,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00568,Rahul Gupta,2026-02-07,Recruiter A,Global Systems,Data Analyst,Power BI,2,Chennai,Employee Referral,Selected,Selected,2026-02-09,Accepted,2026-02-15,Joined,2026-03-30,4.81,,51.0
+CAND00569,Pooja Das,2026-03-17,Recruiter D,DataSystems,AI Engineer,Power BI,4,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00570,Swathi Reddy,2026-06-29,Recruiter D,DigitalWorks,Technical Support Engineer,C#,6,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00571,Amit Kumar,2026-05-18,Recruiter C,DataSystems,Cloud Support Engineer,AWS,8,Bangalore,LinkedIn,Selected,Selected,2026-05-30,Accepted,2026-05-31,Candidate Dropped,2026-07-11,12.3,Candidate withdrew,54.0
+CAND00572,Sneha Verma,2026-07-05,Recruiter D,Global Systems,Python Developer,Power BI,8,Chennai,Recruiter Sourcing,Selected,Selected,2026-07-17,Rejected,2026-07-21,Not Applicable,,,Client rejected,
+CAND00573,Rohit Kumar,2026-04-27,Recruiter C,HealthTech,Technical Support Engineer,Power BI,2,Chennai,Indeed,Selected,Selected,2026-05-02,Accepted,2026-05-07,Joined,2026-06-06,10.36,,40.0
+CAND00574,Priya Rao,2026-08-01,Recruiter D,Global Systems,Data Analyst,Python,7,Pune,Naukri,Selected,Selected,2026-08-13,Accepted,2026-08-18,Joined,2026-09-19,16.21,,49.0
+CAND00575,Rohit Gupta,2026-06-12,Recruiter D,DigitalWorks,IT Support Engineer,Linux,8,Bangalore,Naukri,Selected,Rejected,2026-06-16,Not Applicable,,Not Applicable,,,Position closed,
+CAND00576,Ananya Das,2026-01-31,Recruiter B,DigitalWorks,IT Support Engineer,Python,8,Delhi NCR,Naukri,Selected,No Show,2026-02-11,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00577,Neha Sharma,2026-01-31,Recruiter C,CloudWorks,Python Developer,GCP,4,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00578,Arjun Gupta,2026-01-08,Recruiter B,FinServe,Software Engineer,Python,3,Chennai,Indeed,Selected,Rejected,2026-01-10,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00579,Ananya Singh,2026-01-18,Recruiter A,DataSystems,IT Support Engineer,AWS,5,Mumbai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00580,Nikhil Naidu,2026-02-03,Recruiter B,DigitalWorks,IT Support Engineer,C#,5,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-02-14,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00581,Neha Patel,2026-04-12,Recruiter C,TechCorp,IT Support Engineer,AWS,2,Delhi NCR,LinkedIn,Selected,Selected,2026-04-18,Accepted,2026-04-19,Joined,2026-05-01,6.69,,19.0
+CAND00582,Rohit Das,2026-05-28,Recruiter A,HealthTech,IT Support Engineer,Python,8,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-06-02,Accepted,2026-06-08,Joined,2026-07-22,10.22,,55.0
+CAND00583,Meera Das,2026-06-05,Recruiter C,DataSystems,Python Developer,C#,6,Hyderabad,Indeed,Selected,Selected,2026-06-15,Accepted,2026-06-18,Joined,2026-07-01,11.58,,26.0
+CAND00584,Arjun Reddy,2026-02-16,Recruiter C,Global Systems,Cloud Support Engineer,AWS,2,Pune,Recruiter Sourcing,Selected,No Show,2026-02-20,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00585,Sanjay Kumar,2026-03-18,Recruiter D,Global Systems,GCP Engineer,GCP,4,Pune,Indeed,Selected,Rejected,2026-03-21,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00586,Sneha Patel,2026-07-12,Recruiter E,HealthTech,IT Support Engineer,Linux,0,Hyderabad,Indeed,Selected,Selected,2026-07-15,Accepted,2026-07-19,Joined,2026-07-27,7.77,,15.0
+CAND00587,Rohit Sharma,2026-03-05,Recruiter E,FinServe,AI Engineer,Linux,8,Pune,LinkedIn,Selected,No Show,2026-03-12,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00588,Priya Patel,2026-05-18,Recruiter D,DigitalWorks,Python Developer,Python,4,Pune,Company Website,Selected,Selected,2026-05-20,Rejected,2026-05-24,Not Applicable,,,Client rejected,
+CAND00589,Rohit Verma,2026-08-03,Recruiter D,Enterprise Solutions,Technical Support Engineer,AWS,8,Hyderabad,Naukri,Selected,Selected,2026-08-11,Accepted,2026-08-18,Joined,2026-09-29,17.98,,57.0
+CAND00590,Swathi Rao,2026-02-23,Recruiter E,Enterprise Solutions,GCP Engineer,AWS,4,Delhi NCR,Employee Referral,Selected,No Show,2026-03-02,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00591,Vikram Naidu,2026-03-26,Recruiter A,FinServe,Python Developer,C#,2,Hyderabad,LinkedIn,Selected,Rejected,2026-04-04,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00592,Neha Das,2026-01-21,Recruiter A,TechCorp,IT Support Engineer,SQL,5,Chennai,Employee Referral,Selected,Rejected,2026-01-23,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00593,Vikram Singh,2026-02-19,Recruiter D,TechCorp,Technical Support Engineer,Python,5,Chennai,Recruiter Sourcing,Selected,Rejected,2026-03-03,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00594,Meera Patel,2026-03-01,Recruiter D,Enterprise Solutions,Python Developer,AWS,3,Pune,Recruiter Sourcing,Selected,No Show,2026-03-13,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00595,Amit Verma,2026-05-26,Recruiter E,DigitalWorks,Cloud Support Engineer,Java,2,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-05-29,Accepted,2026-06-03,Candidate Dropped,2026-07-13,14.2,Candidate withdrew,48.0
+CAND00596,Arjun Patel,2026-08-06,Recruiter A,CloudWorks,IT Support Engineer,Python,0,Pune,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00597,Neha Rao,2026-03-12,Recruiter A,DigitalWorks,IT Support Engineer,Power BI,3,Mumbai,LinkedIn,Selected,No Show,2026-03-22,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00598,Kiran Kumar,2026-04-11,Recruiter B,Enterprise Solutions,Data Analyst,Python,6,Delhi NCR,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00599,Sneha Reddy,2026-03-26,Recruiter C,Global Systems,Data Analyst,Python,0,Pune,Employee Referral,Selected,Rejected,2026-04-02,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00600,Arjun Patel,2026-01-28,Recruiter D,HealthTech,GCP Engineer,Python,3,Chennai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00601,Rohit Naidu,2026-04-23,Recruiter A,DigitalWorks,Data Analyst,SQL,6,Hyderabad,LinkedIn,Selected,Rejected,2026-04-26,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00602,Priya Kumar,2026-07-25,Recruiter D,TechCorp,AI Engineer,Linux,0,Hyderabad,LinkedIn,Selected,Selected,2026-08-02,Accepted,2026-08-07,Joined,2026-08-28,16.1,,34.0
+CAND00603,Meera Naidu,2026-01-03,Recruiter D,DataSystems,IT Support Engineer,Linux,1,Mumbai,Company Website,Selected,No Show,2026-01-05,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00604,Ananya Singh,2026-05-31,Recruiter B,Global Systems,Data Analyst,Python,1,Mumbai,Recruiter Sourcing,Selected,Rejected,2026-06-11,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00605,Pooja Das,2026-03-07,Recruiter C,DataSystems,IT Support Engineer,C#,2,Bangalore,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00606,Priya Verma,2026-05-30,Recruiter D,Enterprise Solutions,AI Engineer,GCP,4,Bangalore,Employee Referral,Selected,Selected,2026-06-01,Accepted,2026-06-07,Joined,2026-06-17,7.32,,18.0
+CAND00607,Nikhil Das,2026-08-08,Recruiter A,DataSystems,GCP Engineer,Java,3,Bangalore,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00608,Sneha Gupta,2026-06-27,Recruiter D,Enterprise Solutions,GCP Engineer,AWS,2,Pune,Indeed,Selected,Rejected,2026-06-29,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00609,Sneha Kumar,2026-06-13,Recruiter B,HealthTech,IT Support Engineer,Java,5,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00610,Sneha Rao,2026-02-17,Recruiter A,Enterprise Solutions,Python Developer,SQL,8,Chennai,LinkedIn,Selected,Selected,2026-02-22,Accepted,2026-03-01,Joined,2026-03-09,6.79,,20.0
+CAND00611,Arjun Reddy,2026-02-26,Recruiter C,FinServe,GCP Engineer,Java,0,Bangalore,Naukri,Selected,Selected,2026-03-01,Accepted,2026-03-07,Joined,2026-03-21,8.74,,23.0
+CAND00612,Sneha Verma,2026-04-27,Recruiter B,Enterprise Solutions,GCP Engineer,GCP,6,Mumbai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00613,Amit Reddy,2026-02-03,Recruiter B,HealthTech,Software Engineer,Power BI,6,Chennai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00614,Swathi Kumar,2026-07-15,Recruiter E,HealthTech,AI Engineer,GCP,0,Chennai,Naukri,Selected,Selected,2026-07-19,Rejected,2026-07-24,Not Applicable,,,Candidate withdrew,
+CAND00615,Sneha Sharma,2026-07-20,Recruiter D,Global Systems,Cloud Support Engineer,Linux,5,Delhi NCR,Company Website,Selected,Selected,2026-07-27,Accepted,2026-08-01,Joined,2026-09-08,10.63,,50.0
+CAND00616,Rohit Rao,2026-06-13,Recruiter E,TechCorp,Technical Support Engineer,Java,3,Bangalore,Employee Referral,Selected,Selected,2026-06-21,Accepted,2026-06-28,Joined,2026-08-09,5.19,,57.0
+CAND00617,Meera Sharma,2026-03-17,Recruiter D,Enterprise Solutions,Technical Support Engineer,Python,5,Pune,Company Website,Selected,Selected,2026-03-25,Accepted,2026-03-29,Joined,2026-04-29,4.35,,43.0
+CAND00618,Vikram Patel,2026-03-09,Recruiter A,Enterprise Solutions,Data Analyst,AWS,8,Mumbai,Company Website,Selected,Rejected,2026-03-14,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00619,Amit Sharma,2026-04-03,Recruiter A,HealthTech,GCP Engineer,Java,4,Delhi NCR,Indeed,Selected,Rejected,2026-04-15,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00620,Arjun Patel,2026-06-30,Recruiter E,FinServe,AI Engineer,Python,5,Chennai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00621,Neha Naidu,2026-07-13,Recruiter A,DigitalWorks,Cloud Support Engineer,Linux,3,Bangalore,Naukri,Selected,Selected,2026-07-23,Accepted,2026-07-29,Joined,2026-08-26,15.09,,44.0
+CAND00622,Kiran Patel,2026-04-20,Recruiter D,HealthTech,IT Support Engineer,C#,5,Mumbai,LinkedIn,Selected,Rejected,2026-04-26,Not Applicable,,Not Applicable,,,Position closed,
+CAND00623,Rahul Gupta,2026-07-27,Recruiter C,Enterprise Solutions,Technical Support Engineer,Linux,6,Pune,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00624,Ananya Verma,2026-03-25,Recruiter E,TechCorp,Python Developer,GCP,6,Bangalore,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00625,Neha Sharma,2026-05-17,Recruiter D,HealthTech,IT Support Engineer,SQL,7,Chennai,Company Website,Selected,Selected,2026-05-21,Accepted,2026-05-26,Joined,2026-07-10,10.84,,54.0
+CAND00626,Priya Patel,2026-01-18,Recruiter D,CloudWorks,Technical Support Engineer,Java,8,Chennai,Recruiter Sourcing,Selected,Selected,2026-01-28,Accepted,2026-01-31,Candidate Dropped,2026-03-05,9.48,Candidate withdrew,46.0
+CAND00627,Amit Reddy,2026-05-18,Recruiter D,DigitalWorks,Data Analyst,Linux,3,Bangalore,Naukri,Selected,Rejected,2026-05-30,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00628,Priya Naidu,2026-05-28,Recruiter C,HealthTech,IT Support Engineer,AWS,2,Bangalore,LinkedIn,Selected,Rejected,2026-06-08,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00629,Sneha Das,2026-03-26,Recruiter E,DigitalWorks,IT Support Engineer,C#,1,Mumbai,LinkedIn,Selected,Rejected,2026-04-04,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00630,Sanjay Verma,2026-04-11,Recruiter E,FinServe,Software Engineer,Java,6,Bangalore,Company Website,Selected,No Show,2026-04-15,Not Applicable,,Not Applicable,,,Position closed,
+CAND00631,Rohit Sharma,2026-04-11,Recruiter A,HealthTech,Cloud Support Engineer,AWS,4,Delhi NCR,Company Website,Selected,Selected,2026-04-16,Rejected,2026-04-20,Not Applicable,,,Interview failed,
+CAND00632,Ananya Sharma,2026-04-05,Recruiter A,Global Systems,GCP Engineer,Linux,4,Pune,Naukri,Selected,Selected,2026-04-07,Accepted,2026-04-13,Joined,2026-05-19,9.34,,44.0
+CAND00633,Sanjay Rao,2026-08-08,Recruiter B,DataSystems,Python Developer,Python,2,Chennai,LinkedIn,Selected,Rejected,2026-08-17,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00634,Amit Sharma,2026-05-21,Recruiter B,DigitalWorks,Cloud Support Engineer,C#,2,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00635,Amit Reddy,2026-03-17,Recruiter A,DataSystems,Cloud Support Engineer,SQL,4,Delhi NCR,LinkedIn,Selected,Selected,2026-03-22,Accepted,2026-03-28,Joined,2026-05-02,13.75,,46.0
+CAND00636,Nikhil Das,2026-06-14,Recruiter A,DataSystems,AI Engineer,C#,0,Hyderabad,Company Website,Selected,Selected,2026-06-19,Rejected,2026-06-22,Not Applicable,,,Experience mismatch,
+CAND00637,Sneha Sharma,2026-01-05,Recruiter D,TechCorp,Python Developer,Power BI,1,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-01-17,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00638,Sanjay Reddy,2026-01-12,Recruiter D,Global Systems,GCP Engineer,Power BI,3,Mumbai,Recruiter Sourcing,Selected,No Show,2026-01-20,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00639,Amit Patel,2026-02-24,Recruiter A,Enterprise Solutions,GCP Engineer,GCP,5,Hyderabad,Employee Referral,Selected,Selected,2026-03-01,Accepted,2026-03-08,Joined,2026-04-07,4.62,,42.0
+CAND00640,Swathi Patel,2026-04-16,Recruiter C,DigitalWorks,Data Analyst,GCP,5,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00641,Neha Reddy,2026-03-27,Recruiter B,Enterprise Solutions,IT Support Engineer,SQL,7,Chennai,LinkedIn,Selected,Rejected,2026-04-01,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00642,Rohit Kumar,2026-03-01,Recruiter A,Global Systems,AI Engineer,Java,3,Delhi NCR,Employee Referral,Selected,Selected,2026-03-08,Accepted,2026-03-10,Joined,2026-03-30,12.99,,29.0
+CAND00643,Sneha Naidu,2026-04-24,Recruiter C,FinServe,AI Engineer,Power BI,8,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00644,Pooja Verma,2026-07-12,Recruiter A,HealthTech,GCP Engineer,Power BI,8,Bangalore,Naukri,Selected,No Show,2026-07-17,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00645,Pooja Patel,2026-06-05,Recruiter D,Enterprise Solutions,Cloud Support Engineer,C#,1,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00646,Sneha Kumar,2026-06-12,Recruiter B,HealthTech,Cloud Support Engineer,SQL,8,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00647,Sneha Das,2026-01-21,Recruiter D,DigitalWorks,AI Engineer,GCP,3,Delhi NCR,Naukri,Selected,Rejected,2026-01-27,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00648,Rohit Gupta,2026-06-12,Recruiter B,CloudWorks,IT Support Engineer,SQL,6,Chennai,Employee Referral,Selected,Selected,2026-06-22,Accepted,2026-06-26,Joined,2026-08-02,4.28,,51.0
+CAND00649,Neha Rao,2026-08-07,Recruiter A,CloudWorks,Cloud Support Engineer,GCP,7,Chennai,Employee Referral,Selected,Selected,2026-08-17,Accepted,2026-08-18,Joined,2026-09-24,6.74,,48.0
+CAND00650,Swathi Patel,2026-01-02,Recruiter A,Enterprise Solutions,IT Support Engineer,Linux,5,Pune,Employee Referral,Selected,Selected,2026-01-13,Accepted,2026-01-14,Candidate Dropped,2026-01-28,9.39,Candidate withdrew,26.0
+CAND00651,Rohit Reddy,2026-02-19,Recruiter D,CloudWorks,GCP Engineer,C#,5,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-02-27,Not Applicable,,Not Applicable,,,Position closed,
+CAND00652,Sneha Patel,2026-05-03,Recruiter A,Enterprise Solutions,Python Developer,GCP,7,Chennai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00653,Arjun Patel,2026-06-04,Recruiter E,FinServe,Python Developer,SQL,6,Hyderabad,Recruiter Sourcing,Selected,Rejected,2026-06-07,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00654,Swathi Patel,2026-04-19,Recruiter B,DataSystems,AI Engineer,AWS,6,Mumbai,Company Website,Selected,Rejected,2026-04-22,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00655,Pooja Naidu,2026-07-18,Recruiter C,FinServe,AI Engineer,Java,4,Delhi NCR,Employee Referral,Selected,Selected,2026-07-27,Accepted,2026-07-28,Joined,2026-08-30,11.35,,43.0
+CAND00656,Pooja Verma,2026-07-07,Recruiter D,FinServe,Cloud Support Engineer,Power BI,2,Bangalore,Recruiter Sourcing,Selected,Selected,2026-07-10,Accepted,2026-07-17,Joined,2026-08-05,4.83,,29.0
+CAND00657,Priya Patel,2026-03-08,Recruiter D,DigitalWorks,Data Analyst,GCP,1,Hyderabad,Indeed,Selected,Selected,2026-03-15,Accepted,2026-03-17,Joined,2026-03-30,4.13,,22.0
+CAND00658,Arjun Kumar,2026-06-20,Recruiter E,TechCorp,Data Analyst,Java,6,Mumbai,LinkedIn,Selected,No Show,2026-06-26,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00659,Vikram Singh,2026-06-04,Recruiter D,Enterprise Solutions,GCP Engineer,Power BI,5,Chennai,Naukri,Selected,Selected,2026-06-06,Rejected,2026-06-13,Not Applicable,,,Client rejected,
+CAND00660,Meera Sharma,2026-01-01,Recruiter D,DataSystems,Cloud Support Engineer,Python,8,Mumbai,LinkedIn,Selected,Rejected,2026-01-06,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00661,Vikram Naidu,2026-06-25,Recruiter D,DataSystems,Technical Support Engineer,Python,0,Delhi NCR,Indeed,Selected,Rejected,2026-07-02,Not Applicable,,Not Applicable,,,Position closed,
+CAND00662,Vikram Patel,2026-06-05,Recruiter D,DataSystems,Data Analyst,Power BI,1,Pune,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00663,Rohit Patel,2026-07-02,Recruiter B,TechCorp,Cloud Support Engineer,C#,8,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00664,Priya Gupta,2026-01-30,Recruiter D,HealthTech,Technical Support Engineer,Java,1,Bangalore,Recruiter Sourcing,Selected,No Show,2026-02-01,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00665,Swathi Singh,2026-04-09,Recruiter C,HealthTech,AI Engineer,C#,2,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00666,Sanjay Gupta,2026-01-24,Recruiter C,HealthTech,Data Analyst,Power BI,6,Pune,Recruiter Sourcing,Selected,Rejected,2026-02-01,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00667,Sneha Patel,2026-03-08,Recruiter A,CloudWorks,Data Analyst,SQL,3,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00668,Rohit Singh,2026-02-02,Recruiter C,DataSystems,Python Developer,AWS,8,Hyderabad,Company Website,Selected,Selected,2026-02-10,Accepted,2026-02-13,Joined,2026-02-28,11.28,,26.0
+CAND00669,Rohit Naidu,2026-02-26,Recruiter A,DataSystems,Python Developer,C#,4,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00670,Pooja Gupta,2026-02-07,Recruiter E,CloudWorks,Cloud Support Engineer,Python,4,Mumbai,Indeed,Selected,Rejected,2026-02-13,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00671,Sanjay Naidu,2026-05-03,Recruiter B,DigitalWorks,AI Engineer,Linux,2,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00672,Nikhil Patel,2026-06-29,Recruiter A,FinServe,IT Support Engineer,Linux,2,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00673,Neha Singh,2026-04-19,Recruiter D,Enterprise Solutions,Software Engineer,Linux,4,Hyderabad,Company Website,Selected,No Show,2026-04-29,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00674,Amit Reddy,2026-03-24,Recruiter E,TechCorp,AI Engineer,C#,2,Delhi NCR,Naukri,Selected,Selected,2026-03-28,Accepted,2026-04-04,Joined,2026-04-11,9.07,,18.0
+CAND00675,Nikhil Naidu,2026-01-27,Recruiter B,DataSystems,Software Engineer,GCP,5,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00676,Rahul Sharma,2026-05-12,Recruiter C,DataSystems,Cloud Support Engineer,Linux,1,Bangalore,LinkedIn,Selected,Selected,2026-05-23,Rejected,2026-05-29,Not Applicable,,,Position closed,
+CAND00677,Neha Sharma,2026-07-19,Recruiter D,DataSystems,AI Engineer,C#,1,Chennai,LinkedIn,Selected,Selected,2026-07-31,Accepted,2026-08-05,Joined,2026-09-18,12.02,,61.0
+CAND00678,Rohit Gupta,2026-03-12,Recruiter A,FinServe,Software Engineer,C#,6,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-03-19,Accepted,2026-03-26,Joined,2026-04-13,9.67,,32.0
+CAND00679,Sanjay Kumar,2026-04-11,Recruiter E,DigitalWorks,Data Analyst,SQL,1,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-04-15,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00680,Ananya Gupta,2026-07-24,Recruiter C,Global Systems,Python Developer,GCP,2,Mumbai,Naukri,Selected,Selected,2026-07-26,Accepted,2026-07-27,Joined,2026-08-26,17.53,,33.0
+CAND00681,Priya Rao,2026-06-18,Recruiter A,HealthTech,AI Engineer,Python,8,Mumbai,Indeed,Selected,Selected,2026-06-25,Accepted,2026-06-28,Joined,2026-08-06,6.94,,49.0
+CAND00682,Amit Kumar,2026-03-02,Recruiter A,HealthTech,Cloud Support Engineer,AWS,8,Bangalore,Naukri,Selected,Selected,2026-03-06,Accepted,2026-03-10,Joined,2026-04-02,7.65,,31.0
+CAND00683,Pooja Reddy,2026-04-13,Recruiter D,Global Systems,AI Engineer,Linux,8,Delhi NCR,Naukri,Selected,Rejected,2026-04-19,Not Applicable,,Not Applicable,,,Position closed,
+CAND00684,Sanjay Patel,2026-07-02,Recruiter C,FinServe,Software Engineer,GCP,6,Chennai,Employee Referral,Selected,Rejected,2026-07-05,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00685,Amit Das,2026-01-29,Recruiter E,DataSystems,Data Analyst,Power BI,5,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00686,Arjun Reddy,2026-07-24,Recruiter B,CloudWorks,Python Developer,SQL,6,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00687,Swathi Sharma,2026-02-14,Recruiter E,CloudWorks,IT Support Engineer,SQL,4,Mumbai,Indeed,Selected,Rejected,2026-02-16,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00688,Kiran Rao,2026-02-16,Recruiter C,DataSystems,IT Support Engineer,GCP,8,Chennai,LinkedIn,Selected,Rejected,2026-02-20,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00689,Rohit Verma,2026-01-14,Recruiter C,HealthTech,Software Engineer,C#,5,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00690,Arjun Verma,2026-04-20,Recruiter E,HealthTech,AI Engineer,SQL,5,Chennai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00691,Amit Sharma,2026-07-06,Recruiter B,Global Systems,Cloud Support Engineer,Python,4,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-07-08,Rejected,2026-07-12,Not Applicable,,,Position closed,
+CAND00692,Ananya Reddy,2026-05-03,Recruiter D,Global Systems,Software Engineer,Python,0,Mumbai,Naukri,Selected,Rejected,2026-05-10,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00693,Sanjay Das,2026-06-25,Recruiter E,TechCorp,IT Support Engineer,GCP,3,Delhi NCR,Company Website,Selected,Selected,2026-06-29,Accepted,2026-06-30,Joined,2026-07-31,6.39,,36.0
+CAND00694,Amit Singh,2026-06-23,Recruiter B,Global Systems,AI Engineer,AWS,4,Pune,Indeed,Selected,Rejected,2026-07-04,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00695,Sneha Verma,2026-06-14,Recruiter E,TechCorp,IT Support Engineer,C#,0,Hyderabad,Indeed,Selected,Selected,2026-06-21,Accepted,2026-06-24,Candidate Dropped,2026-07-12,9.63,Candidate withdrew,28.0
+CAND00696,Rahul Sharma,2026-04-21,Recruiter D,HealthTech,Data Analyst,GCP,7,Pune,LinkedIn,Selected,Rejected,2026-04-27,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00697,Vikram Rao,2026-04-06,Recruiter C,Enterprise Solutions,Software Engineer,GCP,1,Mumbai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00698,Nikhil Gupta,2026-02-11,Recruiter B,Enterprise Solutions,Software Engineer,Python,3,Chennai,Recruiter Sourcing,Selected,Selected,2026-02-15,Accepted,2026-02-21,Joined,2026-03-02,6.24,,19.0
+CAND00699,Sneha Gupta,2026-06-20,Recruiter C,Global Systems,Software Engineer,C#,2,Mumbai,Employee Referral,Selected,Rejected,2026-06-28,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00700,Sanjay Rao,2026-02-03,Recruiter A,Global Systems,Python Developer,GCP,8,Bangalore,Indeed,Selected,Rejected,2026-02-05,Not Applicable,,Not Applicable,,,Position closed,
+CAND00701,Nikhil Singh,2026-04-20,Recruiter E,TechCorp,Software Engineer,C#,7,Chennai,Indeed,Selected,Selected,2026-05-01,Accepted,2026-05-06,Joined,2026-05-30,14.73,,40.0
+CAND00702,Nikhil Verma,2026-06-29,Recruiter B,DataSystems,Technical Support Engineer,C#,8,Delhi NCR,LinkedIn,Selected,Selected,2026-07-10,Accepted,2026-07-12,Joined,2026-07-27,9.62,,28.0
+CAND00703,Arjun Patel,2026-02-07,Recruiter D,TechCorp,Technical Support Engineer,SQL,6,Hyderabad,Employee Referral,Selected,Rejected,2026-02-12,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00704,Kiran Rao,2026-05-03,Recruiter A,DataSystems,Python Developer,AWS,5,Hyderabad,Indeed,Selected,Selected,2026-05-11,Accepted,2026-05-12,Joined,2026-05-19,4.73,,16.0
+CAND00705,Sanjay Singh,2026-02-24,Recruiter C,DigitalWorks,AI Engineer,SQL,4,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00706,Kiran Verma,2026-01-29,Recruiter A,TechCorp,Cloud Support Engineer,Power BI,5,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00707,Ananya Naidu,2026-04-06,Recruiter B,CloudWorks,Technical Support Engineer,Linux,2,Hyderabad,LinkedIn,Selected,Rejected,2026-04-08,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00708,Swathi Patel,2026-02-19,Recruiter D,Global Systems,Data Analyst,Power BI,7,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00709,Ananya Reddy,2026-01-12,Recruiter B,HealthTech,Software Engineer,AWS,5,Mumbai,Indeed,Selected,Rejected,2026-01-20,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00710,Vikram Rao,2026-05-15,Recruiter E,TechCorp,Cloud Support Engineer,AWS,4,Delhi NCR,Naukri,Selected,Selected,2026-05-20,Accepted,2026-05-24,Joined,2026-07-04,16.18,,50.0
+CAND00711,Amit Reddy,2026-04-23,Recruiter E,DataSystems,Software Engineer,Linux,3,Mumbai,Indeed,Selected,Selected,2026-04-28,Accepted,2026-04-29,Candidate Dropped,2026-06-07,10.38,Candidate withdrew,45.0
+CAND00712,Sanjay Das,2026-03-08,Recruiter C,HealthTech,AI Engineer,AWS,2,Mumbai,LinkedIn,Selected,Selected,2026-03-14,Accepted,2026-03-16,Candidate Dropped,2026-04-09,16.98,Candidate withdrew,32.0
+CAND00713,Arjun Kumar,2026-06-14,Recruiter B,HealthTech,Data Analyst,Python,5,Delhi NCR,Indeed,Selected,No Show,2026-06-24,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00714,Sanjay Reddy,2026-04-15,Recruiter E,CloudWorks,GCP Engineer,Python,5,Delhi NCR,LinkedIn,Selected,No Show,2026-04-19,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00715,Rahul Das,2026-06-18,Recruiter E,Global Systems,Software Engineer,AWS,8,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-06-25,Accepted,2026-06-30,Joined,2026-08-01,6.18,,44.0
+CAND00716,Sneha Rao,2026-04-05,Recruiter B,DigitalWorks,Data Analyst,C#,2,Bangalore,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00717,Sneha Naidu,2026-05-06,Recruiter B,CloudWorks,Python Developer,AWS,6,Bangalore,Naukri,Selected,Selected,2026-05-10,Accepted,2026-05-12,Joined,2026-06-13,5.4,,38.0
+CAND00718,Ananya Reddy,2026-07-06,Recruiter A,Global Systems,Software Engineer,Linux,0,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00719,Swathi Kumar,2026-02-03,Recruiter B,Global Systems,AI Engineer,GCP,0,Delhi NCR,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00720,Meera Sharma,2026-05-19,Recruiter C,Global Systems,Technical Support Engineer,GCP,7,Pune,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00721,Kiran Gupta,2026-02-09,Recruiter B,TechCorp,AI Engineer,SQL,1,Hyderabad,LinkedIn,Selected,Selected,2026-02-17,Accepted,2026-02-19,Joined,2026-03-25,9.4,,44.0
+CAND00722,Kiran Verma,2026-02-27,Recruiter D,Global Systems,IT Support Engineer,GCP,1,Hyderabad,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00723,Kiran Sharma,2026-06-07,Recruiter C,Global Systems,GCP Engineer,SQL,2,Hyderabad,Company Website,Selected,Selected,2026-06-18,Accepted,2026-06-22,Joined,2026-07-18,12.75,,41.0
+CAND00724,Arjun Singh,2026-01-27,Recruiter C,DigitalWorks,GCP Engineer,AWS,0,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00725,Meera Reddy,2026-03-23,Recruiter B,DataSystems,IT Support Engineer,C#,6,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00726,Priya Sharma,2026-03-24,Recruiter B,FinServe,Software Engineer,Power BI,6,Chennai,Employee Referral,Selected,No Show,2026-04-04,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00727,Pooja Singh,2026-02-05,Recruiter B,DataSystems,Software Engineer,C#,7,Mumbai,Company Website,Selected,Rejected,2026-02-13,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00728,Rohit Rao,2026-05-15,Recruiter E,HealthTech,Data Analyst,Java,3,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00729,Kiran Das,2026-05-02,Recruiter B,Global Systems,Python Developer,Power BI,4,Chennai,Naukri,Selected,Rejected,2026-05-12,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00730,Sneha Patel,2026-07-31,Recruiter B,TechCorp,Cloud Support Engineer,SQL,2,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-08-08,Accepted,2026-08-14,Joined,2026-09-27,5.03,,58.0
+CAND00731,Nikhil Naidu,2026-02-10,Recruiter A,FinServe,GCP Engineer,GCP,1,Hyderabad,Naukri,Selected,Rejected,2026-02-18,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00732,Meera Reddy,2026-05-01,Recruiter B,CloudWorks,IT Support Engineer,Linux,7,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00733,Rahul Verma,2026-01-29,Recruiter B,TechCorp,Python Developer,GCP,0,Mumbai,Naukri,Selected,Selected,2026-02-07,Accepted,2026-02-14,Joined,2026-03-29,11.03,,59.0
+CAND00734,Sanjay Patel,2026-04-19,Recruiter B,CloudWorks,Data Analyst,Linux,3,Bangalore,Recruiter Sourcing,Selected,Selected,2026-04-27,Accepted,2026-05-03,Candidate Dropped,2026-06-17,15.78,Candidate withdrew,59.0
+CAND00735,Nikhil Gupta,2026-05-03,Recruiter C,DataSystems,Software Engineer,GCP,6,Hyderabad,Indeed,Selected,Selected,2026-05-06,Accepted,2026-05-13,Joined,2026-05-21,7.35,,18.0
+CAND00736,Priya Das,2026-01-28,Recruiter A,HealthTech,Python Developer,AWS,3,Bangalore,Company Website,Selected,Selected,2026-02-03,Accepted,2026-02-08,Joined,2026-03-23,17.81,,54.0
+CAND00737,Vikram Kumar,2026-01-13,Recruiter C,Global Systems,AI Engineer,Python,6,Chennai,Indeed,Selected,Selected,2026-01-21,Accepted,2026-01-23,Joined,2026-02-05,8.64,,23.0
+CAND00738,Swathi Das,2026-01-26,Recruiter E,FinServe,Python Developer,Linux,0,Pune,Company Website,Selected,Selected,2026-02-04,Accepted,2026-02-10,Joined,2026-03-03,16.38,,36.0
+CAND00739,Meera Reddy,2026-07-16,Recruiter B,Enterprise Solutions,IT Support Engineer,GCP,5,Chennai,Indeed,Selected,No Show,2026-07-18,Not Applicable,,Not Applicable,,,Position closed,
+CAND00740,Meera Rao,2026-03-03,Recruiter B,Global Systems,Cloud Support Engineer,C#,2,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00741,Ananya Sharma,2026-05-08,Recruiter A,DigitalWorks,GCP Engineer,GCP,1,Chennai,Naukri,Selected,Selected,2026-05-11,Accepted,2026-05-17,Joined,2026-06-09,17.81,,32.0
+CAND00742,Arjun Gupta,2026-06-16,Recruiter B,Global Systems,IT Support Engineer,Python,6,Chennai,Indeed,Selected,Rejected,2026-06-28,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00743,Vikram Singh,2026-05-12,Recruiter E,Enterprise Solutions,GCP Engineer,SQL,8,Delhi NCR,Employee Referral,Selected,Rejected,2026-05-24,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00744,Rohit Kumar,2026-07-09,Recruiter B,TechCorp,Cloud Support Engineer,SQL,2,Chennai,Employee Referral,Selected,Rejected,2026-07-14,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00745,Nikhil Gupta,2026-06-21,Recruiter A,Enterprise Solutions,IT Support Engineer,C#,7,Delhi NCR,Company Website,Selected,Selected,2026-06-24,Rejected,2026-06-28,Not Applicable,,,Interview failed,
+CAND00746,Neha Patel,2026-04-13,Recruiter C,Global Systems,GCP Engineer,Power BI,3,Mumbai,Employee Referral,Selected,Selected,2026-04-19,Accepted,2026-04-24,Joined,2026-05-31,6.04,,48.0
+CAND00747,Sneha Singh,2026-05-26,Recruiter A,DataSystems,Python Developer,Power BI,3,Pune,Employee Referral,Selected,Rejected,2026-06-07,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00748,Arjun Verma,2026-06-12,Recruiter B,Global Systems,Cloud Support Engineer,SQL,1,Chennai,Employee Referral,Selected,Rejected,2026-06-20,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00749,Sneha Verma,2026-02-17,Recruiter A,Global Systems,Software Engineer,Power BI,3,Chennai,Naukri,Selected,Selected,2026-02-26,Accepted,2026-03-05,Joined,2026-04-08,8.97,,50.0
+CAND00750,Sanjay Naidu,2026-04-10,Recruiter A,HealthTech,Data Analyst,GCP,5,Chennai,Recruiter Sourcing,Selected,Rejected,2026-04-14,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00751,Nikhil Singh,2026-01-30,Recruiter D,CloudWorks,Python Developer,C#,7,Bangalore,Recruiter Sourcing,Selected,Selected,2026-02-01,Accepted,2026-02-03,Joined,2026-03-16,14.84,,45.0
+CAND00752,Rohit Rao,2026-02-25,Recruiter C,HealthTech,Technical Support Engineer,Python,0,Chennai,Indeed,Selected,Selected,2026-02-28,Accepted,2026-03-06,Candidate Dropped,2026-04-08,9.75,Candidate withdrew,42.0
+CAND00753,Kiran Das,2026-04-20,Recruiter E,Enterprise Solutions,Data Analyst,GCP,5,Pune,Employee Referral,Selected,Rejected,2026-04-30,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00754,Neha Verma,2026-08-05,Recruiter D,CloudWorks,Data Analyst,SQL,0,Hyderabad,LinkedIn,Selected,Selected,2026-08-14,Accepted,2026-08-19,Candidate Dropped,2026-09-01,12.87,Candidate withdrew,27.0
+CAND00755,Ananya Naidu,2026-07-26,Recruiter A,CloudWorks,Software Engineer,Java,8,Bangalore,Employee Referral,Selected,Selected,2026-08-04,Rejected,2026-08-07,Not Applicable,,,Interview failed,
+CAND00756,Swathi Gupta,2026-04-16,Recruiter D,TechCorp,GCP Engineer,Java,4,Mumbai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00757,Arjun Rao,2026-06-22,Recruiter B,TechCorp,Software Engineer,Python,2,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00758,Nikhil Das,2026-07-29,Recruiter E,Enterprise Solutions,GCP Engineer,GCP,3,Mumbai,Employee Referral,Selected,Selected,2026-08-09,Accepted,2026-08-16,Joined,2026-09-28,10.01,,61.0
+CAND00759,Pooja Rao,2026-07-06,Recruiter B,DataSystems,GCP Engineer,GCP,1,Pune,Naukri,Selected,Selected,2026-07-09,Accepted,2026-07-16,Joined,2026-08-08,15.72,,33.0
+CAND00760,Priya Singh,2026-02-22,Recruiter A,Global Systems,Python Developer,Linux,2,Hyderabad,Recruiter Sourcing,Selected,Rejected,2026-02-25,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00761,Neha Kumar,2026-07-10,Recruiter B,DigitalWorks,GCP Engineer,GCP,3,Bangalore,Recruiter Sourcing,Selected,Selected,2026-07-15,Accepted,2026-07-22,Joined,2026-08-14,13.23,,35.0
+CAND00762,Arjun Sharma,2026-02-06,Recruiter A,Global Systems,Data Analyst,C#,1,Mumbai,LinkedIn,Selected,Selected,2026-02-10,Accepted,2026-02-14,Joined,2026-03-06,9.47,,28.0
+CAND00763,Vikram Kumar,2026-04-16,Recruiter A,DigitalWorks,Data Analyst,Java,6,Delhi NCR,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00764,Swathi Gupta,2026-07-26,Recruiter B,FinServe,AI Engineer,Python,0,Bangalore,Recruiter Sourcing,Selected,Selected,2026-08-02,Accepted,2026-08-07,Joined,2026-08-14,6.22,,19.0
+CAND00765,Sanjay Verma,2026-02-01,Recruiter B,TechCorp,Python Developer,GCP,1,Bangalore,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00766,Kiran Reddy,2026-02-26,Recruiter A,FinServe,AI Engineer,AWS,1,Pune,Naukri,Selected,Selected,2026-03-04,Accepted,2026-03-11,Joined,2026-04-19,17.25,,52.0
+CAND00767,Swathi Patel,2026-03-06,Recruiter B,HealthTech,AI Engineer,Linux,4,Hyderabad,Company Website,Selected,Selected,2026-03-15,Accepted,2026-03-19,Joined,2026-04-12,15.42,,37.0
+CAND00768,Rohit Sharma,2026-06-05,Recruiter D,DataSystems,Technical Support Engineer,Power BI,1,Chennai,Recruiter Sourcing,Selected,Rejected,2026-06-15,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00769,Rohit Rao,2026-03-17,Recruiter E,Enterprise Solutions,Software Engineer,Python,5,Hyderabad,Naukri,Selected,Selected,2026-03-22,Accepted,2026-03-28,Joined,2026-04-13,14.91,,27.0
+CAND00770,Amit Kumar,2026-03-23,Recruiter A,Enterprise Solutions,Technical Support Engineer,C#,3,Mumbai,Indeed,Selected,Selected,2026-04-03,Accepted,2026-04-05,Joined,2026-04-29,14.03,,37.0
+CAND00771,Swathi Sharma,2026-05-27,Recruiter D,DataSystems,GCP Engineer,Power BI,0,Bangalore,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00772,Rahul Verma,2026-04-18,Recruiter A,Global Systems,IT Support Engineer,GCP,6,Mumbai,Indeed,Selected,Selected,2026-04-20,Accepted,2026-04-27,Joined,2026-05-04,16.76,,16.0
+CAND00773,Arjun Reddy,2026-08-04,Recruiter D,TechCorp,Python Developer,Power BI,1,Delhi NCR,LinkedIn,Selected,Rejected,2026-08-12,Not Applicable,,Not Applicable,,,Position closed,
+CAND00774,Arjun Verma,2026-03-23,Recruiter C,DataSystems,Data Analyst,Power BI,0,Pune,Company Website,Selected,Rejected,2026-04-01,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00775,Nikhil Sharma,2026-08-04,Recruiter C,Global Systems,Python Developer,Java,2,Hyderabad,LinkedIn,Selected,Selected,2026-08-12,Accepted,2026-08-13,Joined,2026-09-12,15.43,,39.0
+CAND00776,Ananya Kumar,2026-06-26,Recruiter A,CloudWorks,Python Developer,SQL,1,Hyderabad,Indeed,Selected,Rejected,2026-07-04,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00777,Sanjay Reddy,2026-02-05,Recruiter E,DigitalWorks,Data Analyst,GCP,6,Chennai,Naukri,Selected,Rejected,2026-02-15,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00778,Sneha Naidu,2026-05-03,Recruiter D,CloudWorks,GCP Engineer,C#,4,Bangalore,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00779,Amit Singh,2026-05-23,Recruiter B,HealthTech,Data Analyst,SQL,3,Pune,LinkedIn,Selected,Selected,2026-05-31,Accepted,2026-06-01,Joined,2026-07-15,14.66,,53.0
+CAND00780,Ananya Singh,2026-07-14,Recruiter C,DigitalWorks,Cloud Support Engineer,SQL,5,Bangalore,Naukri,Selected,Selected,2026-07-25,Accepted,2026-08-01,Joined,2026-08-12,7.89,,29.0
+CAND00781,Priya Verma,2026-05-28,Recruiter A,FinServe,IT Support Engineer,SQL,3,Delhi NCR,LinkedIn,Selected,Selected,2026-06-03,Accepted,2026-06-09,Joined,2026-07-08,7.72,,41.0
+CAND00782,Swathi Das,2026-01-22,Recruiter C,DataSystems,Technical Support Engineer,GCP,6,Pune,Company Website,Selected,Selected,2026-01-28,Accepted,2026-01-29,Joined,2026-03-04,6.72,,41.0
+CAND00783,Sneha Rao,2026-02-15,Recruiter E,CloudWorks,IT Support Engineer,Linux,0,Hyderabad,Recruiter Sourcing,Selected,No Show,2026-02-20,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00784,Rahul Kumar,2026-05-28,Recruiter C,HealthTech,Data Analyst,SQL,6,Chennai,Naukri,Selected,Selected,2026-06-03,Accepted,2026-06-05,Joined,2026-07-04,12.92,,37.0
+CAND00785,Sanjay Naidu,2026-03-15,Recruiter A,Global Systems,Cloud Support Engineer,C#,3,Delhi NCR,Indeed,Selected,Rejected,2026-03-19,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00786,Kiran Gupta,2026-02-06,Recruiter A,DigitalWorks,Software Engineer,Power BI,4,Hyderabad,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00787,Pooja Kumar,2026-06-02,Recruiter C,DigitalWorks,Python Developer,C#,1,Bangalore,Employee Referral,Selected,Selected,2026-06-14,Rejected,2026-06-21,Not Applicable,,,Experience mismatch,
+CAND00788,Ananya Das,2026-02-12,Recruiter B,Global Systems,Data Analyst,AWS,7,Delhi NCR,Indeed,Selected,Selected,2026-02-22,Accepted,2026-02-26,Joined,2026-04-03,4.19,,50.0
+CAND00789,Kiran Verma,2026-07-01,Recruiter C,DigitalWorks,Data Analyst,AWS,0,Delhi NCR,Company Website,Selected,Selected,2026-07-06,Accepted,2026-07-08,Joined,2026-07-16,7.42,,15.0
+CAND00790,Sanjay Rao,2026-04-03,Recruiter B,Global Systems,Technical Support Engineer,Linux,4,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00791,Ananya Gupta,2026-05-15,Recruiter B,CloudWorks,GCP Engineer,Power BI,6,Pune,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00792,Arjun Patel,2026-01-11,Recruiter E,Enterprise Solutions,Data Analyst,Linux,5,Pune,Company Website,Selected,No Show,2026-01-20,Not Applicable,,Not Applicable,,,Position closed,
+CAND00793,Priya Gupta,2026-06-24,Recruiter B,CloudWorks,Cloud Support Engineer,AWS,1,Pune,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00794,Vikram Kumar,2026-02-25,Recruiter C,Global Systems,Python Developer,C#,6,Chennai,LinkedIn,Selected,Rejected,2026-02-27,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00795,Priya Singh,2026-03-14,Recruiter E,FinServe,Data Analyst,AWS,3,Bangalore,Recruiter Sourcing,Selected,No Show,2026-03-20,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00796,Rahul Gupta,2026-04-01,Recruiter B,DataSystems,Software Engineer,Linux,4,Hyderabad,Indeed,Selected,Selected,2026-04-09,Accepted,2026-04-12,Joined,2026-04-27,13.57,,26.0
+CAND00797,Sneha Verma,2026-02-04,Recruiter D,HealthTech,AI Engineer,AWS,7,Hyderabad,Indeed,Selected,Selected,2026-02-12,Accepted,2026-02-17,Joined,2026-03-16,11.05,,40.0
+CAND00798,Pooja Singh,2026-04-30,Recruiter C,DataSystems,IT Support Engineer,Linux,0,Pune,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00799,Meera Rao,2026-01-23,Recruiter B,CloudWorks,Technical Support Engineer,Power BI,8,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00800,Rahul Rao,2026-02-02,Recruiter D,TechCorp,IT Support Engineer,C#,0,Hyderabad,LinkedIn,Selected,No Show,2026-02-05,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00801,Rohit Sharma,2026-07-30,Recruiter C,DigitalWorks,GCP Engineer,Python,8,Hyderabad,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00802,Sanjay Patel,2026-05-13,Recruiter B,DigitalWorks,Cloud Support Engineer,Java,2,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-05-15,Rejected,2026-05-20,Not Applicable,,,Position closed,
+CAND00803,Sneha Sharma,2026-01-18,Recruiter A,FinServe,Data Analyst,SQL,1,Bangalore,Naukri,Selected,Rejected,2026-01-27,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00804,Rahul Sharma,2026-03-18,Recruiter D,DigitalWorks,Cloud Support Engineer,Java,7,Mumbai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00805,Amit Rao,2026-02-07,Recruiter A,FinServe,Cloud Support Engineer,Java,8,Bangalore,Company Website,Selected,Selected,2026-02-13,Accepted,2026-02-18,Joined,2026-03-14,9.48,,35.0
+CAND00806,Sanjay Sharma,2026-04-29,Recruiter D,DataSystems,Cloud Support Engineer,Python,1,Chennai,Employee Referral,Selected,Selected,2026-05-05,Accepted,2026-05-11,Candidate Dropped,2026-06-15,4.6,Candidate withdrew,47.0
+CAND00807,Swathi Singh,2026-02-05,Recruiter D,DigitalWorks,AI Engineer,Python,8,Bangalore,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00808,Sneha Singh,2026-06-30,Recruiter E,DataSystems,Data Analyst,GCP,5,Delhi NCR,Naukri,Selected,Selected,2026-07-09,Accepted,2026-07-16,Joined,2026-08-11,16.93,,42.0
+CAND00809,Amit Gupta,2026-04-07,Recruiter D,FinServe,AI Engineer,GCP,5,Delhi NCR,Indeed,Selected,Rejected,2026-04-10,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00810,Rahul Reddy,2026-03-01,Recruiter A,Global Systems,IT Support Engineer,C#,3,Chennai,Naukri,Selected,Rejected,2026-03-09,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00811,Neha Sharma,2026-01-16,Recruiter E,CloudWorks,Data Analyst,Python,7,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00812,Pooja Kumar,2026-02-14,Recruiter C,Global Systems,IT Support Engineer,Linux,8,Bangalore,Recruiter Sourcing,Selected,Selected,2026-02-23,Accepted,2026-02-25,Joined,2026-03-14,10.08,,28.0
+CAND00813,Ananya Patel,2026-01-23,Recruiter E,TechCorp,Data Analyst,Java,0,Hyderabad,Naukri,Selected,Selected,2026-02-02,Rejected,2026-02-05,Not Applicable,,,Experience mismatch,
+CAND00814,Pooja Das,2026-05-08,Recruiter B,HealthTech,IT Support Engineer,Power BI,8,Chennai,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00815,Amit Gupta,2026-04-20,Recruiter D,Global Systems,Data Analyst,GCP,1,Mumbai,Indeed,Selected,Selected,2026-05-01,Accepted,2026-05-02,Joined,2026-05-27,16.91,,37.0
+CAND00816,Arjun Rao,2026-06-30,Recruiter C,Global Systems,Cloud Support Engineer,AWS,3,Hyderabad,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00817,Ananya Verma,2026-04-13,Recruiter E,TechCorp,Data Analyst,C#,0,Chennai,Recruiter Sourcing,Selected,Selected,2026-04-18,Accepted,2026-04-25,Joined,2026-05-15,11.66,,32.0
+CAND00818,Sanjay Singh,2026-07-13,Recruiter A,HealthTech,IT Support Engineer,SQL,0,Mumbai,Company Website,Selected,Selected,2026-07-21,Accepted,2026-07-26,Candidate Dropped,2026-09-06,10.7,Candidate withdrew,55.0
+CAND00819,Priya Verma,2026-07-05,Recruiter A,Global Systems,Python Developer,C#,5,Mumbai,Naukri,Selected,Selected,2026-07-10,Accepted,2026-07-11,Joined,2026-07-30,11.48,,25.0
+CAND00820,Nikhil Rao,2026-06-24,Recruiter A,DigitalWorks,Python Developer,Linux,2,Pune,Recruiter Sourcing,Selected,Selected,2026-06-28,Accepted,2026-06-29,Candidate Dropped,2026-07-29,8.93,Candidate withdrew,35.0
+CAND00821,Kiran Rao,2026-01-15,Recruiter B,HealthTech,Data Analyst,Python,8,Bangalore,Employee Referral,Selected,No Show,2026-01-17,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00822,Sanjay Patel,2026-07-28,Recruiter A,Global Systems,Python Developer,GCP,4,Pune,Naukri,Selected,Selected,2026-08-09,Rejected,2026-08-12,Not Applicable,,,Experience mismatch,
+CAND00823,Rohit Rao,2026-05-03,Recruiter A,Global Systems,Data Analyst,AWS,7,Mumbai,Naukri,Selected,Rejected,2026-05-08,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00824,Sanjay Verma,2026-04-04,Recruiter E,CloudWorks,Technical Support Engineer,AWS,8,Chennai,Recruiter Sourcing,Selected,Selected,2026-04-12,Accepted,2026-04-17,Joined,2026-04-29,6.85,,25.0
+CAND00825,Priya Das,2026-03-01,Recruiter C,HealthTech,Data Analyst,Power BI,0,Delhi NCR,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00826,Vikram Gupta,2026-01-30,Recruiter A,DigitalWorks,Python Developer,AWS,6,Chennai,Company Website,Selected,No Show,2026-02-01,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00827,Nikhil Naidu,2026-04-09,Recruiter D,TechCorp,Software Engineer,Linux,3,Pune,LinkedIn,Selected,Selected,2026-04-17,Accepted,2026-04-23,Joined,2026-06-03,14.68,,55.0
+CAND00828,Swathi Kumar,2026-06-05,Recruiter C,CloudWorks,Technical Support Engineer,Python,6,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00829,Sanjay Kumar,2026-07-26,Recruiter A,DataSystems,AI Engineer,C#,8,Pune,Company Website,Selected,No Show,2026-08-04,Not Applicable,,Not Applicable,,,Position closed,
+CAND00830,Swathi Patel,2026-02-03,Recruiter A,CloudWorks,AI Engineer,SQL,4,Bangalore,Company Website,Selected,Selected,2026-02-14,Accepted,2026-02-17,Joined,2026-04-03,4.17,,59.0
+CAND00831,Arjun Naidu,2026-06-19,Recruiter C,CloudWorks,Cloud Support Engineer,C#,7,Pune,LinkedIn,Selected,Selected,2026-06-26,Accepted,2026-07-03,Joined,2026-08-05,4.82,,47.0
+CAND00832,Amit Verma,2026-06-06,Recruiter E,Enterprise Solutions,Data Analyst,C#,4,Bangalore,Indeed,Selected,Selected,2026-06-11,Accepted,2026-06-13,Candidate Dropped,2026-06-23,7.26,Candidate withdrew,17.0
+CAND00833,Pooja Kumar,2026-02-17,Recruiter E,DigitalWorks,GCP Engineer,Python,3,Mumbai,Recruiter Sourcing,Selected,Rejected,2026-02-23,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00834,Rahul Singh,2026-05-19,Recruiter A,HealthTech,GCP Engineer,SQL,7,Hyderabad,Company Website,Selected,Selected,2026-05-24,Accepted,2026-05-27,Joined,2026-06-29,5.0,,41.0
+CAND00835,Neha Verma,2026-02-06,Recruiter A,Enterprise Solutions,GCP Engineer,Power BI,5,Pune,Recruiter Sourcing,Selected,No Show,2026-02-17,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00836,Priya Singh,2026-01-12,Recruiter C,FinServe,Python Developer,SQL,5,Mumbai,Naukri,Selected,Rejected,2026-01-22,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00837,Rohit Singh,2026-02-25,Recruiter D,TechCorp,Cloud Support Engineer,Linux,1,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00838,Rohit Das,2026-05-28,Recruiter E,DataSystems,Data Analyst,Python,8,Mumbai,Employee Referral,Selected,Selected,2026-06-02,Rejected,2026-06-05,Not Applicable,,,Experience mismatch,
+CAND00839,Kiran Patel,2026-07-24,Recruiter C,HealthTech,IT Support Engineer,Power BI,3,Delhi NCR,LinkedIn,Selected,No Show,2026-08-01,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00840,Amit Singh,2026-05-24,Recruiter E,Global Systems,GCP Engineer,C#,7,Mumbai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00841,Rohit Reddy,2026-05-18,Recruiter B,DataSystems,Cloud Support Engineer,AWS,5,Chennai,Indeed,Selected,Selected,2026-05-28,Rejected,2026-06-02,Not Applicable,,,Candidate withdrew,
+CAND00842,Pooja Patel,2026-02-16,Recruiter D,TechCorp,Cloud Support Engineer,SQL,8,Pune,Indeed,Selected,Selected,2026-02-19,Accepted,2026-02-20,Joined,2026-02-28,13.66,,12.0
+CAND00843,Amit Reddy,2026-05-12,Recruiter E,DataSystems,Software Engineer,Power BI,8,Bangalore,Employee Referral,Selected,Selected,2026-05-19,Rejected,2026-05-22,Not Applicable,,,Salary expectations,
+CAND00844,Rohit Naidu,2026-01-28,Recruiter A,Global Systems,GCP Engineer,C#,7,Pune,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00845,Arjun Gupta,2026-06-29,Recruiter B,FinServe,Data Analyst,GCP,5,Hyderabad,Company Website,Selected,Selected,2026-07-06,Accepted,2026-07-11,Joined,2026-08-04,17.23,,36.0
+CAND00846,Amit Patel,2026-03-18,Recruiter D,Enterprise Solutions,Python Developer,Linux,6,Chennai,Indeed,Selected,Selected,2026-03-22,Accepted,2026-03-28,Candidate Dropped,2026-04-17,10.03,Candidate withdrew,30.0
+CAND00847,Arjun Naidu,2026-06-07,Recruiter C,Global Systems,GCP Engineer,AWS,4,Bangalore,LinkedIn,Selected,Selected,2026-06-11,Accepted,2026-06-14,Candidate Dropped,2026-06-27,16.94,Candidate withdrew,20.0
+CAND00848,Pooja Verma,2026-02-06,Recruiter A,HealthTech,Cloud Support Engineer,Python,8,Mumbai,LinkedIn,Selected,Selected,2026-02-15,Rejected,2026-02-16,Not Applicable,,,Client rejected,
+CAND00849,Sneha Verma,2026-05-27,Recruiter D,DigitalWorks,Cloud Support Engineer,C#,1,Chennai,LinkedIn,Selected,Selected,2026-06-02,Accepted,2026-06-04,Candidate Dropped,2026-06-18,17.56,Candidate withdrew,22.0
+CAND00850,Meera Sharma,2026-07-10,Recruiter B,Global Systems,GCP Engineer,GCP,4,Mumbai,Indeed,Selected,Rejected,2026-07-22,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00851,Amit Singh,2026-01-10,Recruiter D,Global Systems,GCP Engineer,Java,0,Mumbai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00852,Rahul Patel,2026-02-05,Recruiter E,DataSystems,Technical Support Engineer,Java,2,Chennai,Employee Referral,Selected,Selected,2026-02-14,Accepted,2026-02-16,Joined,2026-02-28,17.31,,23.0
+CAND00853,Nikhil Patel,2026-01-01,Recruiter D,Global Systems,IT Support Engineer,Java,0,Delhi NCR,Naukri,Selected,Selected,2026-01-09,Accepted,2026-01-11,Joined,2026-02-17,11.43,,47.0
+CAND00854,Priya Verma,2026-08-04,Recruiter B,CloudWorks,IT Support Engineer,C#,5,Delhi NCR,Employee Referral,Selected,Selected,2026-08-09,Accepted,2026-08-16,Joined,2026-09-18,17.57,,45.0
+CAND00855,Kiran Patel,2026-06-19,Recruiter D,Global Systems,Cloud Support Engineer,C#,1,Chennai,Recruiter Sourcing,Selected,Selected,2026-06-23,Accepted,2026-06-27,Joined,2026-08-04,12.41,,46.0
+CAND00856,Pooja Patel,2026-01-08,Recruiter C,CloudWorks,Technical Support Engineer,Linux,5,Hyderabad,Company Website,Selected,Selected,2026-01-16,Rejected,2026-01-20,Not Applicable,,,Candidate withdrew,
+CAND00857,Arjun Kumar,2026-03-10,Recruiter D,HealthTech,GCP Engineer,Python,6,Chennai,Employee Referral,Selected,Rejected,2026-03-20,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00858,Meera Sharma,2026-06-07,Recruiter E,Enterprise Solutions,Cloud Support Engineer,Python,6,Delhi NCR,LinkedIn,Selected,Rejected,2026-06-14,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00859,Meera Das,2026-01-17,Recruiter A,HealthTech,GCP Engineer,Java,6,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00860,Arjun Reddy,2026-04-06,Recruiter C,DataSystems,Technical Support Engineer,Java,0,Hyderabad,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00861,Amit Das,2026-04-12,Recruiter D,TechCorp,Cloud Support Engineer,AWS,3,Chennai,LinkedIn,Selected,Rejected,2026-04-14,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00862,Sanjay Sharma,2026-07-28,Recruiter D,DataSystems,Cloud Support Engineer,AWS,1,Hyderabad,LinkedIn,Selected,Rejected,2026-08-05,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00863,Rahul Das,2026-06-04,Recruiter B,Global Systems,Software Engineer,Java,5,Mumbai,Indeed,Selected,Rejected,2026-06-10,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00864,Vikram Patel,2026-01-26,Recruiter C,DigitalWorks,Software Engineer,AWS,3,Pune,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00865,Arjun Gupta,2026-03-14,Recruiter E,HealthTech,Software Engineer,Python,6,Pune,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00866,Ananya Sharma,2026-04-26,Recruiter B,TechCorp,Software Engineer,Java,7,Pune,Indeed,Selected,Rejected,2026-05-03,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00867,Meera Sharma,2026-01-25,Recruiter E,FinServe,Technical Support Engineer,C#,1,Mumbai,Naukri,Selected,Rejected,2026-02-03,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00868,Sanjay Naidu,2026-07-14,Recruiter B,TechCorp,IT Support Engineer,AWS,5,Pune,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00869,Kiran Naidu,2026-06-03,Recruiter D,TechCorp,AI Engineer,Java,8,Mumbai,Employee Referral,Selected,No Show,2026-06-08,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00870,Vikram Gupta,2026-05-12,Recruiter E,Global Systems,Data Analyst,Linux,6,Delhi NCR,LinkedIn,Selected,Selected,2026-05-22,Accepted,2026-05-24,Joined,2026-06-07,4.55,,26.0
+CAND00871,Neha Gupta,2026-02-13,Recruiter E,DigitalWorks,Cloud Support Engineer,Linux,4,Pune,LinkedIn,Selected,No Show,2026-02-25,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00872,Ananya Singh,2026-06-07,Recruiter C,FinServe,Cloud Support Engineer,AWS,3,Mumbai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00873,Kiran Das,2026-06-04,Recruiter C,DigitalWorks,IT Support Engineer,Java,2,Chennai,Recruiter Sourcing,Selected,Rejected,2026-06-13,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00874,Kiran Rao,2026-02-15,Recruiter B,DigitalWorks,Data Analyst,Python,3,Chennai,Recruiter Sourcing,Selected,Selected,2026-02-24,Accepted,2026-02-25,Joined,2026-04-11,6.19,,55.0
+CAND00875,Kiran Das,2026-02-27,Recruiter C,TechCorp,Technical Support Engineer,AWS,4,Chennai,Employee Referral,Selected,Rejected,2026-03-05,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00876,Ananya Patel,2026-01-20,Recruiter E,FinServe,Data Analyst,Java,4,Chennai,Naukri,Selected,Selected,2026-01-30,Accepted,2026-02-06,Joined,2026-03-21,14.81,,60.0
+CAND00877,Rohit Naidu,2026-03-12,Recruiter E,DigitalWorks,Technical Support Engineer,GCP,3,Hyderabad,Naukri,Selected,Rejected,2026-03-16,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00878,Priya Gupta,2026-01-01,Recruiter C,Global Systems,Python Developer,GCP,6,Mumbai,Employee Referral,Selected,Selected,2026-01-11,Accepted,2026-01-13,Joined,2026-02-13,14.83,,43.0
+CAND00879,Sanjay Gupta,2026-04-01,Recruiter C,Enterprise Solutions,Data Analyst,Java,4,Bangalore,Recruiter Sourcing,Selected,Rejected,2026-04-11,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00880,Vikram Verma,2026-06-25,Recruiter A,DataSystems,GCP Engineer,GCP,7,Hyderabad,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00881,Sanjay Rao,2026-02-24,Recruiter E,HealthTech,Software Engineer,Power BI,0,Bangalore,Recruiter Sourcing,Selected,Selected,2026-03-01,Accepted,2026-03-04,Joined,2026-04-03,16.82,,38.0
+CAND00882,Ananya Kumar,2026-06-05,Recruiter C,TechCorp,AI Engineer,C#,4,Pune,LinkedIn,Selected,Selected,2026-06-16,Rejected,2026-06-23,Not Applicable,,,Position closed,
+CAND00883,Swathi Gupta,2026-06-05,Recruiter D,DigitalWorks,Cloud Support Engineer,C#,8,Delhi NCR,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00884,Kiran Kumar,2026-06-06,Recruiter B,FinServe,Cloud Support Engineer,SQL,0,Pune,LinkedIn,Selected,Rejected,2026-06-13,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00885,Nikhil Das,2026-03-13,Recruiter B,TechCorp,GCP Engineer,Power BI,5,Delhi NCR,Naukri,Selected,No Show,2026-03-21,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00886,Nikhil Kumar,2026-01-17,Recruiter B,FinServe,AI Engineer,SQL,0,Bangalore,Employee Referral,Selected,Selected,2026-01-27,Accepted,2026-02-02,Joined,2026-02-09,8.36,,23.0
+CAND00887,Ananya Singh,2026-01-31,Recruiter C,DigitalWorks,Data Analyst,C#,1,Hyderabad,LinkedIn,Selected,Selected,2026-02-07,Accepted,2026-02-08,Joined,2026-02-15,7.05,,15.0
+CAND00888,Kiran Gupta,2026-01-21,Recruiter B,CloudWorks,Technical Support Engineer,GCP,6,Chennai,LinkedIn,Selected,Selected,2026-01-25,Accepted,2026-01-29,Joined,2026-02-17,7.82,,27.0
+CAND00889,Sneha Reddy,2026-03-17,Recruiter C,DigitalWorks,AI Engineer,SQL,5,Pune,Indeed,Selected,Rejected,2026-03-26,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00890,Pooja Reddy,2026-01-10,Recruiter E,DataSystems,Cloud Support Engineer,Java,5,Delhi NCR,Employee Referral,Selected,Rejected,2026-01-16,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00891,Kiran Das,2026-05-22,Recruiter C,Global Systems,Technical Support Engineer,AWS,4,Bangalore,Employee Referral,Selected,Selected,2026-06-03,Accepted,2026-06-07,Joined,2026-07-21,8.52,,60.0
+CAND00892,Rohit Rao,2026-06-18,Recruiter E,TechCorp,GCP Engineer,SQL,0,Delhi NCR,Indeed,Selected,Selected,2026-06-25,Accepted,2026-06-26,Joined,2026-07-25,8.29,,37.0
+CAND00893,Vikram Das,2026-02-17,Recruiter A,DigitalWorks,IT Support Engineer,Linux,7,Delhi NCR,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00894,Sanjay Singh,2026-06-03,Recruiter C,DigitalWorks,Software Engineer,AWS,8,Hyderabad,Naukri,Selected,Selected,2026-06-09,Rejected,2026-06-13,Not Applicable,,,Salary expectations,
+CAND00895,Rahul Reddy,2026-05-12,Recruiter B,CloudWorks,Technical Support Engineer,GCP,5,Bangalore,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00896,Amit Verma,2026-07-22,Recruiter B,Enterprise Solutions,IT Support Engineer,Linux,0,Bangalore,Employee Referral,Selected,Selected,2026-07-26,Accepted,2026-07-27,Joined,2026-08-16,10.11,,25.0
+CAND00897,Sanjay Patel,2026-02-09,Recruiter E,Enterprise Solutions,Python Developer,C#,1,Bangalore,Indeed,Selected,Rejected,2026-02-14,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00898,Pooja Rao,2026-08-01,Recruiter D,HealthTech,Data Analyst,Linux,2,Bangalore,Indeed,Selected,Selected,2026-08-07,Rejected,2026-08-13,Not Applicable,,,Interview failed,
+CAND00899,Neha Naidu,2026-04-11,Recruiter E,Global Systems,GCP Engineer,C#,0,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-04-16,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00900,Kiran Singh,2026-05-09,Recruiter A,DataSystems,Data Analyst,Java,3,Bangalore,Employee Referral,Selected,Selected,2026-05-12,Accepted,2026-05-18,Joined,2026-06-03,7.99,,25.0
+CAND00901,Neha Gupta,2026-01-09,Recruiter C,DataSystems,Cloud Support Engineer,GCP,8,Pune,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00902,Meera Sharma,2026-03-30,Recruiter A,DataSystems,Python Developer,GCP,8,Chennai,Naukri,Selected,Selected,2026-04-08,Accepted,2026-04-14,Joined,2026-04-24,8.24,,25.0
+CAND00903,Arjun Sharma,2026-06-04,Recruiter D,Enterprise Solutions,IT Support Engineer,Power BI,1,Mumbai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00904,Ananya Rao,2026-06-22,Recruiter A,FinServe,Python Developer,Power BI,4,Delhi NCR,Company Website,Selected,Rejected,2026-07-01,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00905,Rahul Gupta,2026-03-14,Recruiter A,Global Systems,IT Support Engineer,C#,5,Chennai,LinkedIn,Selected,Selected,2026-03-20,Accepted,2026-03-21,Joined,2026-04-08,8.11,,25.0
+CAND00906,Neha Kumar,2026-04-25,Recruiter C,CloudWorks,Python Developer,SQL,0,Chennai,Recruiter Sourcing,Selected,Selected,2026-04-29,Accepted,2026-04-30,Joined,2026-05-16,12.86,,21.0
+CAND00907,Neha Verma,2026-03-30,Recruiter D,HealthTech,IT Support Engineer,Python,5,Hyderabad,Indeed,Selected,Rejected,2026-04-11,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00908,Swathi Sharma,2026-04-08,Recruiter E,Global Systems,GCP Engineer,AWS,0,Pune,Employee Referral,Selected,Rejected,2026-04-20,Not Applicable,,Not Applicable,,,Position closed,
+CAND00909,Swathi Sharma,2026-08-03,Recruiter D,Global Systems,Technical Support Engineer,AWS,8,Chennai,Company Website,Selected,Rejected,2026-08-05,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00910,Rohit Gupta,2026-02-25,Recruiter D,CloudWorks,Cloud Support Engineer,AWS,0,Mumbai,Recruiter Sourcing,Selected,No Show,2026-03-09,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00911,Arjun Kumar,2026-04-15,Recruiter B,TechCorp,Software Engineer,GCP,7,Chennai,Indeed,Selected,No Show,2026-04-22,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00912,Sneha Patel,2026-01-05,Recruiter C,HealthTech,Data Analyst,AWS,7,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-01-12,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00913,Neha Gupta,2026-05-23,Recruiter A,Enterprise Solutions,GCP Engineer,Power BI,2,Chennai,Employee Referral,Selected,Rejected,2026-05-28,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00914,Sanjay Reddy,2026-06-22,Recruiter D,CloudWorks,Software Engineer,Python,1,Delhi NCR,Company Website,Selected,Selected,2026-06-29,Accepted,2026-07-05,Candidate Dropped,2026-08-04,8.26,Candidate withdrew,43.0
+CAND00915,Meera Singh,2026-04-26,Recruiter D,TechCorp,Cloud Support Engineer,GCP,6,Mumbai,Indeed,Selected,Rejected,2026-05-02,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00916,Sanjay Gupta,2026-03-02,Recruiter D,FinServe,Software Engineer,SQL,3,Hyderabad,Employee Referral,Selected,Selected,2026-03-08,Accepted,2026-03-10,Joined,2026-04-11,11.7,,40.0
+CAND00917,Kiran Patel,2026-04-18,Recruiter E,CloudWorks,GCP Engineer,Power BI,5,Delhi NCR,LinkedIn,Selected,Selected,2026-04-23,Rejected,2026-04-27,Not Applicable,,,Interview failed,
+CAND00918,Vikram Verma,2026-07-31,Recruiter D,FinServe,Cloud Support Engineer,Linux,8,Chennai,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00919,Vikram Reddy,2026-06-24,Recruiter A,DataSystems,Software Engineer,Linux,0,Pune,Naukri,Selected,Selected,2026-07-05,Accepted,2026-07-06,Joined,2026-08-08,17.24,,45.0
+CAND00920,Kiran Naidu,2026-03-05,Recruiter B,DigitalWorks,Data Analyst,Power BI,6,Hyderabad,Recruiter Sourcing,Selected,Rejected,2026-03-09,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00921,Kiran Patel,2026-02-14,Recruiter D,HealthTech,GCP Engineer,GCP,0,Chennai,LinkedIn,Selected,Selected,2026-02-19,Accepted,2026-02-23,Candidate Dropped,2026-03-13,17.62,Candidate withdrew,27.0
+CAND00922,Ananya Sharma,2026-07-25,Recruiter E,Enterprise Solutions,Cloud Support Engineer,Java,1,Pune,Recruiter Sourcing,Selected,Selected,2026-08-06,Accepted,2026-08-11,Candidate Dropped,2026-09-11,4.99,Candidate withdrew,48.0
+CAND00923,Neha Verma,2026-07-03,Recruiter E,Global Systems,Python Developer,C#,0,Pune,Recruiter Sourcing,Selected,Selected,2026-07-05,Accepted,2026-07-11,Candidate Dropped,2026-08-15,10.0,Candidate withdrew,43.0
+CAND00924,Amit Sharma,2026-02-07,Recruiter C,Global Systems,Cloud Support Engineer,Power BI,5,Pune,Recruiter Sourcing,Selected,Selected,2026-02-16,Accepted,2026-02-17,Joined,2026-02-28,10.42,,21.0
+CAND00925,Sanjay Gupta,2026-07-12,Recruiter B,CloudWorks,GCP Engineer,AWS,5,Delhi NCR,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00926,Arjun Naidu,2026-03-12,Recruiter E,TechCorp,Cloud Support Engineer,GCP,0,Mumbai,Indeed,Selected,Selected,2026-03-19,Accepted,2026-03-22,Candidate Dropped,2026-04-08,11.95,Candidate withdrew,27.0
+CAND00927,Arjun Gupta,2026-07-02,Recruiter D,CloudWorks,Cloud Support Engineer,GCP,4,Bangalore,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00928,Pooja Patel,2026-01-08,Recruiter B,CloudWorks,Cloud Support Engineer,Python,8,Chennai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00929,Neha Gupta,2026-06-08,Recruiter B,Enterprise Solutions,Cloud Support Engineer,Power BI,6,Mumbai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00930,Pooja Reddy,2026-05-15,Recruiter D,FinServe,IT Support Engineer,Linux,1,Hyderabad,Recruiter Sourcing,Selected,Selected,2026-05-20,Accepted,2026-05-25,Joined,2026-06-08,13.1,,24.0
+CAND00931,Kiran Gupta,2026-04-28,Recruiter E,TechCorp,Technical Support Engineer,Java,0,Chennai,Recruiter Sourcing,Selected,Selected,2026-05-05,Accepted,2026-05-08,Joined,2026-06-18,15.85,,51.0
+CAND00932,Ananya Sharma,2026-07-24,Recruiter A,DigitalWorks,Technical Support Engineer,Java,2,Chennai,Recruiter Sourcing,Selected,Rejected,2026-07-29,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00933,Sanjay Gupta,2026-02-15,Recruiter A,CloudWorks,AI Engineer,SQL,1,Delhi NCR,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00934,Ananya Verma,2026-01-16,Recruiter B,HealthTech,Technical Support Engineer,C#,8,Pune,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00935,Kiran Sharma,2026-02-20,Recruiter D,Global Systems,IT Support Engineer,SQL,1,Pune,Naukri,Selected,Selected,2026-03-01,Accepted,2026-03-02,Joined,2026-03-16,14.08,,24.0
+CAND00936,Vikram Patel,2026-05-31,Recruiter E,DigitalWorks,Python Developer,AWS,4,Pune,Company Website,Selected,Selected,2026-06-10,Accepted,2026-06-13,Candidate Dropped,2026-07-09,7.7,Candidate withdrew,39.0
+CAND00937,Ananya Patel,2026-03-29,Recruiter C,CloudWorks,IT Support Engineer,SQL,0,Bangalore,Employee Referral,Selected,No Show,2026-04-07,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00938,Priya Reddy,2026-01-17,Recruiter D,CloudWorks,Data Analyst,C#,8,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00939,Meera Sharma,2026-07-15,Recruiter B,HealthTech,AI Engineer,AWS,7,Chennai,Company Website,Selected,Selected,2026-07-26,Accepted,2026-08-01,Joined,2026-08-18,6.69,,34.0
+CAND00940,Neha Reddy,2026-08-07,Recruiter B,FinServe,GCP Engineer,C#,6,Delhi NCR,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00941,Sneha Verma,2026-05-01,Recruiter C,Enterprise Solutions,Cloud Support Engineer,AWS,5,Chennai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00942,Vikram Verma,2026-04-19,Recruiter E,DataSystems,Software Engineer,Python,6,Pune,LinkedIn,Selected,Rejected,2026-04-28,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00943,Arjun Kumar,2026-07-29,Recruiter B,HealthTech,AI Engineer,AWS,5,Chennai,LinkedIn,Selected,Selected,2026-08-08,Accepted,2026-08-10,Joined,2026-09-18,10.16,,51.0
+CAND00944,Arjun Sharma,2026-01-20,Recruiter B,FinServe,GCP Engineer,C#,7,Delhi NCR,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00945,Meera Rao,2026-06-26,Recruiter D,HealthTech,AI Engineer,Linux,0,Hyderabad,LinkedIn,Selected,Selected,2026-07-03,Accepted,2026-07-06,Joined,2026-07-21,16.33,,25.0
+CAND00946,Amit Singh,2026-07-18,Recruiter D,FinServe,Cloud Support Engineer,AWS,8,Mumbai,Naukri,Selected,Selected,2026-07-29,Accepted,2026-08-04,Joined,2026-09-13,15.44,,57.0
+CAND00947,Sanjay Kumar,2026-02-05,Recruiter A,Enterprise Solutions,GCP Engineer,C#,2,Delhi NCR,Naukri,Selected,Selected,2026-02-12,Accepted,2026-02-18,Candidate Dropped,2026-03-13,7.58,Candidate withdrew,36.0
+CAND00948,Sanjay Kumar,2026-02-05,Recruiter A,DataSystems,Software Engineer,Linux,8,Pune,LinkedIn,Selected,No Show,2026-02-12,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00949,Rohit Rao,2026-01-09,Recruiter E,Enterprise Solutions,IT Support Engineer,AWS,1,Mumbai,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00950,Amit Das,2026-07-19,Recruiter A,FinServe,Data Analyst,C#,3,Mumbai,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00951,Pooja Rao,2026-07-29,Recruiter C,DigitalWorks,IT Support Engineer,GCP,1,Delhi NCR,Indeed,Selected,Selected,2026-08-07,Accepted,2026-08-13,Joined,2026-09-16,16.45,,49.0
+CAND00952,Neha Naidu,2026-03-17,Recruiter A,DataSystems,Python Developer,Python,6,Bangalore,Indeed,Selected,Rejected,2026-03-28,Not Applicable,,Not Applicable,,,Position closed,
+CAND00953,Meera Singh,2026-05-17,Recruiter D,HealthTech,GCP Engineer,GCP,3,Bangalore,Naukri,Selected,Selected,2026-05-27,Accepted,2026-06-03,Joined,2026-06-18,11.56,,32.0
+CAND00954,Amit Singh,2026-03-22,Recruiter B,HealthTech,Technical Support Engineer,AWS,4,Bangalore,Employee Referral,Selected,No Show,2026-03-29,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00955,Priya Gupta,2026-02-01,Recruiter D,TechCorp,IT Support Engineer,Java,7,Pune,LinkedIn,Selected,Selected,2026-02-09,Accepted,2026-02-10,Joined,2026-02-28,11.09,,27.0
+CAND00956,Rohit Das,2026-02-01,Recruiter B,HealthTech,Data Analyst,C#,5,Delhi NCR,Company Website,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00957,Neha Patel,2026-02-23,Recruiter A,Enterprise Solutions,IT Support Engineer,AWS,7,Mumbai,LinkedIn,Selected,Selected,2026-03-03,Accepted,2026-03-10,Joined,2026-04-09,17.24,,45.0
+CAND00958,Nikhil Sharma,2026-04-22,Recruiter C,HealthTech,Data Analyst,Linux,4,Pune,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00959,Rahul Reddy,2026-08-05,Recruiter B,FinServe,Python Developer,GCP,2,Mumbai,Naukri,Selected,Rejected,2026-08-07,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00960,Meera Patel,2026-07-09,Recruiter C,Enterprise Solutions,Software Engineer,GCP,2,Pune,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00961,Sanjay Reddy,2026-04-04,Recruiter A,FinServe,Python Developer,C#,6,Bangalore,Indeed,Selected,No Show,2026-04-10,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00962,Kiran Kumar,2026-07-20,Recruiter A,Enterprise Solutions,Python Developer,C#,2,Hyderabad,Recruiter Sourcing,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00963,Ananya Rao,2026-07-15,Recruiter E,FinServe,Cloud Support Engineer,SQL,3,Hyderabad,Indeed,Selected,No Show,2026-07-18,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00964,Vikram Rao,2026-08-08,Recruiter E,DigitalWorks,Cloud Support Engineer,Python,7,Chennai,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00965,Priya Singh,2026-06-18,Recruiter E,Enterprise Solutions,Data Analyst,C#,3,Pune,Recruiter Sourcing,Selected,Selected,2026-06-22,Accepted,2026-06-23,Joined,2026-07-25,7.95,,37.0
+CAND00966,Rohit Sharma,2026-03-05,Recruiter B,CloudWorks,Cloud Support Engineer,AWS,7,Chennai,Recruiter Sourcing,Selected,Selected,2026-03-16,Rejected,2026-03-19,Not Applicable,,,Interview failed,
+CAND00967,Swathi Reddy,2026-03-25,Recruiter D,Enterprise Solutions,Cloud Support Engineer,Python,0,Delhi NCR,Employee Referral,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00968,Rahul Reddy,2026-06-12,Recruiter A,HealthTech,Cloud Support Engineer,Linux,7,Chennai,LinkedIn,Selected,Selected,2026-06-24,Rejected,2026-06-29,Not Applicable,,,Candidate withdrew,
+CAND00969,Vikram Patel,2026-04-27,Recruiter E,CloudWorks,IT Support Engineer,SQL,8,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00970,Swathi Reddy,2026-03-07,Recruiter C,DigitalWorks,IT Support Engineer,SQL,8,Delhi NCR,Indeed,Selected,Rejected,2026-03-15,Not Applicable,,Not Applicable,,,Position closed,
+CAND00971,Rahul Das,2026-02-02,Recruiter A,HealthTech,IT Support Engineer,SQL,4,Hyderabad,Company Website,Selected,Selected,2026-02-11,Accepted,2026-02-12,Candidate Dropped,2026-03-23,6.56,Candidate withdrew,49.0
+CAND00972,Nikhil Das,2026-02-19,Recruiter B,HealthTech,Python Developer,Java,5,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-03-02,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00973,Ananya Das,2026-01-13,Recruiter E,Enterprise Solutions,Technical Support Engineer,GCP,1,Chennai,Naukri,Selected,Rejected,2026-01-24,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00974,Nikhil Reddy,2026-05-19,Recruiter E,DataSystems,Technical Support Engineer,AWS,4,Hyderabad,Employee Referral,Selected,Selected,2026-05-27,Rejected,2026-05-31,Not Applicable,,,Client rejected,
+CAND00975,Priya Verma,2026-01-01,Recruiter A,CloudWorks,AI Engineer,Java,1,Delhi NCR,Company Website,Selected,Selected,2026-01-05,Accepted,2026-01-07,Joined,2026-01-29,9.48,,28.0
+CAND00976,Priya Rao,2026-04-11,Recruiter E,HealthTech,Technical Support Engineer,Power BI,4,Hyderabad,Naukri,Selected,Selected,2026-04-22,Rejected,2026-04-24,Not Applicable,,,Experience mismatch,
+CAND00977,Vikram Reddy,2026-06-22,Recruiter C,Enterprise Solutions,Python Developer,SQL,8,Mumbai,Indeed,Selected,Rejected,2026-07-01,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00978,Pooja Gupta,2026-03-18,Recruiter A,DigitalWorks,Cloud Support Engineer,SQL,4,Delhi NCR,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Skills mismatch,
+CAND00979,Neha Verma,2026-01-29,Recruiter D,DataSystems,Cloud Support Engineer,C#,8,Chennai,Naukri,Selected,No Show,2026-02-09,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00980,Nikhil Singh,2026-03-03,Recruiter D,DataSystems,Software Engineer,Python,4,Delhi NCR,LinkedIn,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00981,Arjun Verma,2026-06-13,Recruiter E,Enterprise Solutions,Software Engineer,AWS,0,Chennai,LinkedIn,Selected,Rejected,2026-06-18,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00982,Vikram Patel,2026-06-01,Recruiter D,CloudWorks,Data Analyst,C#,6,Mumbai,Company Website,Selected,Rejected,2026-06-13,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00983,Rahul Naidu,2026-01-28,Recruiter E,Global Systems,Data Analyst,SQL,6,Bangalore,Indeed,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Position closed,
+CAND00984,Sanjay Kumar,2026-03-30,Recruiter D,DigitalWorks,Python Developer,Linux,6,Delhi NCR,Recruiter Sourcing,Selected,Selected,2026-04-10,Accepted,2026-04-16,Candidate Dropped,2026-04-29,8.09,Candidate withdrew,30.0
+CAND00985,Neha Kumar,2026-07-06,Recruiter D,CloudWorks,GCP Engineer,Power BI,4,Chennai,Naukri,Selected,Selected,2026-07-15,Accepted,2026-07-21,Joined,2026-08-07,6.93,,32.0
+CAND00986,Meera Das,2026-06-15,Recruiter C,DataSystems,GCP Engineer,GCP,5,Pune,LinkedIn,Selected,Selected,2026-06-20,Accepted,2026-06-23,Joined,2026-07-05,12.95,,20.0
+CAND00987,Kiran Naidu,2026-05-08,Recruiter B,DataSystems,Technical Support Engineer,AWS,5,Delhi NCR,Employee Referral,Selected,Selected,2026-05-15,Accepted,2026-05-17,Joined,2026-05-31,6.66,,23.0
+CAND00988,Arjun Das,2026-06-29,Recruiter E,CloudWorks,Cloud Support Engineer,Linux,1,Mumbai,Recruiter Sourcing,Selected,Selected,2026-07-10,Rejected,2026-07-16,Not Applicable,,,Candidate withdrew,
+CAND00989,Nikhil Verma,2026-02-07,Recruiter C,Enterprise Solutions,Software Engineer,GCP,4,Pune,LinkedIn,Selected,No Show,2026-02-14,Not Applicable,,Not Applicable,,,Experience mismatch,
+CAND00990,Vikram Kumar,2026-03-04,Recruiter E,FinServe,AI Engineer,Python,3,Pune,Naukri,Selected,Selected,2026-03-16,Rejected,2026-03-18,Not Applicable,,,Skills mismatch,
+CAND00991,Arjun Patel,2026-01-06,Recruiter E,DigitalWorks,IT Support Engineer,Linux,3,Mumbai,Company Website,Selected,Rejected,2026-01-17,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND00992,Pooja Naidu,2026-04-10,Recruiter C,Enterprise Solutions,AI Engineer,Linux,3,Chennai,Indeed,Selected,Selected,2026-04-14,Accepted,2026-04-21,Candidate Dropped,2026-05-13,15.14,Candidate withdrew,33.0
+CAND00993,Rohit Reddy,2026-01-25,Recruiter E,DigitalWorks,GCP Engineer,SQL,5,Mumbai,Naukri,Selected,Rejected,2026-02-04,Not Applicable,,Not Applicable,,,Interview failed,
+CAND00994,Sneha Gupta,2026-03-10,Recruiter E,TechCorp,IT Support Engineer,C#,6,Pune,Company Website,Selected,No Show,2026-03-12,Not Applicable,,Not Applicable,,,Salary expectations,
+CAND00995,Vikram Das,2026-06-16,Recruiter A,Enterprise Solutions,IT Support Engineer,GCP,5,Hyderabad,Recruiter Sourcing,Selected,Rejected,2026-06-27,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00996,Swathi Kumar,2026-07-02,Recruiter E,DigitalWorks,Software Engineer,GCP,7,Pune,Naukri,Selected,Rejected,2026-07-08,Not Applicable,,Not Applicable,,,Client rejected,
+CAND00997,Sneha Naidu,2026-07-24,Recruiter E,DataSystems,Cloud Support Engineer,Power BI,0,Hyderabad,Company Website,Selected,Selected,2026-07-27,Accepted,2026-07-28,Joined,2026-09-06,9.79,,44.0
+CAND00998,Priya Patel,2026-03-05,Recruiter E,FinServe,Cloud Support Engineer,Python,1,Delhi NCR,Employee Referral,Selected,Selected,2026-03-13,Accepted,2026-03-19,Joined,2026-04-21,9.34,,47.0
+CAND00999,Vikram Reddy,2026-08-05,Recruiter C,FinServe,Data Analyst,AWS,6,Chennai,Naukri,Rejected,Not Scheduled,,Not Applicable,,Not Applicable,,,Candidate withdrew,
+CAND01000,Amit Reddy,2026-03-08,Recruiter D,HealthTech,Technical Support Engineer,Power BI,1,Delhi NCR,Recruiter Sourcing,Selected,Rejected,2026-03-18,Not Applicable,,Not Applicable,,,Client rejected,
