@@ -43,7 +43,20 @@ python -m streamlit run src\dashboard.py
 
 Open the URL shown in the terminal (usually `http://localhost:8501`). Use the sidebar to open **Candidate Management** from the `pages/` module.
 
+### Upload your company CSV
+
+1. Run the dashboard locally.
+2. In the sidebar, choose **Upload CSV**.
+3. Upload a recruitment export (e.g. `sample_data/recruitment_dataset_10000.csv`).
+4. The platform auto-detects columns such as `Interview_Status` + `Interview_Result` and calculates KPIs in-session.
+
 Or view the deployed app: [recruitment-analytics-platform-vkb.streamlit.app](https://recruitment-analytics-platform-vkb.streamlit.app/)
+
+### Run tests
+
+```powershell
+python -m pytest tests/ -v
+```
 
 ---
 
@@ -53,6 +66,9 @@ Or view the deployed app: [recruitment-analytics-platform-vkb.streamlit.app](htt
 
 The main dashboard provides real-time recruitment insights including:
 
+- CSV upload with automatic column mapping
+- Separate handling of Status + Result fields (e.g. Interview Status vs Interview Result)
+- Executive intelligence insights and action center
 - Total Applications
 - Screening Selected
 - Interviews Completed
@@ -224,11 +240,16 @@ Recruitment-Analytics-Platform/
 │   ├── dashboard.py
 │   ├── dashboard_data.py
 │   ├── data_cleaning.py
+│   ├── data_loader.py
 │   ├── db.py
-│   └── generate_data.py
+│   ├── generate_data.py
+│   └── kpi_engine.py
+│
+├── sample_data/
+│   └── recruitment_dataset_10000.csv
 │
 ├── tests/
-│
+│   └── test_upload_pipeline.py
 ├── .gitignore
 ├── README.md
 └── requirements.txt

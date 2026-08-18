@@ -1,6 +1,8 @@
 from pathlib import Path
 import pandas as pd
 
+from kpi_engine import build_col_map, compute_kpis, kpis_to_dict
+
 
 # ============================================================
 # PROJECT PATHS
@@ -32,199 +34,50 @@ def load_data():
 # ============================================================
 
 def calculate_kpis(df):
-    """Calculate recruitment KPIs."""
-
-    # --------------------------------------------------------
-    # Total applications
-    # --------------------------------------------------------
-
-    total_applications = len(df)
-
-    # --------------------------------------------------------
-    # Screening
-    # --------------------------------------------------------
-
-    screening_selected = (
-        df["screening_status"]
-        .eq("Selected")
-        .sum()
-    )
-
-    # --------------------------------------------------------
-    # Interviews
-    #
-    # Business definition:
-    # Selected + Rejected = Completed interviews
-    #
-    # Not Scheduled and No Show are NOT completed interviews.
-    # --------------------------------------------------------
-
-    interviews_completed = (
-        df["interview_status"]
-        .isin(["Selected", "Rejected"])
-        .sum()
-    )
-
-    interview_selected = (
-        df["interview_status"]
-        .eq("Selected")
-        .sum()
-    )
-
-    # --------------------------------------------------------
-    # Offers
-    # --------------------------------------------------------
-
-    offers_accepted = (
-        df["offer_status"]
-        .eq("Accepted")
-        .sum()
-    )
-
-    offers_rejected = (
-        df["offer_status"]
-        .eq("Rejected")
-        .sum()
-    )
-
-    offers_made = offers_accepted + offers_rejected
-
-    # --------------------------------------------------------
-    # Joining
-    # --------------------------------------------------------
-
-    candidates_joined = (
-        df["joining_status"]
-        .eq("Joined")
-        .sum()
-    )
-
-    # --------------------------------------------------------
-    # Salary
-    # --------------------------------------------------------
-
-    avg_salary = df["salary_lpa"].mean()
-
-    # --------------------------------------------------------
-    # Time to hire
-    # --------------------------------------------------------
-
-    avg_time_to_hire = df["time_to_hire_days"].mean()
-
-    # --------------------------------------------------------
-    # Rates
-    # --------------------------------------------------------
-
-    screening_rate = (
-        screening_selected / total_applications * 100
-        if total_applications > 0
-        else 0
-    )
-
-    interview_selection_rate = (
-        interview_selected / interviews_completed * 100
-        if interviews_completed > 0
-        else 0
-    )
-
-    offer_acceptance_rate = (
-        offers_accepted / offers_made * 100
-        if offers_made > 0
-        else 0
-    )
-
-    joining_rate = (
-        candidates_joined / offers_accepted * 100
-        if offers_accepted > 0
-        else 0
-    )
-
-    # --------------------------------------------------------
-    # KPI dictionary
-    # --------------------------------------------------------
-
-    kpis = {
-        "Total Applications": total_applications,
-        "Screening Selected": screening_selected,
-        "Interviews Completed": interviews_completed,
-        "Interview Selected": interview_selected,
-        "Offers Accepted": offers_accepted,
-        "Candidates Joined": candidates_joined,
-
-        "Screening Selection Rate (%)":
-            round(screening_rate, 2),
-
-        "Interview Selection Rate (%)":
-            round(interview_selection_rate, 2),
-
-        "Offer Acceptance Rate (%)":
-            round(offer_acceptance_rate, 2),
-
-        "Joining Rate (%)":
-            round(joining_rate, 2),
-
-        "Average Salary (LPA)":
-            round(avg_salary, 2),
-
-        "Average Time to Hire (Days)":
-            round(avg_time_to_hire, 2),
-    }
-
-    return kpis
+    """Calculate recruitment KPIs using the shared status+result engine."""
+    col = build_col_map(df)
+    return kpis_to_dict(compute_kpis(df, col))
 
 
 # ============================================================
 # RECRUITER ANALYSIS
 # ============================================================
 
+def _group_performance(df, group_col: str):
+    """Aggregate funnel metrics by a dimension using the shared KPI engine."""
+    col = build_col_map(df)
+    salary_col = col.get("salary") or (
+        "salary_lpa" if "salary_lpa" in df.columns else None
+    )
+
+    rows = []
+    for name, group in df.groupby(group_col, dropna=False):
+        k = compute_kpis(group, col)
+        avg_salary = None
+        if salary_col and salary_col in group.columns:
+            avg_salary = pd.to_numeric(group[salary_col], errors="coerce").mean()
+        rows.append({
+            group_col: name,
+            "applications": k.total,
+            "interviews": k.interviews_completed,
+            "offers": k.offers_accepted,
+            "joined": k.joined,
+            "average_salary": avg_salary,
+        })
+
+    result = pd.DataFrame(rows)
+    result["joining_rate_%"] = (
+        result["joined"] / result["applications"] * 100
+    ).round(2)
+    if "average_salary" in result.columns:
+        result["average_salary"] = result["average_salary"].round(2)
+
+    return result.sort_values("joining_rate_%", ascending=False)
+
+
 def recruiter_analysis(df):
     """Analyze recruiter performance."""
-
-    result = (
-        df.groupby("recruiter")
-        .agg(
-            applications=("candidate_id", "count"),
-
-            interviews=(
-                "interview_status",
-                lambda x: x.isin(
-                    ["Selected", "Rejected"]
-                ).sum()
-            ),
-
-            offers=(
-                "offer_status",
-                lambda x: (x == "Accepted").sum()
-            ),
-
-            joined=(
-                "joining_status",
-                lambda x: (x == "Joined").sum()
-            ),
-
-            average_salary=(
-                "salary_lpa",
-                "mean"
-            ),
-        )
-        .reset_index()
-    )
-
-    result["joining_rate_%"] = (
-        result["joined"]
-        / result["applications"]
-        * 100
-    ).round(2)
-
-    result["average_salary"] = (
-        result["average_salary"]
-        .round(2)
-    )
-
-    return result.sort_values(
-        "joining_rate_%",
-        ascending=False
-    )
+    return _group_performance(df, "recruiter")
 
 
 # ============================================================
@@ -233,52 +86,7 @@ def recruiter_analysis(df):
 
 def client_analysis(df):
     """Analyze client performance."""
-
-    result = (
-        df.groupby("client")
-        .agg(
-            applications=("candidate_id", "count"),
-
-            interviews=(
-                "interview_status",
-                lambda x: x.isin(
-                    ["Selected", "Rejected"]
-                ).sum()
-            ),
-
-            offers=(
-                "offer_status",
-                lambda x: (x == "Accepted").sum()
-            ),
-
-            joined=(
-                "joining_status",
-                lambda x: (x == "Joined").sum()
-            ),
-
-            average_salary=(
-                "salary_lpa",
-                "mean"
-            ),
-        )
-        .reset_index()
-    )
-
-    result["joining_rate_%"] = (
-        result["joined"]
-        / result["applications"]
-        * 100
-    ).round(2)
-
-    result["average_salary"] = (
-        result["average_salary"]
-        .round(2)
-    )
-
-    return result.sort_values(
-        "joining_rate_%",
-        ascending=False
-    )
+    return _group_performance(df, "client")
 
 
 # ============================================================
@@ -287,52 +95,7 @@ def client_analysis(df):
 
 def role_analysis(df):
     """Analyze recruitment performance by role."""
-
-    result = (
-        df.groupby("role")
-        .agg(
-            applications=("candidate_id", "count"),
-
-            interviews=(
-                "interview_status",
-                lambda x: x.isin(
-                    ["Selected", "Rejected"]
-                ).sum()
-            ),
-
-            offers=(
-                "offer_status",
-                lambda x: (x == "Accepted").sum()
-            ),
-
-            joined=(
-                "joining_status",
-                lambda x: (x == "Joined").sum()
-            ),
-
-            average_salary=(
-                "salary_lpa",
-                "mean"
-            ),
-        )
-        .reset_index()
-    )
-
-    result["joining_rate_%"] = (
-        result["joined"]
-        / result["applications"]
-        * 100
-    ).round(2)
-
-    result["average_salary"] = (
-        result["average_salary"]
-        .round(2)
-    )
-
-    return result.sort_values(
-        "joining_rate_%",
-        ascending=False
-    )
+    return _group_performance(df, "role")
 
 
 # ============================================================
@@ -341,42 +104,9 @@ def role_analysis(df):
 
 def source_analysis(df):
     """Analyze candidate source performance."""
-
-    result = (
-        df.groupby("source")
-        .agg(
-            applications=("candidate_id", "count"),
-
-            interviews=(
-                "interview_status",
-                lambda x: x.isin(
-                    ["Selected", "Rejected"]
-                ).sum()
-            ),
-
-            offers=(
-                "offer_status",
-                lambda x: (x == "Accepted").sum()
-            ),
-
-            joined=(
-                "joining_status",
-                lambda x: (x == "Joined").sum()
-            ),
-        )
-        .reset_index()
-    )
-
-    result["conversion_rate_%"] = (
-        result["joined"]
-        / result["applications"]
-        * 100
-    ).round(2)
-
-    return result.sort_values(
-        "conversion_rate_%",
-        ascending=False
-    )
+    result = _group_performance(df, "source")
+    result = result.rename(columns={"joining_rate_%": "conversion_rate_%"})
+    return result.sort_values("conversion_rate_%", ascending=False)
 
 
 # ============================================================
@@ -385,52 +115,8 @@ def source_analysis(df):
 
 def technology_analysis(df):
     """Analyze recruitment performance by technology."""
-
-    result = (
-        df.groupby("technology")
-        .agg(
-            applications=("candidate_id", "count"),
-
-            interviews=(
-                "interview_status",
-                lambda x: x.isin(
-                    ["Selected", "Rejected"]
-                ).sum()
-            ),
-
-            offers=(
-                "offer_status",
-                lambda x: (x == "Accepted").sum()
-            ),
-
-            joined=(
-                "joining_status",
-                lambda x: (x == "Joined").sum()
-            ),
-
-            average_salary=(
-                "salary_lpa",
-                "mean"
-            ),
-        )
-        .reset_index()
-    )
-
-    result["average_salary"] = (
-        result["average_salary"]
-        .round(2)
-    )
-
-    result["joining_rate_%"] = (
-        result["joined"]
-        / result["applications"]
-        * 100
-    ).round(2)
-
-    return result.sort_values(
-        "average_salary",
-        ascending=False
-    )
+    result = _group_performance(df, "technology")
+    return result.sort_values("average_salary", ascending=False)
 
 
 # ============================================================

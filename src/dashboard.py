@@ -58,70 +58,145 @@ DATA_DIR = BASE_DIR / "data"
 CLEANED_FILE = DATA_DIR / "recruitment_data_cleaned.csv"
 RAW_FILE = DATA_DIR / "recruitment_data.csv"
 
+from data_loader import (
+    DISPLAY_NAMES,
+    mapping_table,
+    normalize_dataframe,
+    validate_recruitment_data,
+)
+from kpi_engine import (
+    build_col_map,
+    compute_kpis,
+    generate_executive_insights,
+    norm_series,
+    pct,
+)
+
 @st.cache_data
-def load_data():
+def load_demo_data():
     path = CLEANED_FILE if CLEANED_FILE.exists() else RAW_FILE
     if not path.exists():
         raise FileNotFoundError(
             f"No recruitment CSV found in {DATA_DIR}. "
             "Expected recruitment_data_cleaned.csv or recruitment_data.csv."
         )
-    data = pd.read_csv(path)
-    data = data.loc[:, ~data.columns.astype(str).str.startswith("Unnamed")]
-    data.columns = [str(c).strip() for c in data.columns]
-    return data
+    return pd.read_csv(path)
+
+def load_uploaded_csv(uploaded_file):
+    """Read, normalize and validate a user-provided CSV."""
+    raw = pd.read_csv(uploaded_file)
+    normalized, mapping, _ = normalize_dataframe(raw)
+    validation = validate_recruitment_data(normalized, mapping)
+    return normalized, validation
+
+# ------------------------------------------------------------
+# DATA SOURCE
+# ------------------------------------------------------------
+with st.sidebar:
+    st.markdown("## 📥 Data Source")
+    source_mode = st.radio(
+        "Choose dataset",
+        ["Demo Dataset", "Upload CSV"],
+        index=0,
+        help="Upload a company recruitment CSV to analyze it immediately. "
+             "Uploaded data is used only for the current Streamlit session.",
+    )
+
+    uploaded_file = None
+    if source_mode == "Upload CSV":
+        uploaded_file = st.file_uploader(
+            "Upload recruitment CSV",
+            type=["csv"],
+            help="CSV only. The platform automatically recognizes common recruitment column names.",
+        )
 
 try:
-    df = load_data()
+    if source_mode == "Upload CSV":
+        if uploaded_file is None:
+            st.info("Upload a CSV from the sidebar to begin analysis.")
+            st.stop()
+
+        file_signature = f"{uploaded_file.name}:{uploaded_file.size}"
+        if st.session_state.get("upload_signature") != file_signature:
+            uploaded_df, upload_validation = load_uploaded_csv(uploaded_file)
+            st.session_state["upload_signature"] = file_signature
+            st.session_state["uploaded_recruitment_df"] = uploaded_df
+            st.session_state["upload_validation"] = upload_validation
+
+        df = st.session_state["uploaded_recruitment_df"]
+        validation = st.session_state["upload_validation"]
+
+        if not validation["valid"]:
+            st.error("The uploaded dataset needs attention before analysis.")
+            for error in validation["errors"]:
+                st.error(error)
+            st.stop()
+
+    else:
+        df = load_demo_data()
+        df, demo_mapping, _ = normalize_dataframe(df)
+        validation = validate_recruitment_data(df, demo_mapping)
+        st.session_state.pop("upload_signature", None)
+        st.session_state.pop("uploaded_recruitment_df", None)
+        st.session_state.pop("upload_validation", None)
+
 except Exception as exc:
     st.error(f"Unable to load recruitment data: {exc}")
     st.stop()
 
+df = df.loc[:, ~df.columns.astype(str).str.startswith("Unnamed")]
+df.columns = [str(c).strip() for c in df.columns]
+
+# Show a compact validation/status panel before the dashboard controls.
+if source_mode == "Upload CSV":
+    st.markdown(
+        f"""
+        <div class="hero">
+            <h1>📥 {uploaded_file.name}</h1>
+            <p>Uploaded dataset • {len(df):,} candidates • {len(df.columns)} fields • Ready for analysis</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    if validation["warnings"]:
+        with st.expander(
+            f"⚠️ Data Quality Warnings ({len(validation['warnings'])})",
+            expanded=False,
+        ):
+            for warning in validation["warnings"]:
+                st.warning(warning)
+
+    with st.expander("🔎 Detected Column Mapping", expanded=False):
+        st.dataframe(
+            mapping_table(validation["mapping"]),
+            width="stretch",
+            hide_index=True,
+        )
+
+    status_cols = st.columns(4)
+    with status_cols[0]:
+        st.metric("Records", f"{len(df):,}")
+    with status_cols[1]:
+        st.metric("Fields", f"{len(df.columns):,}")
+    with status_cols[2]:
+        st.metric("Recognized", f"{len(validation['recognized_fields']):,}")
+    with status_cols[3]:
+        st.metric("Duplicates", f"{validation['duplicate_rows']:,}")
+
+    st.success(
+        "✅ Dataset validated. The analysis engine is using the uploaded CSV directly "
+        "for all KPIs, funnels, recruiter metrics and operational views."
+    )
+
 # -----------------------------
 # Column helpers
 # -----------------------------
-def find_col(names):
-    lookup = {str(c).strip().lower(): c for c in df.columns}
-    for name in names:
-        if name.lower() in lookup:
-            return lookup[name.lower()]
-    return None
-
-COL = {
-    "id": find_col(["candidate_id", "candidate id", "id"]),
-    "name": find_col(["candidate_name", "candidate name", "name"]),
-    "application_date": find_col(["application_date", "applied_date"]),
-    "recruiter": find_col(["recruiter"]),
-    "client": find_col(["client"]),
-    "role": find_col(["role", "job_role"]),
-    "technology": find_col(["technology", "tech", "primary_technology"]),
-    "experience": find_col(["experience_years", "experience"]),
-    "location": find_col(["location", "city"]),
-    "source": find_col(["source", "application_source"]),
-    "screening": find_col(["screening_status", "screening_result", "screening"]),
-    "interview": find_col(["interview_status", "interview_result", "interview"]),
-    "interview_date": find_col(["interview_date", "interview_completed_date"]),
-    "offer": find_col(["offer_status", "offer_result", "offer"]),
-    "offer_date": find_col(["offer_date"]),
-    "joining": find_col(["joining_status", "joining_result", "joining"]),
-    "joining_date": find_col(["joining_date"]),
-    "salary": find_col(["salary_lpa", "salary", "offered_salary", "annual_salary"]),
-    "rejection": find_col(["rejection_reason", "rejection"]),
-    "time_to_hire": find_col(["time_to_hire_days", "time_to_hire", "days_to_hire"]),
-}
-
-def norm_series(data, col):
-    if not col or col not in data.columns:
-        return pd.Series("", index=data.index)
-    return data[col].fillna("").astype(str).str.strip()
+COL = build_col_map(df)
 
 def count_values(data, col, values):
     if not col:
         return 0
     return int(norm_series(data, col).str.lower().isin([v.lower() for v in values]).sum())
-
-def pct(num, den):
-    return (num / den * 100) if den else 0.0
 
 
 def display_value(value):
@@ -165,6 +240,10 @@ with st.sidebar:
     st.divider()
     st.caption(f"Dataset: {len(df):,} candidates")
     st.caption(f"Fields: {len(df.columns)}")
+    if source_mode == "Upload CSV":
+        st.success("● LIVE UPLOAD")
+    else:
+        st.info("● DEMO DATASET")
 
 # -----------------------------
 # Apply filters
@@ -183,50 +262,28 @@ filtered = apply_filter(filtered, COL["source"], selected_sources)
 filtered = apply_filter(filtered, COL["technology"], selected_technologies)
 
 # -----------------------------
-# Recruitment status model
+# Recruitment status model (shared KPI engine)
 # -----------------------------
-screening_selected = count_values(filtered, COL["screening"],
-                                  ["selected", "screened", "passed", "screening selected"])
+kpis = compute_kpis(filtered, COL)
 
-interview_selected = count_values(filtered, COL["interview"],
-                                  ["selected", "interview selected", "passed", "selected for offer"])
-
-interview_rejected = count_values(filtered, COL["interview"],
-                                  ["rejected", "declined"])
-
-interview_no_show = count_values(filtered, COL["interview"],
-                                 ["no show", "no-show", "noshow"])
-
-interview_not_scheduled = count_values(filtered, COL["interview"],
-                                       ["not scheduled", "pending", "scheduled"])
-
-# In this dataset, Selected + Rejected represents completed interview outcomes.
-# No Show and Not Scheduled are operational exceptions and are not completed.
-interviews_completed = interview_selected + interview_rejected
-
-offers_accepted = count_values(filtered, COL["offer"],
-                               ["accepted", "offer accepted"])
-
-offers_declined = count_values(filtered, COL["offer"],
-                               ["declined", "rejected", "offer declined"])
-
-joined = count_values(filtered, COL["joining"],
-                      ["joined", "joining confirmed"])
-
-total = len(filtered)
-
-screening_rate = pct(screening_selected, total)
-interview_selection_rate = pct(interview_selected, interviews_completed)
-offer_acceptance_rate = pct(offers_accepted, interview_selected)
-joining_rate = pct(joined, offers_accepted)
-
-avg_salary = None
-if COL["salary"]:
-    avg_salary = pd.to_numeric(filtered[COL["salary"]], errors="coerce").mean()
-
-avg_tth = None
-if COL["time_to_hire"]:
-    avg_tth = pd.to_numeric(filtered[COL["time_to_hire"]], errors="coerce").mean()
+total = kpis.total
+screening_selected = kpis.screening_selected
+interviews_completed = kpis.interviews_completed
+interview_selected = kpis.interview_selected
+interview_rejected = kpis.interview_rejected
+interview_no_show = kpis.interview_no_show
+interview_not_scheduled = kpis.interview_not_scheduled
+offers_accepted = kpis.offers_accepted
+offers_declined = kpis.offers_declined
+offers_made = kpis.offers_made
+joined = kpis.joined
+screening_rate = kpis.screening_rate
+interview_selection_rate = kpis.interview_selection_rate
+offer_acceptance_rate = kpis.offer_acceptance_rate
+joining_rate = kpis.joining_rate
+avg_salary = kpis.avg_salary
+avg_tth = kpis.avg_time_to_hire
+executive_insights = generate_executive_insights(filtered, kpis, COL)
 
 # -----------------------------
 # Header
@@ -281,6 +338,16 @@ with tabs[0]:
     })
     st.bar_chart(funnel.set_index("Stage"), y="Candidates", width="stretch", height=380)
     st.dataframe(funnel, width="stretch", hide_index=True)
+
+    st.divider()
+    st.markdown('<div class="section-title">🧠 Executive Intelligence</div>', unsafe_allow_html=True)
+
+    insight_tone = {"action": "warn", "risk": "bad", "highlight": "good", "info": "info"}
+    insight_cols = st.columns(min(len(executive_insights), 3))
+    for idx, insight in enumerate(executive_insights[:6]):
+        with insight_cols[idx % len(insight_cols)]:
+            tone = insight_tone.get(insight["type"], "info")
+            kpi_card(insight["title"], "●", insight["body"], tone)
 
     st.divider()
     st.markdown('<div class="section-title">🚦 Action Center</div>', unsafe_allow_html=True)
@@ -396,23 +463,17 @@ with tabs[3]:
         # Funnel-derived recruiter KPIs
         recruiter_rows = []
         for recruiter, group in filtered.groupby(COL["recruiter"]):
-            apps = len(group)
-            scr = count_values(group, COL["screening"], ["selected","screened","passed","screening selected"])
-            sel = count_values(group, COL["interview"], ["selected","interview selected","passed","selected for offer"])
-            rej = count_values(group, COL["interview"], ["rejected","declined"])
-            comp = sel + rej
-            acc = count_values(group, COL["offer"], ["accepted","offer accepted"])
-            jn = count_values(group, COL["joining"], ["joined","joining confirmed"])
+            g = compute_kpis(group, COL)
             recruiter_rows.append({
                 "Recruiter": recruiter,
-                "Applications": apps,
-                "Screening Selected": scr,
-                "Interviews Completed": comp,
-                "Interview Selected": sel,
-                "Offers Accepted": acc,
-                "Joined": jn,
-                "Interview Selection %": round(pct(sel, comp), 2),
-                "Joining %": round(pct(jn, acc), 2),
+                "Applications": g.total,
+                "Screening Selected": g.screening_selected,
+                "Interviews Completed": g.interviews_completed,
+                "Interview Selected": g.interview_selected,
+                "Offers Accepted": g.offers_accepted,
+                "Joined": g.joined,
+                "Interview Selection %": g.interview_selection_rate,
+                "Joining %": g.joining_rate,
             })
         rec_perf = pd.DataFrame(recruiter_rows).sort_values("Applications", ascending=False)
         st.dataframe(rec_perf, width="stretch", hide_index=True)

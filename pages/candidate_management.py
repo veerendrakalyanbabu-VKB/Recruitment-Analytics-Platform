@@ -38,7 +38,7 @@ display:inline-block;background:#1e293b;color:#f8fafc;}
 
 
 @st.cache_data
-def load_data():
+def load_demo_data():
     path = CLEANED_FILE if CLEANED_FILE.exists() else RAW_FILE
     if not path.exists():
         raise FileNotFoundError(
@@ -49,6 +49,13 @@ def load_data():
     data = data.loc[:, ~data.columns.astype(str).str.startswith("Unnamed")]
     data.columns = [str(c).strip() for c in data.columns]
     return data
+
+def load_data():
+    # Reuse the Level-1 uploaded dataset from the main dashboard session.
+    uploaded = st.session_state.get("uploaded_recruitment_df")
+    if uploaded is not None:
+        return uploaded.copy()
+    return load_demo_data()
 
 
 try:
@@ -77,12 +84,16 @@ C = {
     "experience": find_col(["experience_years", "experience"]),
     "location": find_col(["location", "city"]),
     "source": find_col(["source", "application_source"]),
-    "screening": find_col(["screening_status", "screening_result", "screening"]),
-    "interview": find_col(["interview_status", "interview_result", "interview"]),
+    "screening": find_col(["screening_status", "screening"]),
+    "screening_result": find_col(["screening_result", "screening_outcome"]),
+    "interview": find_col(["interview_status", "interview"]),
+    "interview_result": find_col(["interview_result", "interview_outcome"]),
     "interview_date": find_col(["interview_date", "interview_completed_date"]),
-    "offer": find_col(["offer_status", "offer_result", "offer"]),
+    "offer": find_col(["offer_status", "offer"]),
+    "offer_result": find_col(["offer_result", "offer_outcome"]),
     "offer_date": find_col(["offer_date"]),
-    "joining": find_col(["joining_status", "joining_result", "joining"]),
+    "joining": find_col(["joining_status", "joining"]),
+    "joining_result": find_col(["joining_result", "joining_outcome"]),
     "joining_date": find_col(["joining_date"]),
     "salary": find_col(["salary_lpa", "salary", "offered_salary", "annual_salary"]),
     "rejection": find_col(["rejection_reason", "rejection"]),
@@ -110,10 +121,21 @@ def current_stage(row):
     This is intentionally read-only: it does not invent or overwrite
     source-system statuses.
     """
-    joining = lower(row, "joining")
-    offer = lower(row, "offer")
-    interview = lower(row, "interview")
-    screening = lower(row, "screening")
+    joining_status = lower(row, "joining")
+    joining_result = lower(row, "joining_result")
+    joining = joining_result or joining_status
+
+    offer_status = lower(row, "offer")
+    offer_result = lower(row, "offer_result")
+    offer = offer_result or offer_status
+
+    interview_status = lower(row, "interview")
+    interview_result = lower(row, "interview_result")
+    interview = interview_result or interview_status
+
+    screening_status = lower(row, "screening")
+    screening_result = lower(row, "screening_result")
+    screening = screening_result or screening_status
 
     if joining in {"joined", "joining confirmed"}:
         return "Joined"
@@ -207,10 +229,17 @@ def stage_tone(stage):
 # HEADER
 # ============================================================
 
-st.markdown("""
+data_source_label = (
+    "Uploaded company CSV"
+    if st.session_state.get("uploaded_recruitment_df") is not None
+    else "Demo recruitment dataset"
+)
+
+st.markdown(f"""
 <div class="hero">
     <h1>👤 Candidate Management</h1>
     <p>ATS-style candidate search, pipeline stage, profile intelligence and operational actions.</p>
+    <p><strong>Data source:</strong> {data_source_label}</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -412,10 +441,13 @@ else:
         ("Source", text(row, "source")),
         ("Screening Status", text(row, "screening")),
         ("Interview Status", text(row, "interview")),
+        ("Interview Result", text(row, "interview_result")),
         ("Interview Date", text(row, "interview_date")),
         ("Offer Status", text(row, "offer")),
+        ("Offer Result", text(row, "offer_result")),
         ("Offer Date", text(row, "offer_date")),
         ("Joining Status", text(row, "joining")),
+        ("Joining Result", text(row, "joining_result")),
         ("Joining Date", text(row, "joining_date")),
         ("Salary (LPA)", text(row, "salary")),
         ("Time to Hire (Days)", text(row, "time_to_hire")),
