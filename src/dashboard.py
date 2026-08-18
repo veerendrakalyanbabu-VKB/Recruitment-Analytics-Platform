@@ -3,91 +3,41 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from app.analytics.funnel import build_funnel_dataframe
+from app.analytics.kpis import build_col_map, compute_kpis, norm_series, pct
+from app.components.ui import hero, insight_card, kpi_card
+from app.config import APP_SUBTITLE, APP_TITLE
+from app.data.loader import load_and_prepare, load_demo_dataframe, mapping_table
+from app.data.normalization import normalize_dataframe as normalize_full
+from app.data.profiling import profile_dataset
+from app.data.validation import validate_recruitment_data
+from app.intelligence.insight_engine import generate_insights, recruiter_scorecards
+from app.theme import inject_theme
+from app.utils.formatting import display_value
+
 # ============================================================
-# RECRUITMENT ANALYTICS PLATFORM — ATS / OPERATIONS EDITION
+# RECRUITMENT INTELLIGENCE OS — Entry Point
 # ============================================================
 
 st.set_page_config(
-    page_title="Recruitment Analytics Platform",
+    page_title=APP_TITLE,
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-# -----------------------------
-# Styling
-# -----------------------------
-st.markdown("""
-<style>
-.main { background:#0e1117; }
-.block-container { max-width:1500px; padding-top:1.5rem; padding-bottom:3rem; }
-.hero {
-    padding: 22px 26px;
-    border:1px solid #293241;
-    border-radius:18px;
-    background:linear-gradient(135deg,#151b26,#10151e);
-    margin-bottom:20px;
-}
-.hero h1 { margin:0; color:#f8fafc; font-size:38px; }
-.hero p { margin:7px 0 0; color:#94a3b8; font-size:15px; }
-.section-title { color:#f8fafc; font-size:25px; font-weight:800; margin:18px 0 12px; }
-.kpi-card {
-    background:linear-gradient(145deg,#151b26,#10151e);
-    border:1px solid #293241;
-    border-radius:14px;
-    padding:18px;
-    min-height:132px;
-}
-.kpi-title { color:#94a3b8; font-size:14px; font-weight:650; }
-.kpi-value { color:#f8fafc; font-size:30px; font-weight:850; margin:9px 0 5px; }
-.kpi-desc { color:#64748b; font-size:12px; }
-.good { color:#22c55e; }
-.info { color:#38bdf8; }
-.warn { color:#facc15; }
-.bad { color:#fb7185; }
-.purple { color:#a78bfa; }
-.small-note { color:#64748b; font-size:12px; }
-</style>
-""", unsafe_allow_html=True)
+inject_theme()
 
-# -----------------------------
-# Paths / loading
-# -----------------------------
-BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
-CLEANED_FILE = DATA_DIR / "recruitment_data_cleaned.csv"
-RAW_FILE = DATA_DIR / "recruitment_data.csv"
 
-from data_loader import (
-    DISPLAY_NAMES,
-    mapping_table,
-    normalize_dataframe,
-    validate_recruitment_data,
-)
-from kpi_engine import (
-    build_col_map,
-    compute_kpis,
-    generate_executive_insights,
-    norm_series,
-    pct,
-)
-
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def load_demo_data():
-    path = CLEANED_FILE if CLEANED_FILE.exists() else RAW_FILE
-    if not path.exists():
-        raise FileNotFoundError(
-            f"No recruitment CSV found in {DATA_DIR}. "
-            "Expected recruitment_data_cleaned.csv or recruitment_data.csv."
-        )
-    return pd.read_csv(path)
+    return load_demo_dataframe()
 
-def load_uploaded_csv(uploaded_file):
-    """Read, normalize and validate a user-provided CSV."""
-    raw = pd.read_csv(uploaded_file)
-    normalized, mapping, _ = normalize_dataframe(raw)
-    validation = validate_recruitment_data(normalized, mapping)
-    return normalized, validation
+
+def load_uploaded_csv(uploaded_file, manual_overrides=None):
+    bundle = load_and_prepare(uploaded_file, manual_overrides)
+    return bundle["data"], bundle["validation"]
+
 
 # ------------------------------------------------------------
 # DATA SOURCE
@@ -134,8 +84,8 @@ try:
 
     else:
         df = load_demo_data()
-        df, demo_mapping, _ = normalize_dataframe(df)
-        validation = validate_recruitment_data(df, demo_mapping)
+        df, demo_mapping, unmapped, low_conf = normalize_full(df)
+        validation = validate_recruitment_data(df, demo_mapping, unmapped, low_conf)
         st.session_state.pop("upload_signature", None)
         st.session_state.pop("uploaded_recruitment_df", None)
         st.session_state.pop("upload_validation", None)
@@ -179,9 +129,12 @@ if source_mode == "Upload CSV":
     with status_cols[1]:
         st.metric("Fields", f"{len(df.columns):,}")
     with status_cols[2]:
-        st.metric("Recognized", f"{len(validation['recognized_fields']):,}")
+        st.metric("Mapped", f"{validation.get('mapped_count', len(validation['recognized_fields'])):,}")
     with status_cols[3]:
         st.metric("Duplicates", f"{validation['duplicate_rows']:,}")
+
+    profile = profile_dataset(df, validation)
+    st.metric("Data Health Score", f"{profile.health_score:.0f} / 100")
 
     st.success(
         "✅ Dataset validated. The analysis engine is using the uploaded CSV directly "
@@ -197,25 +150,6 @@ def count_values(data, col, values):
     if not col:
         return 0
     return int(norm_series(data, col).str.lower().isin([v.lower() for v in values]).sum())
-
-
-def display_value(value):
-    """Coerce mixed types to strings for Streamlit/Arrow dataframes."""
-    if value is None or (isinstance(value, float) and pd.isna(value)):
-        return "—"
-    return str(value)
-
-def kpi_card(title, value, description="", tone="info"):
-    st.markdown(
-        f"""
-        <div class="kpi-card">
-            <div class="kpi-title">{title}</div>
-            <div class="kpi-value">{value}</div>
-            <div class="kpi-desc {tone}">{description}</div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
 
 # -----------------------------
 # Sidebar filters
@@ -283,17 +217,13 @@ offer_acceptance_rate = kpis.offer_acceptance_rate
 joining_rate = kpis.joining_rate
 avg_salary = kpis.avg_salary
 avg_tth = kpis.avg_time_to_hire
-executive_insights = generate_executive_insights(filtered, kpis, COL)
+structured_insights = generate_insights(filtered, kpis, COL)
+data_profile = profile_dataset(filtered, validation if source_mode == "Upload CSV" else None)
 
 # -----------------------------
 # Header
 # -----------------------------
-st.markdown("""
-<div class="hero">
-    <h1>📊 Recruitment Analytics Platform</h1>
-    <p>Executive intelligence + ATS-style candidate operations for recruitment teams.</p>
-</div>
-""", unsafe_allow_html=True)
+hero(APP_TITLE, APP_SUBTITLE)
 
 tabs = st.tabs([
     "🏠 Executive",
@@ -309,6 +239,20 @@ tabs = st.tabs([
 # EXECUTIVE
 # ============================================================
 with tabs[0]:
+    st.markdown('<div class="section-title">RECRUITMENT COMMAND CENTER</div>', unsafe_allow_html=True)
+
+    hc = st.columns(5)
+    with hc[0]:
+        st.metric("Data Health", f"{data_profile.health_score:.0f}/100")
+    with hc[1]:
+        st.metric("Records", f"{total:,}")
+    with hc[2]:
+        st.metric("Interviews Completed", f"{interviews_completed:,}")
+    with hc[3]:
+        st.metric("Interview Selection", f"{interview_selection_rate:.2f}%")
+    with hc[4]:
+        st.metric("Joining Rate", f"{joining_rate:.2f}%")
+
     st.markdown('<div class="section-title">Key Recruitment KPIs</div>', unsafe_allow_html=True)
 
     a,b,c,d = st.columns(4)
@@ -326,31 +270,18 @@ with tabs[0]:
     st.divider()
     st.markdown('<div class="section-title">Hiring Funnel</div>', unsafe_allow_html=True)
 
-    funnel = pd.DataFrame({
-        "Stage": [
-            "Applications", "Screening Selected", "Interviews Completed",
-            "Interview Selected", "Offers Accepted", "Joined"
-        ],
-        "Candidates": [
-            total, screening_selected, interviews_completed,
-            interview_selected, offers_accepted, joined
-        ],
-    })
+    funnel = build_funnel_dataframe(kpis)
     st.bar_chart(funnel.set_index("Stage"), y="Candidates", width="stretch", height=380)
     st.dataframe(funnel, width="stretch", hide_index=True)
 
     st.divider()
-    st.markdown('<div class="section-title">🧠 Executive Intelligence</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">Attention Required</div>', unsafe_allow_html=True)
 
-    insight_tone = {"action": "warn", "risk": "bad", "highlight": "good", "info": "info"}
-    insight_cols = st.columns(min(len(executive_insights), 3))
-    for idx, insight in enumerate(executive_insights[:6]):
-        with insight_cols[idx % len(insight_cols)]:
-            tone = insight_tone.get(insight["type"], "info")
-            kpi_card(insight["title"], "●", insight["body"], tone)
+    for insight in structured_insights[:8]:
+        insight_card(insight)
 
     st.divider()
-    st.markdown('<div class="section-title">🚦 Action Center</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">Action Center</div>', unsafe_allow_html=True)
 
     actions = pd.DataFrame({
         "Operational Queue": [
@@ -460,23 +391,20 @@ with tabs[3]:
         rec = rec.sort_values("Applications", ascending=False)
         st.bar_chart(rec.set_index(COL["recruiter"]), y="Applications", width="stretch", height=350)
 
-        # Funnel-derived recruiter KPIs
-        recruiter_rows = []
-        for recruiter, group in filtered.groupby(COL["recruiter"]):
-            g = compute_kpis(group, COL)
-            recruiter_rows.append({
-                "Recruiter": recruiter,
-                "Applications": g.total,
-                "Screening Selected": g.screening_selected,
-                "Interviews Completed": g.interviews_completed,
-                "Interview Selected": g.interview_selected,
-                "Offers Accepted": g.offers_accepted,
-                "Joined": g.joined,
-                "Interview Selection %": g.interview_selection_rate,
-                "Joining %": g.joining_rate,
-            })
-        rec_perf = pd.DataFrame(recruiter_rows).sort_values("Applications", ascending=False)
-        st.dataframe(rec_perf, width="stretch", hide_index=True)
+        rec_perf = recruiter_scorecards(filtered, COL)
+        if not rec_perf.empty:
+            display_cols = [
+                COL["recruiter"], "applications", "screening_selected",
+                "interviews", "interview_selected", "offers", "joined",
+                "interview_selection_%", "joining_rate_%", "efficiency_score",
+                "vs_team_median", "avg_time_to_hire",
+            ]
+            display_cols = [c for c in display_cols if c in rec_perf.columns]
+            st.dataframe(
+                rec_perf[display_cols].sort_values("efficiency_score", ascending=False),
+                width="stretch",
+                hide_index=True,
+            )
     else:
         st.info("Recruiter column not available.")
 
@@ -595,6 +523,11 @@ with tabs[6]:
     )
 
     st.subheader("Data Quality")
+    st.metric("Data Health Score", f"{data_profile.health_score:.0f} / 100")
+    if data_profile.issues:
+        for issue in data_profile.issues:
+            st.warning(issue)
+
     quality_rows = []
     for key, col in COL.items():
         if col:
@@ -620,6 +553,4 @@ with tabs[6]:
     )
 
 st.divider()
-st.caption(
-    "Recruitment Analytics Platform • ATS Operations • Python • Pandas • Streamlit"
-)
+st.caption(f"{APP_TITLE} · Recruitment Intelligence OS · Python · Pandas · Streamlit")

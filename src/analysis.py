@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-from kpi_engine import build_col_map, compute_kpis, kpis_to_dict
+from kpi_engine import build_col_map, compute_kpis, kpis_to_dict, group_kpis_by
 
 
 # ============================================================
@@ -45,34 +45,7 @@ def calculate_kpis(df):
 
 def _group_performance(df, group_col: str):
     """Aggregate funnel metrics by a dimension using the shared KPI engine."""
-    col = build_col_map(df)
-    salary_col = col.get("salary") or (
-        "salary_lpa" if "salary_lpa" in df.columns else None
-    )
-
-    rows = []
-    for name, group in df.groupby(group_col, dropna=False):
-        k = compute_kpis(group, col)
-        avg_salary = None
-        if salary_col and salary_col in group.columns:
-            avg_salary = pd.to_numeric(group[salary_col], errors="coerce").mean()
-        rows.append({
-            group_col: name,
-            "applications": k.total,
-            "interviews": k.interviews_completed,
-            "offers": k.offers_accepted,
-            "joined": k.joined,
-            "average_salary": avg_salary,
-        })
-
-    result = pd.DataFrame(rows)
-    result["joining_rate_%"] = (
-        result["joined"] / result["applications"] * 100
-    ).round(2)
-    if "average_salary" in result.columns:
-        result["average_salary"] = result["average_salary"].round(2)
-
-    return result.sort_values("joining_rate_%", ascending=False)
+    return group_kpis_by(df, group_col)
 
 
 def recruiter_analysis(df):
