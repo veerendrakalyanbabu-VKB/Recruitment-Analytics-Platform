@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import hashlib
 import io
 from pathlib import Path
 from typing import Any
@@ -14,12 +13,8 @@ from app.data.normalization import normalize_dataframe
 from app.data.validation import validate_recruitment_data
 
 
-def fingerprint_bytes(data: bytes) -> str:
-    return hashlib.sha256(data).hexdigest()
-
-
-def fingerprint_file(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+from app.data.fingerprint import compute_fingerprint as fingerprint_bytes
+from app.data.fingerprint import fingerprint_from_path as fingerprint_file
 
 
 def read_csv_flexible(source: Any) -> pd.DataFrame:

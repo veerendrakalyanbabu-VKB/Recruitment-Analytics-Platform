@@ -302,3 +302,17 @@ def generate_executive_insights(
             "evidence": insight.evidence,
         })
     return cards
+
+
+def insight_from_record(record: dict) -> Insight:
+    """Rebuild Insight for UI from cached serializable record."""
+    return Insight(
+        title=record["title"],
+        insight_type=InsightType(record["insight_type"]),
+        severity=Severity(record["severity"]),
+        metric=record["metric"],
+        current_value=record.get("current_value", "—"),
+        reason=record.get("reason", ""),
+        recommended_action=record.get("recommended_action", ""),
+        evidence=record.get("evidence", []),
+    )

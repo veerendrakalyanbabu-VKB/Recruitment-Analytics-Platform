@@ -1,7 +1,14 @@
 
 from pathlib import Path
+import io
+import sys
+
 import pandas as pd
 import streamlit as st
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+from app.streamlit_cache import cached_demo_bundle
 
 # ============================================================
 # CANDIDATE MANAGEMENT — ATS OPERATIONS MODULE
@@ -37,18 +44,10 @@ display:inline-block;background:#1e293b;color:#f8fafc;}
 """, unsafe_allow_html=True)
 
 
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def load_demo_data():
-    path = CLEANED_FILE if CLEANED_FILE.exists() else RAW_FILE
-    if not path.exists():
-        raise FileNotFoundError(
-            f"No recruitment CSV found in {DATA_DIR}. "
-            "Expected recruitment_data_cleaned.csv or recruitment_data.csv."
-        )
-    data = pd.read_csv(path)
-    data = data.loc[:, ~data.columns.astype(str).str.startswith("Unnamed")]
-    data.columns = [str(c).strip() for c in data.columns]
-    return data
+    bundle = cached_demo_bundle()
+    return pd.read_parquet(io.BytesIO(bundle["parquet_bytes"]))
 
 def load_data():
     # Reuse the Level-1 uploaded dataset from the main dashboard session.
