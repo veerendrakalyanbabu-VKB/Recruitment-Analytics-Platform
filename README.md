@@ -17,12 +17,6 @@ Built for staffing and recruitment teams who need pipeline visibility beyond spr
 
 Entry point: `src/dashboard.py` · Python 3.12 recommended on Streamlit Community Cloud
 
-### Screenshots
-
-_Add screenshots from the live demo (Executive tab, funnel, recruiter workbench). Place assets in `docs/screenshots/` when available._
-
----
-
 ## Overview
 
 Recruitment Intelligence Platform is an analytics application for US IT staffing and recruitment operations. Upload a recruitment CSV (or use the built-in demo dataset), and the platform normalizes schema variants, validates data quality, computes funnel KPIs, and surfaces intelligence across recruiters, clients, sources, and roles.
